@@ -90,13 +90,181 @@ function getTodayDate(): string {
   return `${year}-${month}-${day}`;
 }
 
-// 获取创作者的推文 (TODO: 实现实际的 API 调用)
+// 延迟函数（避免请求过快）
+function sleep(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// 随机延迟（3-8秒之间，模拟人类行为）
+async function randomDelay(): Promise<void> {
+  const delay = 3000 + Math.random() * 5000; // 3-8秒
+  console.log(`  ⏳ Waiting ${(delay / 1000).toFixed(1)}s...`);
+  await sleep(delay);
+}
+
+// 获取创作者的推文
 async function fetchTweetsForCreator(username: string, date: string): Promise<Tweet[]> {
   console.log(`[Collecting] Fetching tweets for @${username}...`);
   
-  // TODO: 集成 X API 或 xurl skill
-  // 目前返回模拟数据
-  return [];
+  try {
+    // 使用 baoyu-danger-x-to-markdown skill 获取用户时间线
+    const skillPath = '/Users/seanliang/projects/sean-s-skills/skills/baoyu-danger-x-to-markdown';
+    const tmpFile = `/tmp/x-${username}-${Date.now()}.md`;
+    
+    // 执行抓取（获取用户最近的推文）
+    const { spawnSync } = await import('node:child_process');
+    const result = spawnSync(
+      process.env.HOME + '/.bun/bin/bun',
+      [
+        `${skillPath}/scripts/main.ts`,
+        `https://x.com/${username}`,
+        '--output',
+        tmpFile
+      ],
+      {
+        encoding: 'utf-8',
+        timeout: 60000, // 60秒超时
+        env: {
+          ...process.env,
+          HOME: process.env.HOME,
+        }
+      }
+    );
+
+    if (result.error) {
+      throw new Error(`Failed to execute: ${result.error.message}`);
+    }
+
+    if (result.status !== 0) {
+      console.error(`  ❌ Error output:`, result.stderr);
+      return [];
+    }
+
+    // 读取并解析结果
+    if (!fs.existsSync(tmpFile)) {
+      console.log(`  ⚠️  No output file generated`);
+      return [];
+    }
+
+    const content = fs.readFileSync(tmpFile, 'utf-8');
+    
+    // 清理临时文件
+    fs.unlinkSync(tmpFile);
+
+    // 解析 Markdown 提取推文数据
+    const tweets = parseMarkdownToTweets(content, username, date);
+    
+    return tweets;
+
+  } catch (error: any) {
+    console.error(`  ❌ Error fetching @${username}:`, error.message);
+    return [];
+  }
+}
+
+// 解析 Markdown 内容提取推文
+function parseMarkdownToTweets(markdown: string, username: string, targetDate: string): Tweet[] {
+  const tweets: Tweet[] = [];
+  
+  // 简单的 Markdown 解析（寻找推文块）
+  // 格式通常是：## Tweet 或包含时间戳的段落
+  const lines = markdown.split('\n');
+  
+  let currentTweet: Partial<Tweet> = {};
+  let inTweetBlock = false;
+  let contentBuffer: string[] = [];
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+    
+    // 检测推文开始（通常以 ## 或 ### 开头）
+    if (line.startsWith('##') || line.startsWith('###')) {
+      // 保存上一条推文
+      if (inTweetBlock && contentBuffer.length > 0) {
+        const content = contentBuffer.join('\n').trim();
+        if (content && isToday(currentTweet.createdAt || '', targetDate)) {
+          tweets.push({
+            id: currentTweet.id || generateTweetId(),
+            author: currentTweet.author || username,
+            username: username,
+            content: content,
+            createdAt: currentTweet.createdAt || new Date().toISOString(),
+            likes: currentTweet.likes || 0,
+            retweets: currentTweet.retweets || 0,
+            replies: currentTweet.replies || 0,
+            url: currentTweet.url || `https://x.com/${username}/status/${currentTweet.id}`
+          });
+        }
+      }
+      
+      // 开始新推文
+      inTweetBlock = true;
+      contentBuffer = [];
+      currentTweet = { username };
+      continue;
+    }
+    
+    // 提取时间戳
+    const dateMatch = line.match(/(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})/);
+    if (dateMatch) {
+      currentTweet.createdAt = dateMatch[1];
+    }
+    
+    // 提取互动数据
+    const likesMatch = line.match(/(\d+)\s*(likes?|👍)/i);
+    if (likesMatch) currentTweet.likes = parseInt(likesMatch[1]);
+    
+    const retweetsMatch = line.match(/(\d+)\s*(retweets?|🔄)/i);
+    if (retweetsMatch) currentTweet.retweets = parseInt(retweetsMatch[1]);
+    
+    const repliesMatch = line.match(/(\d+)\s*(replies?|💬)/i);
+    if (repliesMatch) currentTweet.replies = parseInt(repliesMatch[1]);
+    
+    // 提取 URL
+    const urlMatch = line.match(/https:\/\/x\.com\/\w+\/status\/(\d+)/);
+    if (urlMatch) {
+      currentTweet.id = urlMatch[1];
+      currentTweet.url = urlMatch[0];
+    }
+    
+    // 收集推文内容
+    if (inTweetBlock && line && !line.startsWith('---')) {
+      contentBuffer.push(line);
+    }
+  }
+  
+  // 保存最后一条推文
+  if (inTweetBlock && contentBuffer.length > 0) {
+    const content = contentBuffer.join('\n').trim();
+    if (content && isToday(currentTweet.createdAt || '', targetDate)) {
+      tweets.push({
+        id: currentTweet.id || generateTweetId(),
+        author: currentTweet.author || username,
+        username: username,
+        content: content,
+        createdAt: currentTweet.createdAt || new Date().toISOString(),
+        likes: currentTweet.likes || 0,
+        retweets: currentTweet.retweets || 0,
+        replies: currentTweet.replies || 0,
+        url: currentTweet.url || `https://x.com/${username}/status/${currentTweet.id}`
+      });
+    }
+  }
+
+  console.log(`  ✅ Parsed ${tweets.length} tweets from today`);
+  return tweets;
+}
+
+// 检查日期是否是今天
+function isToday(dateStr: string, targetDate: string): boolean {
+  if (!dateStr) return false;
+  const tweetDate = dateStr.split('T')[0];
+  return tweetDate === targetDate;
+}
+
+// 生成临时推文 ID
+function generateTweetId(): string {
+  return Date.now().toString() + Math.random().toString(36).substr(2, 9);
 }
 
 // 分类推文
@@ -160,31 +328,49 @@ async function main() {
   const today = getTodayDate();
   
   console.log(`📅 Date: ${today}`);
-  console.log(`👥 Active creators: ${config.creators.filter(c => c.active).length}\n`);
+  
+  // 只抓取高优先级创作者（避免请求过多）
+  const activeCreators = config.creators.filter(c => c.active);
+  const highPriorityCreators = activeCreators.filter(c => c.priority === 'high');
+  const creatorsToFetch = highPriorityCreators.length > 0 ? highPriorityCreators : activeCreators.slice(0, 5);
+  
+  console.log(`👥 Active creators: ${activeCreators.length}`);
+  console.log(`🎯 High priority: ${highPriorityCreators.length}`);
+  console.log(`📊 Will fetch: ${creatorsToFetch.length} (to avoid rate limits)\n`);
 
   const allTweets: Tweet[] = [];
-  let activeCreators = 0;
+  let successCount = 0;
 
   // 收集所有创作者的推文
-  for (const creator of config.creators) {
-    if (!creator.active) continue;
+  for (let i = 0; i < creatorsToFetch.length; i++) {
+    const creator = creatorsToFetch[i];
 
     try {
       const tweets = await fetchTweetsForCreator(creator.username, today);
       
       if (tweets.length > 0) {
-        activeCreators++;
+        successCount++;
         allTweets.push(...tweets);
         console.log(`✅ @${creator.username}: ${tweets.length} tweets`);
       } else {
         console.log(`⚪ @${creator.username}: No tweets today`);
       }
-    } catch (error) {
-      console.error(`❌ @${creator.username}: Error - ${error}`);
+      
+      // 在请求之间添加随机延迟（除了最后一个）
+      if (i < creatorsToFetch.length - 1) {
+        await randomDelay();
+      }
+      
+    } catch (error: any) {
+      console.error(`❌ @${creator.username}: Error - ${error.message}`);
+      // 出错后也延迟，避免快速重试
+      if (i < creatorsToFetch.length - 1) {
+        await sleep(5000); // 出错后等待5秒
+      }
     }
   }
 
-  console.log(`\n📊 Total collected: ${allTweets.length} tweets from ${activeCreators} creators\n`);
+  console.log(`\n📊 Total collected: ${allTweets.length} tweets from ${successCount} creators\n`);
 
   // 分类和统计
   const categories = categorizeTweets(allTweets, config.keywords);
@@ -193,7 +379,7 @@ async function main() {
   const digest: DailyDigest = {
     date: today,
     totalTweets: allTweets.length,
-    activeCreators,
+    activeCreators: successCount,
     tweets: allTweets,
     categories,
     statistics,
