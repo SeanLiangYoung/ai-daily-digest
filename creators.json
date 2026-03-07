@@ -1,0 +1,95 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-03-08",
+  "source": "https://x.com/AI_Jasonyu/status/2030166779096658161",
+  "creators": [
+    {
+      "username": "AIatMeta",
+      "name": "Meta AI",
+      "bio": "Official Meta AI account",
+      "category": "organization",
+      "priority": "high",
+      "active": true
+    },
+    {
+      "username": "OpenAI",
+      "name": "OpenAI",
+      "bio": "Official OpenAI account",
+      "category": "organization",
+      "priority": "high",
+      "active": true
+    },
+    {
+      "username": "AnthropicAI",
+      "name": "Anthropic",
+      "bio": "Official Anthropic account",
+      "category": "organization",
+      "priority": "high",
+      "active": true
+    },
+    {
+      "username": "karpathy",
+      "name": "Andrej Karpathy",
+      "bio": "AI researcher, ex-Tesla/OpenAI",
+      "category": "researcher",
+      "priority": "high",
+      "active": true
+    },
+    {
+      "username": "sama",
+      "name": "Sam Altman",
+      "bio": "OpenAI CEO",
+      "category": "founder",
+      "priority": "high",
+      "active": true
+    },
+    {
+      "username": "ylecun",
+      "name": "Yann LeCun",
+      "bio": "Meta Chief AI Scientist",
+      "category": "researcher",
+      "priority": "high",
+      "active": true
+    },
+    {
+      "username": "goodfellow_ian",
+      "name": "Ian Goodfellow",
+      "bio": "GANs inventor",
+      "category": "researcher",
+      "priority": "high",
+      "active": true
+    },
+    {
+      "username": "demishassabis",
+      "name": "Demis Hassabis",
+      "bio": "Google DeepMind CEO",
+      "category": "founder",
+      "priority": "high",
+      "active": true
+    },
+    {
+      "username": "fchollet",
+      "name": "François Chollet",
+      "bio": "Keras creator",
+      "category": "developer",
+      "priority": "high",
+      "active": true
+    },
+    {
+      "username": "rasbt",
+      "name": "Sebastian Raschka",
+      "bio": "AI researcher and educator",
+      "category": "educator",
+      "priority": "medium",
+      "active": true
+    }
+  ],
+  "keywords": ["AI", "LLM", "machine learning", "deep learning", "AGI", "transformer", "GPT", "Claude", "Gemini"],
+  "excludeKeywords": ["crypto", "NFT", "spam"],
+  "settings": {
+    "updateTime": "08:00",
+    "timezone": "Asia/Shanghai",
+    "maxTweetsPerCreator": 10,
+    "minEngagement": 10
+  }
+}

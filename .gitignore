@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.bun/
+
+# Data files (optional - 可以选择提交或忽略)
+# data/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# Temporary
+tmp/
+temp/
+*.tmp
