@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-11",
+  "weekNumber": 11,
+  "dayOfWeek": 3,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "OpenAI",
+    "nishuang",
+    "AIatMeta",
+    "kaifulee",
+    "virushuo",
+    "Fenng",
+    "dotey"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
