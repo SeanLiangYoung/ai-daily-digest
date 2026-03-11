@@ -391,9 +391,20 @@ function parseMarkdownToTweets(
       continue;
     }
     
-    // 提取互动数据 (纯数字行)
+    // 提取互动数据 (纯数字行 或 中文万单位)
     const numMatch = line.match(/^([\d,]+)\s*$/);
-    if (numMatch && currentTweet.url) {
+    const cnNumMatch = line.match(/^([\d.]+)(万|千)\s*$/); // 中文数字格式如 7.2万
+    
+    if (cnNumMatch && currentTweet.url) {
+      // 转换中文数字格式
+      let num = parseFloat(cnNumMatch[1]);
+      if (cnNumMatch[2] === '万') num *= 10000;
+      else if (cnNumMatch[2] === '千') num *= 1000;
+      if (!currentTweet.likes) currentTweet.likes = num;
+      else if (!currentTweet.retweets) currentTweet.retweets = num;
+      else if (!currentTweet.replies) currentTweet.replies = num;
+      continue;
+    } else if (numMatch && currentTweet.url) {
       const num = parseInt(numMatch[1].replace(/,/g, ''));
       if (!currentTweet.likes) currentTweet.likes = num;
       else if (!currentTweet.retweets) currentTweet.retweets = num;
