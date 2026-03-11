@@ -278,11 +278,12 @@ async function fetchTweetsForCreator(username: string, startDate: string, endDat
 
     // 读取并解析结果
     if (!fs.existsSync(tmpFile)) {
-      console.log(`  ⚠️  No output file generated`);
+      console.log(`  ⚠️  No output file generated: ${tmpFile}`);
       return [];
     }
 
     const content = fs.readFileSync(tmpFile, 'utf-8');
+    console.log(`  📄 Captured content: ${content.length} chars, lines: ${content.split('\n').length}`);
     
     // 清理临时文件
     fs.unlinkSync(tmpFile);
