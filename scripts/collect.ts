@@ -291,6 +291,10 @@ async function fetchTweetsForCreator(username: string, startDate: string, endDat
     // 解析 Markdown 提取推文数据（最近一周）
     const tweets = parseMarkdownToTweets(content, username, startDate, endDate);
     
+    // Debug: check for dates in content
+    const dateMatches = content.match(/\d+月\d+日|\d{4}年\d+月\d+日/g);
+    console.log(`  🔍 Found dates in content:`, dateMatches ? dateMatches.slice(0, 5) : 'none');
+    
     return tweets;
 
   } catch (error: any) {
