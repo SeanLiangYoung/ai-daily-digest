@@ -1,0 +1,43 @@
+{
+  "date": "2026-03-11",
+  "weekNumber": 11,
+  "dayOfWeek": 3,
+  "totalTweets": 2,
+  "activeCreators": 2,
+  "scheduledCreators": ["elliotchen100", "yan5xu"],
+  "tweets": [
+    {
+      "id": "2030618817500705103",
+      "author": "艾略特",
+      "username": "elliotchen100",
+      "content": "讲讲对龙虾!🦞的记忆理解，和一些记忆的使用场景， 同时宣传一波自家的开源产品，自部署免费。 https://github.com/EverMind-AI/EverMemOS",
+      "createdAt": "2026-03-08T00:00:00.000Z",
+      "likes": 1,
+      "retweets": 5,
+      "replies": 36,
+      "url": "https://x.com/elliotchen100/status/2030618817500705103"
+    },
+    {
+      "id": "2031381139227816257",
+      "author": "yan5xu",
+      "username": "yan5xu",
+      "content": "epiral 2.0 来啦，不过重点不是 epiral（!🦞），这次是 pinix，大概是东半球第一个专门为 agent 设计的 os hhh",
+      "createdAt": "2026-03-10T00:00:00.000Z",
+      "likes": 8,
+      "retweets": 9,
+      "replies": 46,
+      "url": "https://x.com/yan5xu/status/2031381139227816257"
+    }
+  ],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 114,
+    "topTweet": null
+  }
+}

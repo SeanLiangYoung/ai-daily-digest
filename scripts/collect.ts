@@ -4,12 +4,14 @@
  * 
  * 功能：
  * 1. 读取 creators.json
- * 2. 获取每个创作者今天的推文
- * 3. 过滤和分类内容
- * 4. 生成结构化数据
+ * 2. 每天轮换选择一批创作者（确保每周每人都被浏览一次且只一次）
+ * 3. 获取每个创作者最近一周的推文
+ * 4. 过滤和分类内容
+ * 5. 生成结构化数据
  * 
  * 作者：Kai
- * 日期：2026-03-08
+ * 日期：2026-03-10
+ * 更新：实现每周循环调度机制
  */
 
 import fs from 'node:fs';
@@ -27,12 +29,21 @@ interface Creator {
   category: string;
   priority: string;
   active: boolean;
+  language?: string;
+}
+
+interface SchedulingConfig {
+  mode: string;
+  creatorsPerDay: number;
+  ensureWeeklyCoverage: boolean;
+  weekStartDay: string;
 }
 
 interface CreatorsConfig {
   version: string;
   lastUpdated: string;
   source: string;
+  scheduling: SchedulingConfig;
   creators: Creator[];
   keywords: string[];
   excludeKeywords: string[];
@@ -41,6 +52,8 @@ interface CreatorsConfig {
     timezone: string;
     maxTweetsPerCreator: number;
     minEngagement: number;
+    daysToFetch: number;
+    weeklyRotation: boolean;
   };
 }
 
@@ -58,8 +71,11 @@ interface Tweet {
 
 interface DailyDigest {
   date: string;
+  weekNumber: number;
+  dayOfWeek: number;
   totalTweets: number;
   activeCreators: number;
+  scheduledCreators: string[];
   tweets: Tweet[];
   categories: {
     techBreakthrough: Tweet[];
@@ -74,11 +90,61 @@ interface DailyDigest {
   };
 }
 
+interface SchedulingState {
+  weekNumber: number;
+  lastUpdate: string;
+  creatorSchedule: {
+    [username: string]: number; // 最后一次抓取的周数
+  };
+}
+
 // 读取创作者列表
 function loadCreators(): CreatorsConfig {
   const configPath = path.join(ROOT_DIR, 'creators.json');
   const content = fs.readFileSync(configPath, 'utf-8');
   return JSON.parse(content);
+}
+
+// 读取或初始化调度状态
+function loadSchedulingState(): SchedulingState {
+  const statePath = path.join(ROOT_DIR, 'data', 'scheduling-state.json');
+  
+  if (fs.existsSync(statePath)) {
+    const content = fs.readFileSync(statePath, 'utf-8');
+    return JSON.parse(content);
+  }
+  
+  // 初始化状态
+  return {
+    weekNumber: 0,
+    lastUpdate: '',
+    creatorSchedule: {}
+  };
+}
+
+// 保存调度状态
+function saveSchedulingState(state: SchedulingState): void {
+  const statePath = path.join(ROOT_DIR, 'data', 'scheduling-state.json');
+  const dataDir = path.dirname(statePath);
+  
+  if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir, { recursive: true });
+  }
+  
+  fs.writeFileSync(statePath, JSON.stringify(state, null, 2));
+}
+
+// 获取当前日期的周数和星期几
+function getWeekInfo(date: Date = new Date()): { weekNumber: number; dayOfWeek: number } {
+  // 计算周数（ISO 8601）
+  const startOfYear = new Date(date.getFullYear(), 0, 1);
+  const days = Math.floor((date.getTime() - startOfYear.getTime()) / (24 * 60 * 60 * 1000));
+  const weekNumber = Math.ceil((days + startOfYear.getDay() + 1) / 7);
+  
+  // 获取星期几（0=周日，1=周一，...）
+  const dayOfWeek = date.getDay();
+  
+  return { weekNumber, dayOfWeek };
 }
 
 // 获取今天的日期 (YYYY-MM-DD)
@@ -88,6 +154,71 @@ function getTodayDate(): string {
   const month = String(now.getMonth() + 1).padStart(2, '0');
   const day = String(now.getDate()).padStart(2, '0');
   return `${year}-${month}-${day}`;
+}
+
+// 获取一周前的日期 (YYYY-MM-DD)
+function getWeekAgoDate(): string {
+  const now = new Date();
+  const weekAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+  const year = weekAgo.getFullYear();
+  const month = String(weekAgo.getMonth() + 1).padStart(2, '0');
+  const day = String(weekAgo.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+// 选择今天要抓取的创作者（每周循环调度）
+function selectCreatorsForToday(
+  config: CreatorsConfig,
+  state: SchedulingState,
+  currentWeek: number
+): Creator[] {
+  const activeCreators = config.creators.filter(c => c.active);
+  const creatorsPerDay = config.scheduling.creatorsPerDay;
+  
+  // 如果是新的一周，重置所有创作者的调度状态
+  if (currentWeek !== state.weekNumber) {
+    console.log(`📅 New week detected: Week ${currentWeek}`);
+    state.weekNumber = currentWeek;
+    state.creatorSchedule = {};
+  }
+  
+  // 找出本周还没有被抓取的创作者
+  const unscheduledCreators = activeCreators.filter(
+    c => state.creatorSchedule[c.username] !== currentWeek
+  );
+  
+  console.log(`📊 Total active creators: ${activeCreators.length}`);
+  console.log(`📋 Unscheduled this week: ${unscheduledCreators.length}`);
+  
+  // 如果所有创作者都已经被抓取过，重新开始（这种情况不应该发生，但作为保险）
+  const creatorsToChooseFrom = unscheduledCreators.length > 0 
+    ? unscheduledCreators 
+    : activeCreators;
+  
+  // 按优先级和类别排序
+  const sortedCreators = creatorsToChooseFrom.sort((a, b) => {
+    // 优先级：high > medium > low
+    const priorityOrder = { high: 3, medium: 2, low: 1 };
+    const priorityDiff = (priorityOrder[b.priority as keyof typeof priorityOrder] || 0) - 
+                        (priorityOrder[a.priority as keyof typeof priorityOrder] || 0);
+    if (priorityDiff !== 0) return priorityDiff;
+    
+    // 如果优先级相同，随机打乱（避免总是选择同样的人）
+    return Math.random() - 0.5;
+  });
+  
+  // 选择今天要抓取的创作者
+  const selectedCreators = sortedCreators.slice(0, creatorsPerDay);
+  
+  // 更新调度状态
+  for (const creator of selectedCreators) {
+    state.creatorSchedule[creator.username] = currentWeek;
+  }
+  
+  state.lastUpdate = getTodayDate();
+  saveSchedulingState(state);
+  
+  return selectedCreators;
 }
 
 // 延迟函数（避免请求过快）
@@ -102,31 +233,36 @@ async function randomDelay(): Promise<void> {
   await sleep(delay);
 }
 
-// 获取创作者的推文
-async function fetchTweetsForCreator(username: string, date: string): Promise<Tweet[]> {
-  console.log(`[Collecting] Fetching tweets for @${username}...`);
+// 获取创作者的推文（最近一周）- 使用浏览器抓取
+async function fetchTweetsForCreator(username: string, startDate: string, endDate: string): Promise<Tweet[]> {
+  console.log(`[Collecting] Fetching tweets for @${username} (${startDate} to ${endDate})...`);
   
   try {
-    // 使用 baoyu-danger-x-to-markdown skill 获取用户时间线
-    const skillPath = '/Users/seanliang/projects/sean-s-skills/skills/baoyu-danger-x-to-markdown';
+    // 使用 baoyu-url-to-markdown 浏览器方式获取用户时间线
+    const skillPath = '/Users/seanliang/projects/sean-s-skills/skills/baoyu-url-to-markdown';
     const tmpFile = `/tmp/x-${username}-${Date.now()}.md`;
     
     // 执行抓取（获取用户最近的推文）
+    // 设置环境变量使用用户的 Chrome profile（包含登录态 cookies）
     const { spawnSync } = await import('node:child_process');
     const result = spawnSync(
       process.env.HOME + '/.bun/bin/bun',
       [
         `${skillPath}/scripts/main.ts`,
         `https://x.com/${username}`,
-        '--output',
-        tmpFile
+        '-o',
+        tmpFile,
+        '--timeout',
+        '90000'
       ],
       {
         encoding: 'utf-8',
-        timeout: 60000, // 60秒超时
+        timeout: 120000, // 120秒超时
         env: {
           ...process.env,
           HOME: process.env.HOME,
+          URL_CHROME_PATH: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+          URL_CHROME_PROFILE_DIR: process.env.HOME + '/Library/Application Support/Google/Chrome/Default'
         }
       }
     );
@@ -151,8 +287,8 @@ async function fetchTweetsForCreator(username: string, date: string): Promise<Tw
     // 清理临时文件
     fs.unlinkSync(tmpFile);
 
-    // 解析 Markdown 提取推文数据
-    const tweets = parseMarkdownToTweets(content, username, date);
+    // 解析 Markdown 提取推文数据（最近一周）
+    const tweets = parseMarkdownToTweets(content, username, startDate, endDate);
     
     return tweets;
 
@@ -163,26 +299,35 @@ async function fetchTweetsForCreator(username: string, date: string): Promise<Tw
 }
 
 // 解析 Markdown 内容提取推文
-function parseMarkdownToTweets(markdown: string, username: string, targetDate: string): Tweet[] {
+function parseMarkdownToTweets(
+  markdown: string, 
+  username: string,
+  startDate: string,
+  endDate: string
+): Tweet[] {
   const tweets: Tweet[] = [];
   
-  // 简单的 Markdown 解析（寻找推文块）
-  // 格式通常是：## Tweet 或包含时间戳的段落
   const lines = markdown.split('\n');
+  const currentYear = new Date().getFullYear();
+  const currentMonth = new Date().getMonth() + 1;
   
   let currentTweet: Partial<Tweet> = {};
-  let inTweetBlock = false;
   let contentBuffer: string[] = [];
-
+  
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
     
-    // 检测推文开始（通常以 ## 或 ### 开头）
-    if (line.startsWith('##') || line.startsWith('###')) {
+    // 匹配日期格式: [2025年12月4日](链接) 或 [3月8日](链接)
+    const fullDateMatch = line.match(/\[(\d{4})年(\d{1,2})月(\d{1,2})日\]\(([^)]+)\)/);
+    const shortDateMatch = line.match(/\[(\d{1,2})月(\d{1,2})日\]\(([^)]+)\)/);
+    const engFullMatch = line.match(/\[([A-Za-z]{3}\s\d{1,2},\s\d{4})\]\(([^)]+)\)/);
+    const engShortMatch = line.match(/\[([A-Za-z]{3}\s\d{1,2})\]\(([^)]+)\)/);
+    
+    if (fullDateMatch || shortDateMatch || engFullMatch || engShortMatch) {
       // 保存上一条推文
-      if (inTweetBlock && contentBuffer.length > 0) {
+      if (currentTweet.url && contentBuffer.length > 0) {
         const content = contentBuffer.join('\n').trim();
-        if (content && isToday(currentTweet.createdAt || '', targetDate)) {
+        if (content && isWithinDateRange(currentTweet.createdAt || '', startDate, endDate)) {
           tweets.push({
             id: currentTweet.id || generateTweetId(),
             author: currentTweet.author || username,
@@ -192,51 +337,80 @@ function parseMarkdownToTweets(markdown: string, username: string, targetDate: s
             likes: currentTweet.likes || 0,
             retweets: currentTweet.retweets || 0,
             replies: currentTweet.replies || 0,
-            url: currentTweet.url || `https://x.com/${username}/status/${currentTweet.id}`
+            url: currentTweet.url
           });
         }
       }
       
       // 开始新推文
-      inTweetBlock = true;
-      contentBuffer = [];
       currentTweet = { username };
+      contentBuffer = [];
+      
+      // 解析日期
+      if (fullDateMatch) {
+        const [, year, month, day] = fullDateMatch;
+        currentTweet.createdAt = `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}T00:00:00.000Z`;
+        currentTweet.url = fullDateMatch[4];
+      } else if (shortDateMatch) {
+        const [, month, day] = shortDateMatch;
+        const monthNum = parseInt(month);
+        const year = monthNum > currentMonth ? currentYear - 1 : currentYear;
+        currentTweet.createdAt = `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}T00:00:00.000Z`;
+        currentTweet.url = shortDateMatch[3];
+      } else if (engFullMatch) {
+        const [, dateStr, url] = engFullMatch;
+        const [, monthStr, day, year] = dateStr.match(/([A-Za-z]{3})\s+(\d{1,2}),?\s+(\d{4})/) || [];
+        const monthMap: Record<string, string> = {
+          'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
+          'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
+        };
+        currentTweet.createdAt = `${year}-${monthMap[monthStr] || '01'}-${day.padStart(2, '0')}T00:00:00.000Z`;
+        currentTweet.url = url;
+      } else if (engShortMatch) {
+        const [, dateStr, url] = engShortMatch;
+        const [, monthStr, day] = dateStr.match(/([A-Za-z]{3})\s+(\d{1,2})/) || [];
+        const monthMap: Record<string, string> = {
+          'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
+          'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
+        };
+        const monthNum = parseInt(monthMap[monthStr] || '01');
+        const year = monthNum > currentMonth ? currentYear - 1 : currentYear;
+        currentTweet.createdAt = `${year}-${monthMap[monthStr] || '01'}-${day.padStart(2, '0')}T00:00:00.000Z`;
+        currentTweet.url = url;
+      }
+      
+      // 提取推文 ID
+      const idMatch = currentTweet.url?.match(/status\/(\d+)/);
+      if (idMatch) currentTweet.id = idMatch[1];
+      
       continue;
     }
     
-    // 提取时间戳
-    const dateMatch = line.match(/(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})/);
-    if (dateMatch) {
-      currentTweet.createdAt = dateMatch[1];
+    // 提取互动数据 (纯数字行)
+    const numMatch = line.match(/^([\d,]+)\s*$/);
+    if (numMatch && currentTweet.url) {
+      const num = parseInt(numMatch[1].replace(/,/g, ''));
+      if (!currentTweet.likes) currentTweet.likes = num;
+      else if (!currentTweet.retweets) currentTweet.retweets = num;
+      else if (!currentTweet.replies) currentTweet.replies = num;
+      continue;
     }
     
-    // 提取互动数据
-    const likesMatch = line.match(/(\d+)\s*(likes?|👍)/i);
-    if (likesMatch) currentTweet.likes = parseInt(likesMatch[1]);
-    
-    const retweetsMatch = line.match(/(\d+)\s*(retweets?|🔄)/i);
-    if (retweetsMatch) currentTweet.retweets = parseInt(retweetsMatch[1]);
-    
-    const repliesMatch = line.match(/(\d+)\s*(replies?|💬)/i);
-    if (repliesMatch) currentTweet.replies = parseInt(repliesMatch[1]);
-    
-    // 提取 URL
-    const urlMatch = line.match(/https:\/\/x\.com\/\w+\/status\/(\d+)/);
-    if (urlMatch) {
-      currentTweet.id = urlMatch[1];
-      currentTweet.url = urlMatch[0];
-    }
-    
-    // 收集推文内容
-    if (inTweetBlock && line && !line.startsWith('---')) {
-      contentBuffer.push(line);
+    // 收集内容 (非特殊行)
+    if (line && currentTweet.url && !line.startsWith('#') && !line.startsWith('---') && 
+        !line.startsWith('![') && !line.startsWith('http') && !line.startsWith('```')) {
+      // 移除链接但保留文字
+      const cleanedLine = line.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+      if (cleanedLine.trim() && cleanedLine.length > 2) {
+        contentBuffer.push(cleanedLine);
+      }
     }
   }
   
   // 保存最后一条推文
-  if (inTweetBlock && contentBuffer.length > 0) {
+  if (currentTweet.url && contentBuffer.length > 0) {
     const content = contentBuffer.join('\n').trim();
-    if (content && isToday(currentTweet.createdAt || '', targetDate)) {
+    if (content && isWithinDateRange(currentTweet.createdAt || '', startDate, endDate)) {
       tweets.push({
         id: currentTweet.id || generateTweetId(),
         author: currentTweet.author || username,
@@ -246,20 +420,20 @@ function parseMarkdownToTweets(markdown: string, username: string, targetDate: s
         likes: currentTweet.likes || 0,
         retweets: currentTweet.retweets || 0,
         replies: currentTweet.replies || 0,
-        url: currentTweet.url || `https://x.com/${username}/status/${currentTweet.id}`
+        url: currentTweet.url
       });
     }
   }
 
-  console.log(`  ✅ Parsed ${tweets.length} tweets from today`);
+  console.log(`  ✅ Parsed ${tweets.length} tweets from the last week`);
   return tweets;
 }
 
-// 检查日期是否是今天
-function isToday(dateStr: string, targetDate: string): boolean {
+// 检查日期是否在指定范围内（最近一周）
+function isWithinDateRange(dateStr: string, startDate: string, endDate: string): boolean {
   if (!dateStr) return false;
   const tweetDate = dateStr.split('T')[0];
-  return tweetDate === targetDate;
+  return tweetDate >= startDate && tweetDate <= endDate;
 }
 
 // 生成临时推文 ID
@@ -321,22 +495,28 @@ function calculateStatistics(tweets: Tweet[]): DailyDigest['statistics'] {
 
 // 主函数
 async function main() {
-  console.log('🤖 AI Daily Digest - Data Collection');
-  console.log('=====================================\n');
+  console.log('🤖 AI Daily Digest - Data Collection (Weekly Rotation)');
+  console.log('========================================================\n');
 
   const config = loadCreators();
+  const state = loadSchedulingState();
+  
   const today = getTodayDate();
+  const weekAgo = getWeekAgoDate();
+  const { weekNumber, dayOfWeek } = getWeekInfo();
   
   console.log(`📅 Date: ${today}`);
+  console.log(`📅 Date range: ${weekAgo} to ${today}`);
+  console.log(`📆 Week: ${weekNumber}, Day: ${dayOfWeek}\n`);
   
-  // 只抓取高优先级创作者（避免请求过多）
-  const activeCreators = config.creators.filter(c => c.active);
-  const highPriorityCreators = activeCreators.filter(c => c.priority === 'high');
-  const creatorsToFetch = highPriorityCreators.length > 0 ? highPriorityCreators : activeCreators.slice(0, 5);
+  // 选择今天要抓取的创作者
+  const creatorsToFetch = selectCreatorsForToday(config, state, weekNumber);
   
-  console.log(`👥 Active creators: ${activeCreators.length}`);
-  console.log(`🎯 High priority: ${highPriorityCreators.length}`);
-  console.log(`📊 Will fetch: ${creatorsToFetch.length} (to avoid rate limits)\n`);
+  console.log(`\n🎯 Selected ${creatorsToFetch.length} creators for today:`);
+  creatorsToFetch.forEach((c, i) => {
+    console.log(`   ${i + 1}. @${c.username} (${c.name}) - ${c.priority} priority`);
+  });
+  console.log('');
 
   const allTweets: Tweet[] = [];
   let successCount = 0;
@@ -346,14 +526,14 @@ async function main() {
     const creator = creatorsToFetch[i];
 
     try {
-      const tweets = await fetchTweetsForCreator(creator.username, today);
+      const tweets = await fetchTweetsForCreator(creator.username, weekAgo, today);
       
       if (tweets.length > 0) {
         successCount++;
         allTweets.push(...tweets);
         console.log(`✅ @${creator.username}: ${tweets.length} tweets`);
       } else {
-        console.log(`⚪ @${creator.username}: No tweets today`);
+        console.log(`⚪ @${creator.username}: No tweets in the last week`);
       }
       
       // 在请求之间添加随机延迟（除了最后一个）
@@ -378,8 +558,11 @@ async function main() {
 
   const digest: DailyDigest = {
     date: today,
+    weekNumber,
+    dayOfWeek,
     totalTweets: allTweets.length,
     activeCreators: successCount,
+    scheduledCreators: creatorsToFetch.map(c => c.username),
     tweets: allTweets,
     categories,
     statistics,
@@ -396,6 +579,14 @@ async function main() {
 
   console.log(`💾 Data saved: ${outputPath}`);
   console.log(`\n✨ Collection complete!`);
+  console.log(`\n📊 Weekly coverage status:`);
+  
+  // 显示本周的覆盖情况
+  const totalActive = config.creators.filter(c => c.active).length;
+  const scheduledThisWeek = Object.values(state.creatorSchedule).filter(w => w === weekNumber).length;
+  console.log(`   - Total active creators: ${totalActive}`);
+  console.log(`   - Scheduled this week: ${scheduledThisWeek}`);
+  console.log(`   - Remaining: ${totalActive - scheduledThisWeek}`);
 
   return digest;
 }
