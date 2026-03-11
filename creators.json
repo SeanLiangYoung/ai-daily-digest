@@ -1,15 +1,454 @@
 {
-  "version": "1.0",
-  "lastUpdated": "2026-03-08",
-  "source": "https://x.com/AI_Jasonyu/status/2030166779096658161",
+  "version": "2.0",
+  "lastUpdated": "2026-03-10",
+  "source": "https://docs.google.com/spreadsheets/d/1I9K_brSXxUXsV-UqjrWneglgdl5uzdaPo1PgSWpxSqU/htmlview",
+  "scheduling": {
+    "mode": "weekly-rotation",
+    "creatorsPerDay": 7,
+    "ensureWeeklyCoverage": true,
+    "weekStartDay": "monday"
+  },
   "creators": [
+    {
+      "username": "dotey",
+      "name": "宝玉",
+      "bio": "中文 AI 圈高频信息源，长期分享 Prompt 工程、AI 实战、前沿工具与模型解读。",
+      "category": "AI领域",
+      "priority": "high",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "op7418",
+      "name": "歸藏",
+      "bio": "AIGC 周刊主理人，专注 AI 绘画、视频生成、设计工作流和工具趋势。",
+      "category": "AI领域",
+      "priority": "high",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "Gorden_Sun",
+      "name": "Gorden_Sun",
+      "bio": "以 AI 资讯日报和前沿动态整理见长，适合追踪新模型、新产品和热点变化。",
+      "category": "AI领域",
+      "priority": "high",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "xiaohu",
+      "name": "小互",
+      "bio": "科技与 AI 工具分享型账号，覆盖 ChatGPT、AI 工具导航、产品资讯和使用技巧。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "shao__meng",
+      "name": "shao__meng",
+      "bio": "偏 Web 与 AI 技术实践，常分享 AI 论文、开源项目和产品落地思考。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "thinkingjimmy",
+      "name": "thinkingjimmy",
+      "bio": "聚焦 AI 工具普及与产品体验，内容偏实用、面向普通用户和工具使用者。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "goocarlos",
+      "name": "goocarlos",
+      "bio": "AI 开发与产品结合型账号，偏开发者视角，适合关注工具构建和应用实践。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "Tumeng05",
+      "name": "Tumeng05",
+      "bio": "偏 AI 创业和 LLM、RAG、Agent 方向，关注技术趋势与商业落地。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "AxtonLiu",
+      "name": "Axton Liu",
+      "bio": "擅长把复杂 AI 技术讲清楚，常写 AI 产品、开发实践和工具应用心得。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "haibun",
+      "name": "海辛",
+      "bio": "偏 AI 视频和生成式视觉创作，适合关注创意类 AI 方向。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "nishuang",
+      "name": "倪爽",
+      "bio": "常分享 AI 工具、生产力提升和趋势观察，内容完整度和信息密度都较高。",
+      "category": "AI领域",
+      "priority": "high",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "vista8",
+      "name": "向阳乔木",
+      "bio": "偏 AI 产品、工作流、Vibe Coding 和趋势判断，兼具产品感和表达能力。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "lijigang",
+      "name": "李继刚",
+      "bio": "深度 Prompt 探索者，内容偏 AI 思考、创意应用和方法论总结。",
+      "category": "AI领域",
+      "priority": "high",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "kaifulee",
+      "name": "李开复",
+      "bio": "华人 AI 领域最具影响力的意见领袖之一，偏产业、创业和大模型趋势判断。",
+      "category": "AI领域",
+      "priority": "high",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "WaytoAGI",
+      "name": "WaytoAGI",
+      "bio": "中文 AI 知识整理型头部账号，适合体系化学习和追踪前沿资源。",
+      "category": "AI领域",
+      "priority": "high",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "xicilion",
+      "name": "响马",
+      "bio": "偏 LLM、AI 实战和开发者视角，内容通常信息密度较高。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "oran_ge",
+      "name": "Orange AI",
+      "bio": "更偏 AI 创业者视角，关注 Agent、产品机会和模型能力变化。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "AlchainHust",
+      "name": "AI进化论 花生",
+      "bio": "聚焦 AI 编程、AI Native 产品和具体工具实操，内容落地性强。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "SamuelQZQ",
+      "name": "DN-Samuel",
+      "bio": "覆盖 AI 工具、AI 认知和开发者实践，适合看一线新工具和新玩法。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "elliotchen100",
+      "name": "艾略特",
+      "bio": "常做 AI 工具拆解、项目观察和开发者生态内容，适合追踪新项目。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "Hayami_kiraa",
+      "name": "早见 Hayami",
+      "bio": "偏 AI Builder 和内容创作者路线，连接产品、创作和增长。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "berryxia",
+      "name": "Berryxia.AI",
+      "bio": "以创意型 AI 应用、提示词、自动化和生产流为主。",
+      "category": "AI领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "lidangzzz",
+      "name": "立党",
+      "bio": "偏创业、投资、学习成长与人生避坑，具有较强个人观点输出。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "lxfater",
+      "name": "铁锤人",
+      "bio": "AI 创业与赚钱实践结合型账号，兼顾产品、流量和实战经验。",
+      "category": "创业者领域",
+      "priority": "high",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "nateleex",
+      "name": "李自然",
+      "bio": "连续创业者视角，常分享创业故事、商业认知和实战经历。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "yan5xu",
+      "name": "yan5xu",
+      "bio": "非典型开发者创业路线，内容涵盖 AIGC 应用、商业化和个人经历。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "santiagoyoungus",
+      "name": "圣总聊出海",
+      "bio": "海外创业者视角，偏普通人出海创业路径和真实经验。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "Cydiar404",
+      "name": "Cydiar404",
+      "bio": "偏 AI 创业和产品落地，适合看从想法到产品化的过程。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "JefferyTatsuya",
+      "name": "JefferyTatsuya",
+      "bio": "AI 创业者视角，关注产品构建、市场验证和实际增长。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "seclink",
+      "name": "seclink",
+      "bio": "结合 AI 趋势、创业视角和产品运营，偏实战型表达。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "Fenng",
+      "name": "Fenng",
+      "bio": "互联网老兵型创业观察者，擅长商业评论、创业反思和行业判断。",
+      "category": "创业者领域",
+      "priority": "high",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "turingou",
+      "name": "郭宇",
+      "bio": "连续创业者视角，常写科技、创业和数字生活方式。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "tinyfool",
+      "name": "Tinyfool",
+      "bio": "资深技术创业者，内容偏创业心态、技术路线和行业选择。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "virushuo",
+      "name": "霍炬",
+      "bio": "长期关注科技周期和公司战略，对创业和技术趋势有独到看法。",
+      "category": "创业者领域",
+      "priority": "high",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "fankaishuoai",
+      "name": "范凯",
+      "bio": "技术创业老兵，常分享创业复盘、技术产品和行业经验。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "XDash",
+      "name": "XDash",
+      "bio": "创业洞察、工具推荐和书单类内容较多，兼顾实用和思考。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "idoubicc",
+      "name": "idoubi",
+      "bio": "前工程师转独立开发与创业，分享 build in public 和 AI 产品实践。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "CoderJeffLee",
+      "name": "子木",
+      "bio": "偏 SaaS 海外营销、认知升级和案例拆解。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "tuturetom",
+      "name": "Tom Huang",
+      "bio": "偏开源 Agent 产品和创业工具链，内容兼具产品与创业思考。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "iamtonyzhu",
+      "name": "Tony出海",
+      "bio": "跨境和 AI 创业结合较深，适合关注出海创业实战路径。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "hongjun60",
+      "name": "泓君 Jane",
+      "bio": "偏科技创业和高质量访谈内容，适合看产业视角和创业认知。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "Valley101_Qian",
+      "name": "陈茜 Qian Chen",
+      "bio": "科技媒体与创业观察结合，信息密度较高。",
+      "category": "创业者领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "indie_maker_fox",
+      "name": "indie_maker_fox",
+      "bio": "独立开发与出海 SaaS 路线代表账号，分享模板、建站、流量和变现经验。",
+      "category": "SaaS和APP产品领域",
+      "priority": "high",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "HongyuanCao",
+      "name": "HongyuanCao",
+      "bio": "出海 SaaS 和 AI 产品创业者，偏产品开发、增长和 SEO 实战。",
+      "category": "SaaS和APP产品领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "nextify2024",
+      "name": "nextify2024",
+      "bio": "偏 SaaS 开发工具、模板和产品构建经验。",
+      "category": "SaaS和APP产品领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "readyfor2025",
+      "name": "readyfor2025",
+      "bio": "连续创业者和产品经理视角，分享 SaaS 出海和产品思考。",
+      "category": "SaaS和APP产品领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "weijunext",
+      "name": "weijunext",
+      "bio": "Next.js 和 SaaS 出海方向账号，偏开发工具和产品搭建。",
+      "category": "SaaS和APP产品领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
+    {
+      "username": "yihui_indie",
+      "name": "yihui_indie",
+      "bio": "结合 SaaS 独立开发与知识产品变现，内容偏实操和经营思路。",
+      "category": "SaaS和APP产品领域",
+      "priority": "medium",
+      "active": true,
+      "language": "zh"
+    },
     {
       "username": "AIatMeta",
       "name": "Meta AI",
       "bio": "Official Meta AI account",
       "category": "organization",
       "priority": "high",
-      "active": true
+      "active": true,
+      "language": "en"
     },
     {
       "username": "OpenAI",
@@ -17,7 +456,8 @@
       "bio": "Official OpenAI account",
       "category": "organization",
       "priority": "high",
-      "active": true
+      "active": true,
+      "language": "en"
     },
     {
       "username": "AnthropicAI",
@@ -25,7 +465,8 @@
       "bio": "Official Anthropic account",
       "category": "organization",
       "priority": "high",
-      "active": true
+      "active": true,
+      "language": "en"
     },
     {
       "username": "karpathy",
@@ -33,7 +474,8 @@
       "bio": "AI researcher, ex-Tesla/OpenAI",
       "category": "researcher",
       "priority": "high",
-      "active": true
+      "active": true,
+      "language": "en"
     },
     {
       "username": "sama",
@@ -41,7 +483,8 @@
       "bio": "OpenAI CEO",
       "category": "founder",
       "priority": "high",
-      "active": true
+      "active": true,
+      "language": "en"
     },
     {
       "username": "ylecun",
@@ -49,7 +492,8 @@
       "bio": "Meta Chief AI Scientist",
       "category": "researcher",
       "priority": "high",
-      "active": true
+      "active": true,
+      "language": "en"
     },
     {
       "username": "goodfellow_ian",
@@ -57,7 +501,8 @@
       "bio": "GANs inventor",
       "category": "researcher",
       "priority": "high",
-      "active": true
+      "active": true,
+      "language": "en"
     },
     {
       "username": "demishassabis",
@@ -65,7 +510,8 @@
       "bio": "Google DeepMind CEO",
       "category": "founder",
       "priority": "high",
-      "active": true
+      "active": true,
+      "language": "en"
     },
     {
       "username": "fchollet",
@@ -73,7 +519,8 @@
       "bio": "Keras creator",
       "category": "developer",
       "priority": "high",
-      "active": true
+      "active": true,
+      "language": "en"
     },
     {
       "username": "rasbt",
@@ -81,15 +528,18 @@
       "bio": "AI researcher and educator",
       "category": "educator",
       "priority": "medium",
-      "active": true
+      "active": true,
+      "language": "en"
     }
   ],
-  "keywords": ["AI", "LLM", "machine learning", "deep learning", "AGI", "transformer", "GPT", "Claude", "Gemini"],
-  "excludeKeywords": ["crypto", "NFT", "spam"],
+  "keywords": ["AI", "LLM", "machine learning", "deep learning", "AGI", "transformer", "GPT", "Claude", "Gemini", "人工智能", "大模型", "深度学习"],
+  "excludeKeywords": ["crypto", "NFT", "spam", "广告"],
   "settings": {
     "updateTime": "08:00",
     "timezone": "Asia/Shanghai",
-    "maxTweetsPerCreator": 10,
-    "minEngagement": 10
+    "maxTweetsPerCreator": 20,
+    "minEngagement": 5,
+    "daysToFetch": 7,
+    "weeklyRotation": true
   }
 }
