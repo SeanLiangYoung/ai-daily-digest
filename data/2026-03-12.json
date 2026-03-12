@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-12",
+  "weekNumber": 11,
+  "dayOfWeek": 4,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "AnthropicAI",
+    "indie_maker_fox",
+    "WaytoAGI",
+    "dotey",
+    "lxfater",
+    "ylecun",
+    "goodfellow_ian"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
