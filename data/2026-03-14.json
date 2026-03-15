@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-14",
+  "weekNumber": 11,
+  "dayOfWeek": 6,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "ylecun",
+    "kaifulee",
+    "WaytoAGI",
+    "Fenng",
+    "op7418",
+    "Gorden_Sun",
+    "OpenAI"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
