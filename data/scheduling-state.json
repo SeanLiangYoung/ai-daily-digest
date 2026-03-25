@@ -1,6 +1,6 @@
 {
   "weekNumber": 13,
-  "lastUpdate": "2026-03-24",
+  "lastUpdate": "2026-03-25",
   "creatorSchedule": {
     "AnthropicAI": 13,
     "karpathy": 13,
@@ -15,6 +15,13 @@
     "AIatMeta": 13,
     "nishuang": 13,
     "goodfellow_ian": 13,
-    "sama": 13
+    "sama": 13,
+    "fchollet": 13,
+    "lijigang": 13,
+    "virushuo": 13,
+    "ylecun": 13,
+    "lxfater": 13,
+    "OpenAI": 13,
+    "yihui_indie": 13
   }
 }
