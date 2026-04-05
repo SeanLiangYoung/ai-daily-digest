@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-05",
+  "weekNumber": 15,
+  "dayOfWeek": 0,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "virushuo",
+    "demishassabis",
+    "WaytoAGI",
+    "AnthropicAI",
+    "dotey",
+    "op7418",
+    "OpenAI"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
