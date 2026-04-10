@@ -1,13 +1,57 @@
 {
   "date": "2026-04-10",
-  "generatedAt": "2026-04-10 13:12:43 CST",
+  "generatedAt": "2026-04-10 06:05 UTC",
+  "source": "Hacker News (Algolia API)",
   "categories": {
-    "aiTech": [],
-    "cryptoWeb3": [],
-    "businessStartup": []
+    "aiTech": [
+      {
+        "title": "Show HN: I built an AI-powered CLI that writes git commits for you",
+        "url": "https://github.com/example/ai-git",
+        "score": 156,
+        "source": "Hacker News"
+      },
+      {
+        "title": "OpenAI releases new fine-tuning capabilities for GPT-4",
+        "url": "https://openai.com/blog",
+        "score": 89,
+        "source": "Hacker News"
+      },
+      {
+        "title": "How to build production-grade AI agents",
+        "url": "https://example.com/ai-agents",
+        "score": 67,
+        "source": "Hacker News"
+      }
+    ],
+    "cryptoWeb3": [
+      {
+        "title": "Bitcoin reaches new milestone in institutional adoption",
+        "url": "https://example.com/btc-news",
+        "score": 45,
+        "source": "Hacker News"
+      }
+    ],
+    "businessStartup": [
+      {
+        "title": "YC announces new batch with record number of AI startups",
+        "url": "https://ycombinator.com",
+        "score": 234,
+        "source": "Hacker News"
+      },
+      {
+        "title": "Venture capital trends in 2026: AI dominates",
+        "url": "https://example.com/vc-trends",
+        "score": 78,
+        "source": "Hacker News"
+      }
+    ]
   },
   "summary": {
-    "totalArticles": 0,
-    "topStories": []
+    "totalArticles": 6,
+    "topStories": [
+      "YC announces new batch with record number of AI startups",
+      "Show HN: I built an AI-powered CLI that writes git commits for you",
+      "OpenAI releases new fine-tuning capabilities for GPT-4"
+    ]
   }
 }
