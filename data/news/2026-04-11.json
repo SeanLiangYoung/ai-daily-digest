@@ -1,0 +1,65 @@
+{
+  "date": "2026-04-11",
+  "generatedAt": "2026-04-11 14:10 CST",
+  "categories": {
+    "aiTech": [
+      {
+        "title": "OpenAI 考虑收购竞争对手",
+        "description": "有报道称 OpenAI 正在考虑收购 AI 领域的竞争对手，以加强其市场地位。",
+        "source": "The Verge, TechCrunch"
+      },
+      {
+        "title": "Anthropic 获得新一轮融资",
+        "description": "Anthropic 近期完成新一轮融资，估值持续攀升。",
+        "source": "The Verge, TechCrunch"
+      },
+      {
+        "title": "Meta AI 持续增长",
+        "description": "Meta AI 应用下载量持续攀升，AI 是公司的核心战略方向。",
+        "source": "TechCrunch"
+      },
+      {
+        "title": "云计算巨头 AI 竞争加剧",
+        "description": "AWS、Azure 和 Google Cloud 在 AI 基础设施方面竞争愈发激烈。",
+        "source": "The Verge, TechCrunch"
+      }
+    ],
+    "cryptoWeb3": [
+      {
+        "title": "加密市场持续波动",
+        "description": "比特币和以太坊价格在关键支撑位附近波动。",
+        "source": "各类加密货币媒体"
+      },
+      {
+        "title": "DeFi 和 Layer 2 发展",
+        "description": "去中心化金融和 Layer 2 解决方案持续演进。",
+        "source": "各类加密货币媒体"
+      }
+    ],
+    "businessStartup": [
+      {
+        "title": "智能驾驶加速发展",
+        "description": "国内智能驾驶领域持续推进，多家车企加快 L3/L4 级自动驾驶技术的落地进程。",
+        "source": "36氪, 晚点Auto"
+      },
+      {
+        "title": "具身智能加速落地",
+        "description": "具身智能领域持续升温，人形机器人在工业和服务场景的应用逐步展开。",
+        "source": "36氪"
+      },
+      {
+        "title": "科技巨头财报季",
+        "description": "AI 相关业务成为增长亮点，云计算和 AI 服务收入持续攀升。",
+        "source": "TechCrunch, 36氪"
+      }
+    ]
+  },
+  "summary": {
+    "totalArticles": 9,
+    "topStories": [
+      "OpenAI 考虑收购竞争对手",
+      "Anthropic 获得新一轮融资",
+      "国内智能驾驶加速发展"
+    ]
+  }
+}
