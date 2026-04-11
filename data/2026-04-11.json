@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-11",
+  "weekNumber": 15,
+  "dayOfWeek": 6,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "dotey",
+    "lijigang",
+    "AIatMeta",
+    "demishassabis",
+    "nishuang",
+    "indie_maker_fox",
+    "lxfater"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
