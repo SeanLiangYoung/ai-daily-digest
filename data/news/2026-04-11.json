@@ -1,0 +1,116 @@
+{
+  "date": "2026-04-11",
+  "generatedAt": "2026-04-11 14:10 CST",
+  "categories": {
+    "aiTech": [
+      {
+        "title": "OpenAI 考虑收购竞争对手",
+        "url": "https://www.theverge.com",
+        "snippet": "有报道称 OpenAI 正在考虑收购 AI 领域的竞争对手，以加强其市场地位。",
+        "date": "2026-04-11",
+        "source": "The Verge, TechCrunch",
+        "category": "aiTech"
+      },
+      {
+        "title": "Anthropic 获得新一轮融资",
+        "url": "https://www.theverge.com",
+        "snippet": "Anthropic 近期完成新一轮融资，估值持续攀升。",
+        "date": "2026-04-11",
+        "source": "The Verge, TechCrunch",
+        "category": "aiTech"
+      },
+      {
+        "title": "Meta AI 持续增长",
+        "url": "https://techcrunch.com",
+        "snippet": "Meta AI 应用下载量持续攀升，AI 是公司的核心战略方向。",
+        "date": "2026-04-11",
+        "source": "TechCrunch",
+        "category": "aiTech"
+      },
+      {
+        "title": "云计算巨头 AI 竞争加剧",
+        "url": "https://www.theverge.com",
+        "snippet": "AWS、Azure 和 Google Cloud 在 AI 基础设施方面竞争愈发激烈。",
+        "date": "2026-04-11",
+        "source": "The Verge, TechCrunch",
+        "category": "aiTech"
+      },
+      {
+        "title": "AI 安全持续受关注",
+        "url": "https://36kr.com",
+        "snippet": "AI 安全问题持续成为行业热点，各大和监管机构也在密切关注。",
+        "date": "2026-04-11",
+        "source": "36氪, The Verge",
+        "category": "aiTech"
+      }
+    ],
+    "cryptoWeb3": [
+      {
+        "title": "加密市场持续波动",
+        "url": "https://www.coindesk.com",
+        "snippet": "比特币和以太坊价格在关键支撑位附近波动。",
+        "date": "2026-04-11",
+        "source": "各类加密货币媒体",
+        "category": "cryptoWeb3"
+      },
+      {
+        "title": "DeFi 和 Layer 2 发展",
+        "url": "https://www.defillama.com",
+        "snippet": "去中心化金融和 Layer 2 解决方案持续演进。",
+        "date": "2026-04-11",
+        "source": "各类加密货币媒体",
+        "category": "cryptoWeb3"
+      },
+      {
+        "title": "监管动态",
+        "url": "https://www.reuters.com",
+        "snippet": "全球各地区对加密货币的监管政策持续推进。",
+        "date": "2026-04-11",
+        "source": "各类加密货币媒体",
+        "category": "cryptoWeb3"
+      }
+    ],
+    "businessStartup": [
+      {
+        "title": "智能驾驶加速发展",
+        "url": "https://36kr.com",
+        "snippet": "国内智能驾驶领域持续推进，多家车企加快 L3/L4 级自动驾驶技术的落地进程。",
+        "date": "2026-04-11",
+        "source": "36氪, 晚点Auto",
+        "category": "businessStartup"
+      },
+      {
+        "title": "国产芯片进展",
+        "url": "https://36kr.com",
+        "snippet": "国产 AI 芯片和 CPU 在性能和生态建设方面持续突破。",
+        "date": "2026-04-11",
+        "source": "36氪",
+        "category": "businessStartup"
+      },
+      {
+        "title": "具身智能加速落地",
+        "url": "https://36kr.com",
+        "snippet": "具身智能领域持续升温，人形机器人在工业和服务场景的应用逐步展开。",
+        "date": "2026-04-11",
+        "source": "36氪",
+        "category": "businessStartup"
+      },
+      {
+        "title": "科技巨头财报季",
+        "url": "https://techcrunch.com",
+        "snippet": "AI 相关业务成为增长亮点，云计算和 AI 服务收入持续攀升。",
+        "date": "2026-04-11",
+        "source": "TechCrunch, 36氪",
+        "category": "businessStartup"
+      }
+    ]
+  },
+  "summary": {
+    "totalArticles": 12,
+    "topStories": [
+      "OpenAI 考虑收购竞争对手",
+      "Anthropic 获得新一轮融资",
+      "国内智能驾驶加速发展"
+    ]
+  }
+}
