@@ -1,0 +1,14 @@
+{
+  "date": "2026-04-12",
+  "generatedAt": "2026-04-12 09:05:53 CST",
+  "categories": {
+    "aiTech": [],
+    "cryptoWeb3": [],
+    "businessStartup": []
+  },
+  "summary": {
+    "totalArticles": 0,
+    "topStories": []
+  },
+  "note": "Data will be collected by AI Agent during cron execution"
+}
