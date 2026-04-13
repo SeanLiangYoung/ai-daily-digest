@@ -1,0 +1,62 @@
+{
+  "date": "2026-03-16",
+  "weekNumber": 12,
+  "dayOfWeek": 1,
+  "totalTweets": 1,
+  "activeCreators": 1,
+  "scheduledCreators": [
+    "lijigang",
+    "AIatMeta",
+    "fchollet",
+    "Gorden_Sun",
+    "WaytoAGI",
+    "lxfater",
+    "tuturetom"
+  ],
+  "tweets": [
+    {
+      "id": "2031769097688821809",
+      "author": "lijigang",
+      "username": "lijigang",
+      "content": "人的种种行为，都指向同一件事： “被看见”。\n](https://x.com/lijigang/status/2031769097688821809/analytics)\n李继刚\n](https://x.com/lijigang)\n@lijigang\n](https://x.com/lijigang)",
+      "createdAt": "2026-03-12T00:00:00.000Z",
+      "likes": 47,
+      "retweets": 38,
+      "replies": 449,
+      "url": "https://x.com/lijigang/status/2031769097688821809"
+    }
+  ],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": [
+      {
+        "id": "2031769097688821809",
+        "author": "lijigang",
+        "username": "lijigang",
+        "content": "人的种种行为，都指向同一件事： “被看见”。\n](https://x.com/lijigang/status/2031769097688821809/analytics)\n李继刚\n](https://x.com/lijigang)\n@lijigang\n](https://x.com/lijigang)",
+        "createdAt": "2026-03-12T00:00:00.000Z",
+        "likes": 47,
+        "retweets": 38,
+        "replies": 449,
+        "url": "https://x.com/lijigang/status/2031769097688821809"
+      }
+    ]
+  },
+  "statistics": {
+    "totalEngagement": 534,
+    "topTweet": {
+      "id": "2031769097688821809",
+      "author": "lijigang",
+      "username": "lijigang",
+      "content": "人的种种行为，都指向同一件事： “被看见”。\n](https://x.com/lijigang/status/2031769097688821809/analytics)\n李继刚\n](https://x.com/lijigang)\n@lijigang\n](https://x.com/lijigang)",
+      "createdAt": "2026-03-12T00:00:00.000Z",
+      "likes": 47,
+      "retweets": 38,
+      "replies": 449,
+      "url": "https://x.com/lijigang/status/2031769097688821809"
+    }
+  }
+}
