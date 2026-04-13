@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-12",
+  "weekNumber": 16,
+  "dayOfWeek": 0,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "Gorden_Sun",
+    "kaifulee",
+    "AnthropicAI",
+    "indie_maker_fox",
+    "karpathy",
+    "sama",
+    "nishuang"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
