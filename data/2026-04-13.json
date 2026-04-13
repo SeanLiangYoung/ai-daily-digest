@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-13",
+  "weekNumber": 16,
+  "dayOfWeek": 1,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "Gorden_Sun",
+    "ylecun",
+    "dotey",
+    "demishassabis",
+    "AnthropicAI",
+    "op7418",
+    "OpenAI"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
