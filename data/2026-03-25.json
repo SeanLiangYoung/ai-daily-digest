@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-25",
+  "weekNumber": 13,
+  "dayOfWeek": 3,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "fchollet",
+    "lijigang",
+    "virushuo",
+    "ylecun",
+    "lxfater",
+    "OpenAI",
+    "yihui_indie"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
