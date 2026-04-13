@@ -1,5 +1,6 @@
 {
   "date": "2026-04-11",
+  "generatedAt": "2026-04-11 09:06 CST",
   "generatedAt": "2026-04-11 09:10 CST",
   "categories": {
     "aiTech": [
@@ -7,12 +8,14 @@
         "title": "Artemis II 宇航员成功返回地球",
         "source": "The Verge",
         "url": "https://www.theverge.com/",
+        "summary": "四名宇航员已完成10天的月球背面之旅，成功在太平洋溅落。"
         "summary": "四名宇航员已完成10天的月球背面之旅，成功在太平洋圣迭戈海岸溅落。"
       },
       {
         "title": "Claude Cowork 企业版发布",
         "source": "The Verge",
         "url": "https://www.theverge.com/",
+        "summary": "Anthropic 发布 Claude Cowork 企业管理工具，支持公司范围内部署和自主工作流。"
         "summary": "Anthropic 发布 Claude Cowork 企业管理工具，支持公司范围内部署和自主工作流，可将 Zoom 会议转录转为行动项。"
       },
       {
@@ -57,6 +60,7 @@
         "title": "TikTok 网红 Khaby Lame 品牌出售涉嫌骗局",
         "source": "The Verge",
         "url": "https://www.theverge.com/",
+        "summary": "Khaby Lame 将个人品牌出售给 Rich Sparkle Holdings，股票被指'Pump and Dump'骗局。"
         "summary": "Khaby Lame 将个人品牌出售给 Rich Sparkle Holdings，以股票而非现金支付，粉丝大量买入导致股价飙升后暴跌，疑似'Pump and Dump'骗局，交易应用已冻结该股票。"
   "generatedAt": "2026-04-11 14:10 CST",
   "categories": {
@@ -133,6 +137,7 @@
         "title": "Apple 关闭三家零售店",
         "source": "The Verge",
         "url": "https://www.theverge.com/",
+        "summary": "Apple 宣布关闭三家零售店，包括首家成立工会的门店，员工可申请转岗。"
         "summary": "Apple 宣布关闭三家零售店，包括首家成立工会的门店 (Towson, Maryland)，员工可申请转岗。"
       },
       {
@@ -198,11 +203,13 @@
     ]
   },
   "summary": {
+    "totalArticles": 11,
     "totalArticles": 15,
     "topStories": [
       "Artemis II 任务圆满完成，四名宇航员成功返回地球",
       "法国政府宣布从 Windows 全面转向 Linux",
       "Anthropic 推出 Claude Cowork 企业管理工具",
+      "Apple 关闭首家工会门店"
       "Apple 关闭首家工会门店",
       "TikTok 网红 Khaby Lame 品牌出售涉嫌 Pump and Dump 骗局"
       "OpenAI 考虑收购竞争对手",
