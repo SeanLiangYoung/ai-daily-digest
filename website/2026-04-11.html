@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily Digest - 2026-04-11</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --primary: #4f46e5;
+      --primary-dark: #4338ca;
+      --bg: #eef2ff;
+      --bg-card: #ffffff;
+      --text: #1e1b4b;
+      --text-muted: #6b7280;
+      --border: #e0e7ff;
+    }
+    body {
+      font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; }
+    
+    /* Header */
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      padding: 2rem 0;
+      color: white;
+    }
+    header .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
+    header .logo { font-size: 1.5rem; font-weight: 700; }
+    header .date { opacity: 0.9; font-size: 0.9rem; }
+    header h1 { font-size: clamp(1.8rem, 5vw, 2.5rem); font-weight: 700; margin-bottom: 0.5rem; }
+    header .subtitle { opacity: 0.9; font-size: 1rem; }
+    
+    /* Stats */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    .stat-card {
+      background: var(--bg-card);
+      padding: 1.25rem;
+      border-radius: 12px;
+      text-align: center;
+      border: 1px solid var(--border);
+      box-shadow: 0 2px 8px rgba(79, 70, 229, 0.08);
+    }
+    .stat-card .number { font-size: 2rem; font-weight: 700; color: var(--primary); }
+    .stat-card .label { font-size: 0.85rem; color: var(--text-muted); }
+    
+    /* Section */
+    .section { margin: 2.5rem 0; }
+    .section-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    /* News List */
+    .news-list { display: flex; flex-direction: column; gap: 0.75rem; }
+    .news-item {
+      background: var(--bg-card);
+      padding: 1rem 1.25rem;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .news-item:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(79, 70, 229, 0.12);
+    }
+    .news-item h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+      color: var(--text);
+    }
+    .news-item p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+    .news-item .meta {
+      font-size: 0.8rem;
+      color: var(--primary);
+      opacity: 0.8;
+    }
+    
+    /* Top Picks */
+    .top-picks {
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid #fbbf24;
+    }
+    .top-picks h2 { font-size: 1.1rem; margin-bottom: 1rem; color: #92400e; }
+    .top-picks ol {
+      padding-left: 1.25rem;
+      color: #78350f;
+    }
+    .top-picks li {
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      margin-top: 3rem;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+    }
+    
+    /* Responsive */
+    @media (max-width: 640px) {
+      header { padding: 1.5rem 0; }
+      .stats { grid-template-columns: 1fr; }
+      .news-item { padding: 0.875rem 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="top">
+        <span class="logo">🌊 AI Daily Digest</span>
+        <span class="date">2026-04-11</span>
+      </div>
+      <h1>每日精选科技、AI、Crypto、Web3、商业创业新闻</h1>
+      <p class="subtitle">15 条热门资讯，一页尽览</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Stats -->
+    <div class="stats">
+      <div class="stat-card">
+        <div class="number">15</div>
+        <div class="label">文章总数</div>
+      </div>
+      <div class="stat-card">
+        <div class="number">8</div>
+        <div class="label">AI & 科技</div>
+      </div>
+      <div class="stat-card">
+        <div class="number">1</div>
+        <div class="label">Crypto & Web3</div>
+      </div>
+      <div class="stat-card">
+        <div class="number">6</div>
+        <div class="label">商业 & 创业</div>
+      </div>
+    </div>
+
+    <!-- AI & Tech -->
+    <section class="section">
+      <h2 class="section-title">🤖 AI & 科技</h2>
+      <div class="news-list">
+        <div class="news-item">
+          <h3>Artemis II 宇航员成功返回地球</h3>
+          <p>四名宇航员已完成10天的月球背面之旅，成功在太平洋圣迭戈海岸溅落</p>
+          <span class="meta">来源: The Verge</span>
+        </div>
+        <div class="news-item">
+          <h3>Claude Cowork 企业版发布</h3>
+          <p>Anthropic 发布 Claude Cowork 企业管理工具，支持公司范围内部署和自主工作流，可将 Zoom 会议转录转为行动项</p>
+          <span class="meta">来源: The Verge</span>
+        </div>
+        <div class="news-item">
+          <h3>Snowflake 转型 AI 行动平台</h3>
+          <p>正在从数据仓库转型为 AI 行动平台，重点是自主 AI 代理而非聊天机器人</p>
+          <span class="meta">来源: TechCrunch</span>
+        </div>
+        <div class="news-item">
+          <h3>法国政府全面转向 Linux</h3>
+          <p>宣布逐步淘汰 Windows，转向 Linux 操作系统，并推出自研视频会议平台</p>
+          <span class="meta">来源: The Verge</span>
+        </div>
+        <div class="news-item">
+          <h3>Gmail 移动端端到端加密正式可用</h3>
+          <p>企业用户现在可以在 iOS 和 Android 上的 Gmail 使用端到端加密</p>
+          <span class="meta">来源: The Verge</span>
+        </div>
+        <div class="news-item">
+          <h3>Gorillaz 推出 2D 游戏</h3>
+          <p>推出灵感来自最新专辑的 2D 游戏，类似经典塞尔达风格，4月14日全员可玩</p>
+          <span class="meta">来源: The Verge</span>
+        </div>
+        <div class="news-item">
+          <h3>Adobe 相机应用登陆 iPad</h3>
+          <p>'计算摄影'相机应用现已支持 iPad</p>
+          <span class="meta">来源: The Verge</span>
+        </div>
+        <div class="news-item">
+          <h3>Android 'tap to share' 界面泄露</h3>
+          <p>Google 正在开发基于 NFC 的分享功能，界面与 Apple 的 NameDrop 略有不同</p>
+          <span class="meta">来源: The Verge</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Crypto & Web3 -->
+    <section class="section">
+      <h2 class="section-title">₿ Crypto & Web3</h2>
+      <div class="news-list">
+        <div class="news-item">
+          <h3>TikTok 网红 Khaby Lame 品牌出售涉嫌骗局</h3>
+          <p>将个人品牌出售给 Rich Sparkle Holdings，以股票而非现金支付，粉丝大量买入导致股价飙升后暴跌，疑似'Pump and Dump'骗局</p>
+          <span class="meta">来源: The Verge</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Business -->
+    <section class="section">
+      <h2 class="section-title">💼 商业 & 创业</h2>
+      <div class="news-list">
+        <div class="news-item">
+          <h3>Apple 关闭三家零售店</h3>
+          <p>包括首家成立工会的门店 (Towson, Maryland)，员工可申请转岗</p>
+          <span class="meta">来源: The Verge</span>
+        </div>
+        <div class="news-item">
+          <h3>Samsung Z Flip 8 泄露渲染图</h3>
+          <p>外观与前代相似，折叠时厚度减少 0.5mm</p>
+          <span class="meta">来源: The Verge</span>
+        </div>
+        <div class="news-item">
+          <h3>Roblox Plus 订阅服务推出</h3>
+          <p>月费 $4.99，4月30日上线</p>
+          <span class="meta">来源: The Verge</span>
+        </div>
+        <div class="news-item">
+          <h3>Prime Video Ultra 计划涨价</h3>
+          <p>无广告版月费从 $2.99 涨至 $4.99</p>
+          <span class="meta">来源: The Verge</span>
+        </div>
+        <div class="news-item">
+          <h3>EFF 宣布离开 X 平台</h3>
+          <p>电子前沿基金会宣布离开 X，因帖子浏览量大幅下降</p>
+          <span class="meta">来源: The Verge</span>
+        </div>
+        <div class="news-item">
+          <h3>Huawei Pura 90 系列即将发布</h3>
+          <p>将于 4 月 20 日在中国发布，采用多彩渐变配色</p>
+          <span class="meta">来源: The Verge</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Picks -->
+    <section class="section">
+      <div class="top-picks">
+        <h2>🔥 热门推荐 TOP 5</h2>
+        <ol>
+          <li>Artemis II 任务圆满完成，四名宇航员成功返回地球</li>
+          <li>法国政府宣布从 Windows 全面转向 Linux</li>
+          <li>Anthropic 推出 Claude Cowork 企业管理工具</li>
+          <li>Apple 关闭首家工会门店</li>
+          <li>TikTok 网红 Khaby Lame 品牌出售涉嫌 Pump and Dump 骗局</li>
+        </ol>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>本报告由 AI 助手 Kai 自动生成 🌊</p>
+      <p>数据更新时间：2026-04-11 09:10 CST</p>
+    </div>
+  </footer>
+</body>
+</html>
