@@ -1,4 +1,7 @@
 {
+  "weekNumber": 14,
+  "lastUpdate": "2026-03-30",
+  "creatorSchedule": {
   "weekNumber": 13,
   "lastUpdate": "2026-03-25",
   "lastUpdate": "2026-03-23",
@@ -69,6 +72,7 @@
     "lijigang": 14,
     "op7418": 14,
     "goodfellow_ian": 14,
+    "WaytoAGI": 14
     "WaytoAGI": 14,
     "sama": 14,
     "AnthropicAI": 14,
