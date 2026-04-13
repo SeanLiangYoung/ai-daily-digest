@@ -1,27 +1,13 @@
 {
-  "weekNumber": 14,
-  "lastUpdate": "2026-03-31",
+  "weekNumber": 16,
+  "lastUpdate": "2026-04-13",
   "creatorSchedule": {
-    "OpenAI": 14,
-    "virushuo": 14,
-    "karpathy": 14,
-    "indie_maker_fox": 14,
-    "dotey": 14,
-    "Gorden_Sun": 14,
-    "nishuang": 14,
-    "kaifulee": 14,
-    "Fenng": 14,
-    "AIatMeta": 14,
-    "lijigang": 14,
-    "op7418": 14,
-    "goodfellow_ian": 14,
-    "WaytoAGI": 14,
-    "sama": 14,
-    "AnthropicAI": 14,
-    "lxfater": 14,
-    "ylecun": 14,
-    "demishassabis": 14,
-    "fchollet": 14,
-    "weijunext": 14
+    "Gorden_Sun": 16,
+    "ylecun": 16,
+    "dotey": 16,
+    "demishassabis": 16,
+    "AnthropicAI": 16,
+    "op7418": 16,
+    "OpenAI": 16
   }
 }
