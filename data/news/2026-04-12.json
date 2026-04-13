@@ -1,6 +1,6 @@
 {
   "date": "2026-04-12",
-  "generatedAt": "2026-04-12 09:08:00 CST",
+  "generatedAt": "2026-04-12 09:08:00 CST / 2026-04-12 14:06 CST（多源合并）",
   "categories": {
     "aiTech": [
       {
@@ -23,6 +23,76 @@
         "url": "https://www.guancha.cn/xinzhiguanchasuo/2026_04_12_813301.shtml",
         "snippet": "一本名为《Vita》的学术期刊即将于2026年6月，以纸质版的形态正式面世。这是一个清晰而坚定的信号：中国正在从全球学术出版体系的「付费用户」，转向规则的制定者和生态的建设者。",
         "publishedAt": "2026-04-12"
+      },
+      {
+        "title": "微信公众号打击「非真人自动化创作」，AI内容管控收紧",
+        "url": "https://www.yicai.com/news/103128642.html",
+        "snippet": "近日有网络传言称，有些公众号文章近日被批量删除，原因是微信更新的规则判定这些文章存在非真人自动化创作行为。",
+        "date": "2026-04-12",
+        "source": "yicai.com"
+      },
+      {
+        "title": "OpenAI CEO奥尔特曼家差点被烧，AI焦虑引发安全事件",
+        "url": "https://www.yicai.com/news/103128642.html",
+        "snippet": "OpenAI CEO奥尔特曼发布博客，称自己的房子在当地时间凌晨3点时被扔了一个燃烧瓶。",
+        "date": "2026-04-12",
+        "source": "yicai.com"
+      },
+      {
+        "title": "DeepSeek界面升级：上线专家模式",
+        "url": "https://www.yicai.com/news/103128642.html",
+        "snippet": "4月8日，DeepSeek网页版更新，输入框上方新增了快速模式和专家模式选项。",
+        "date": "2026-04-12",
+        "source": "yicai.com"
+      },
+      {
+        "title": "阿里「认领」视频模型Happyhorse，登顶全球视频榜单",
+        "url": "https://www.pingwest.com/",
+        "snippet": "HappyHorse-1.0在权威AI评测平台Artificial Analysis AI Video Arena排行榜登顶多项测评。",
+        "date": "2026-04-12",
+        "source": "pingwest.com"
+      },
+      {
+        "title": "Anthropic年化收入超300亿美元",
+        "url": "https://www.yicai.com/news/103128642.html",
+        "snippet": "AI初创公司Anthropic发文称，Claude客户需求加速增长，公司年化收入已超过300亿美元。",
+        "date": "2026-04-12",
+        "source": "yicai.com"
+      },
+      {
+        "title": "Meta发布Muse Spark多模态推理模型",
+        "url": "https://www.yicai.com/news/103128642.html",
+        "snippet": "Meta发布多模态推理模型Muse Spark，这是Meta Superintelligence Labs开发的首款Muse模型。",
+        "date": "2026-04-12",
+        "source": "yicai.com"
+      },
+      {
+        "title": "腾讯云宣布AI算力等产品涨价5%",
+        "url": "https://www.yicai.com/news/103128642.html",
+        "snippet": "腾讯云宣布将于2026年5月9日起，对AI算力、容器服务及弹性MapReduce相关产品刊例价上调5%。",
+        "date": "2026-04-12",
+        "source": "yicai.com"
+      },
+      {
+        "title": "米哈游蔡浩宇AI公司发布LPM 1.0视频生成模型",
+        "url": "https://www.yicai.com/news/103128642.html",
+        "snippet": "Anuttacon发布新一代视频生成模型LPM 1.0，基于170亿参数扩散Transformer架构。",
+        "date": "2026-04-12",
+        "source": "yicai.com"
+      },
+      {
+        "title": "《人工智能拟人化互动服务管理暂行办法》公布，7月15日起施行",
+        "url": "https://www.yicai.com/news/103128642.html",
+        "snippet": "五部门联合公布《人工智能拟人化互动服务管理暂行办法》，规范AI情感互动服务。",
+        "date": "2026-04-12",
+        "source": "yicai.com"
+      },
+      {
+        "title": "字节跳动Seed团队发布全双工语音大模型Seeduplex",
+        "url": "https://www.pingwest.com/",
+        "snippet": "字节跳动Seed团队发布全双工语音大模型Seeduplex，实现端到端的实时语音交互。",
+        "date": "2026-04-12",
+        "source": "pingwest.com"
       }
     ],
     "cryptoWeb3": [],
@@ -38,7 +108,7 @@
         "title": "米尔斯海默20年前已经找到美国病灶，但给不出解药",
         "source": "观察者网",
         "url": "https://www.guancha.cn/wangchuanxing/2026_04_12_813299.shtml",
-        "snippet": "芝加哥大学米尔斯海默教授、哈佛大学斯蒂芬·沃尔特教授，都是现实主义国际关系理论流派中结构现实主义的重要作家，尤其前者还是进攻性现实主义的提出者。二者以这样的学术身份，触碰美国政治中的「禁忌」，至少透露出三个「反常」之处。",
+        "snippet": "芝加哥大学米尔斯海默教授、哈佛大学斯蒂芬·沃尔特教授，都是现实主义国际关系理论流派中结构现实主义的重要作家，尤其前者还是进攻性现实主义的提出者。",
         "publishedAt": "2026-04-12"
       },
       {
@@ -89,142 +159,50 @@
         "url": "https://www.guancha.cn/JefferySachs/2026_04_09_812994.shtml",
         "snippet": "人类面临的最大风险，从来都不是资源短缺，而是由愚蠢导致的战争。",
         "publishedAt": "2026-04-09"
-  "generatedAt": "2026-04-12 14:06 CST",
-  "categories": {
-    "aiTech": [
-      {
-        "title": "微信公众号打击「非真人自动化创作」，AI内容管控收紧",
-        "url": "https://www.yicai.com/news/103128642.html",
-        "snippet": "近日有网络传言称，有些公众号文章近日被批量删除，原因是微信更新的规则判定这些文章'存在非真人自动化创作行为'。",
-        "date": "2026-04-12",
-        "source": "yicai.com",
-        "category": "aiTech"
       },
-      {
-        "title": "OpenAI CEO奥尔特曼家差点被烧，AI焦虑引发安全事件",
-        "url": "https://www.yicai.com/news/103128642.html",
-        "snippet": "OpenAI CEO奥尔特曼发布博客，称自己的房子在当地时间凌晨3点时被扔了一个燃烧瓶。",
-        "date": "2026-04-12",
-        "source": "yicai.com",
-        "category": "aiTech"
-      },
-      {
-        "title": "DeepSeek界面升级：上线专家模式",
-        "url": "https://www.yicai.com/news/103128642.html",
-        "snippet": "4月8日，DeepSeek网页版更新，输入框上方新增了'快速模式'和'专家模式'选项。",
-        "date": "2026-04-12",
-        "source": "yicai.com",
-        "category": "aiTech"
-      },
-      {
-        "title": "阿里「认领」视频模型Happyhorse，登顶全球视频榜单",
-        "url": "https://www.pingwest.com/",
-        "snippet": "HappyHorse-1.0在权威AI评测平台Artificial Analysis AI Video Arena排行榜登顶多项测评。",
-        "date": "2026-04-12",
-        "source": "pingwest.com",
-        "category": "aiTech"
-      },
-      {
-        "title": "Anthropic年化收入超300亿美元",
-        "url": "https://www.yicai.com/news/103128642.html",
-        "snippet": "AI初创公司Anthropic发文称，Claude客户需求加速增长，公司年化收入已超过300亿美元。",
-        "date": "2026-04-12",
-        "source": "yicai.com",
-        "category": "aiTech"
-      },
-      {
-        "title": "Meta发布Muse Spark多模态推理模型",
-        "url": "https://www.yicai.com/news/103128642.html",
-        "snippet": "Meta发布多模态推理模型Muse Spark，这是Meta Superintelligence Labs开发的首款Muse模型。",
-        "date": "2026-04-12",
-        "source": "yicai.com",
-        "category": "aiTech"
-      },
-      {
-        "title": "腾讯云宣布AI算力等产品涨价5%",
-        "url": "https://www.yicai.com/news/103128642.html",
-        "snippet": "腾讯云宣布将于2026年5月9日起，对AI算力、容器服务及弹性MapReduce相关产品刊例价上调5%。",
-        "date": "2026-04-12",
-        "source": "yicai.com",
-        "category": "aiTech"
-      },
-      {
-        "title": "米哈游蔡浩宇AI公司发布LPM 1.0视频生成模型",
-        "url": "https://www.yicai.com/news/103128642.html",
-        "snippet": "Anuttacon发布新一代视频生成模型LPM 1.0，基于170亿参数扩散Transformer架构。",
-        "date": "2026-04-12",
-        "source": "yicai.com",
-        "category": "aiTech"
-      },
-      {
-        "title": "《人工智能拟人化互动服务管理暂行办法》公布，7月15日起施行",
-        "url": "https://www.yicai.com/news/103128642.html",
-        "snippet": "五部门联合公布《人工智能拟人化互动服务管理暂行办法》，规范AI情感互动服务。",
-        "date": "2026-04-12",
-        "source": "yicai.com",
-        "category": "aiTech"
-      },
-      {
-        "title": "字节跳动Seed团队发布全双工语音大模型Seeduplex",
-        "url": "https://www.pingwest.com/",
-        "snippet": "字节跳动Seed团队发布全双工语音大模型Seeduplex，实现端到端的实时语音交互。",
-        "date": "2026-04-12",
-        "source": "pingwest.com",
-        "category": "aiTech"
-      }
-    ],
-    "cryptoWeb3": [],
-    "businessStartup": [
       {
         "title": "小红书电商：平台每日求购人次1.4亿",
         "url": "https://www.yicai.com/news/103128727.html",
         "snippet": "小红书首次举办GROW商家大会，披露平台每天有3900万用户有明确的商品求购行为，产生1.4亿人次主动求购。",
         "date": "2026-04-12",
-        "source": "yicai.com",
-        "category": "businessStartup"
+        "source": "yicai.com"
       },
       {
         "title": "台积电第一季度营收同比增长35%",
         "url": "https://www.yicai.com/news/103128727.html",
         "snippet": "台积电3月营收4151.9亿元新台币，同比增长45.2%，Q1营收1.134万亿元新台币，同比增长35.1%。",
         "date": "2026-04-12",
-        "source": "yicai.com",
-        "category": "businessStartup"
+        "source": "yicai.com"
       },
       {
         "title": "三星电子第一季度营业利润超2600亿元",
         "url": "https://www.yicai.com/news/103128727.html",
         "snippet": "三星电子Q1销售额133万亿韩元，营业利润57.2万亿韩元（约2610亿元人民币），同比增长755%。",
         "date": "2026-04-12",
-        "source": "yicai.com",
-        "category": "businessStartup"
+        "source": "yicai.com"
       },
       {
         "title": "开源中国完成数亿元C+轮融资",
         "url": "https://www.yicai.com/news/103128727.html",
-        "snippet": "开源中国宣布完成数亿元C+轮融资，由上海国投先导基金领投，目标是冲刺国内'开源AI第一股'。",
+        "snippet": "开源中国宣布完成数亿元C+轮融资，由上海国投先导基金领投，目标是冲刺国内开源AI第一股。",
         "date": "2026-04-12",
-        "source": "yicai.com",
-        "category": "businessStartup"
+        "source": "yicai.com"
       },
       {
         "title": "阿里云领投！生数科技完成近20亿元B轮融资",
         "url": "https://www.pingwest.com/",
         "snippet": "生数科技完成近20亿元B轮融资，由阿里云领投，加速通用世界模型布局。",
         "date": "2026-04-12",
-        "source": "pingwest.com",
-        "category": "businessStartup"
+        "source": "pingwest.com"
       }
     ]
   },
   "summary": {
-    "totalArticles": 12,
+    "totalArticles": 27,
     "topStories": [
       "美国从战术胜利到战略崩溃，是「做多」中国的时刻了",
       "中国科研正在夺回话语权",
-      "AI是时代给影视创作者发的一杆枪"
-    "totalArticles": 15,
-    "topStories": [
+      "AI是时代给影视创作者发的一杆枪，让他们能够去战斗",
       "微信公众号打击「非真人自动化创作」，AI内容管控收紧",
       "Anthropic年化收入超300亿美元",
       "阿里「认领」视频模型Happyhorse登顶全球"
