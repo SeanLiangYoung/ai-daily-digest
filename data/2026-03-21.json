@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-21",
+  "weekNumber": 12,
+  "dayOfWeek": 6,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "nishuang",
+    "karpathy",
+    "dotey",
+    "OpenAI",
+    "lxfater",
+    "op7418",
+    "lijigang"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}

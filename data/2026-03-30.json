@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-30",
+  "weekNumber": 14,
+  "dayOfWeek": 1,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "kaifulee",
+    "Fenng",
+    "AIatMeta",
+    "lijigang",
+    "op7418",
+    "goodfellow_ian",
+    "WaytoAGI"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}

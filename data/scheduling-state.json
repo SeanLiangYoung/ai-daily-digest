@@ -1,6 +1,64 @@
 {
   "weekNumber": 14,
   "lastUpdate": "2026-04-03",
+  "lastUpdate": "2026-03-30",
+  "creatorSchedule": {
+  "weekNumber": 13,
+  "lastUpdate": "2026-03-25",
+  "lastUpdate": "2026-03-23",
+  "creatorSchedule": {
+    "AnthropicAI": 13,
+    "karpathy": 13,
+    "dotey": 13,
+    "demishassabis": 13,
+    "WaytoAGI": 13,
+    "op7418": 13,
+    "indie_maker_fox": 13,
+    "kaifulee": 13,
+    "Fenng": 13,
+    "Gorden_Sun": 13,
+    "AIatMeta": 13,
+    "nishuang": 13,
+    "goodfellow_ian": 13,
+    "sama": 13,
+    "fchollet": 13,
+    "lijigang": 13,
+    "virushuo": 13,
+    "ylecun": 13,
+    "lxfater": 13,
+    "OpenAI": 13,
+    "yihui_indie": 13
+    "indie_maker_fox": 13
+  "weekNumber": 12,
+  "lastUpdate": "2026-03-21",
+  "creatorSchedule": {
+    "nishuang": 12,
+    "karpathy": 12,
+    "dotey": 12,
+    "OpenAI": 12,
+    "lxfater": 12,
+    "op7418": 12,
+    "lijigang": 12
+  "lastUpdate": "2026-03-19",
+  "creatorSchedule": {
+    "WaytoAGI": 12,
+    "dotey": 12,
+    "nishuang": 12,
+    "lijigang": 12,
+    "OpenAI": 12,
+    "indie_maker_fox": 12,
+    "op7418": 12
+  "lastUpdate": "2026-03-17",
+  "creatorSchedule": {
+    "Fenng": 12,
+    "WaytoAGI": 12,
+    "dotey": 12,
+    "OpenAI": 12,
+    "op7418": 12,
+    "Gorden_Sun": 12,
+    "karpathy": 12
+  "weekNumber": 14,
+  "lastUpdate": "2026-04-01",
   "creatorSchedule": {
     "OpenAI": 14,
     "virushuo": 14,
@@ -15,6 +73,7 @@
     "lijigang": 14,
     "op7418": 14,
     "goodfellow_ian": 14,
+    "WaytoAGI": 14
     "WaytoAGI": 14,
     "sama": 14,
     "AnthropicAI": 14,
@@ -30,6 +89,13 @@
     "haibun": 14,
     "Cydiar404": 14,
     "AxtonLiu": 14
+    "turingou": 14,
+    "elliotchen100": 14,
+    "iamtonyzhu": 14,
+    "xiaohu": 14,
+    "oran_ge": 14,
+    "yan5xu": 14,
+    "tuturetom": 14
   "weekNumber": 15,
   "lastUpdate": "2026-04-09",
   "creatorSchedule": {

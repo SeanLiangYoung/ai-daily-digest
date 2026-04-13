@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-17",
+  "weekNumber": 12,
+  "dayOfWeek": 2,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "Fenng",
+    "WaytoAGI",
+    "dotey",
+    "OpenAI",
+    "op7418",
+    "Gorden_Sun",
+    "karpathy"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
