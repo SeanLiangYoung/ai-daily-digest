@@ -1,0 +1,62 @@
+{
+  "date": "2026-03-23",
+  "weekNumber": 13,
+  "dayOfWeek": 1,
+  "totalTweets": 1,
+  "activeCreators": 1,
+  "scheduledCreators": [
+    "AnthropicAI",
+    "karpathy",
+    "dotey",
+    "demishassabis",
+    "WaytoAGI",
+    "op7418",
+    "indie_maker_fox"
+  ],
+  "tweets": [
+    {
+      "id": "2033834562007273784",
+      "author": "WaytoAGI",
+      "username": "WaytoAGI",
+      "content": "April 8 — AGI HORIZON: Tokyo 2026 | Global AI Builders Summit will take place at Happo-en in Tokyo, Japan. Hosted by WaytoAGI, this highly curated summit converges the world's top AI leaders, tech practitioners, visionary founders, creators, and tier-1 investors. Experience a\n显示更多\n](https://x.com/WaytoAGI/status/2033834562007273784/analytics)\nWaytoAGI｜通往AGI之路\n](https://x.com/WaytoAGI)\n@WaytoAGI\n](https://x.com/WaytoAGI)",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "likes": 3,
+      "retweets": 1,
+      "replies": 7,
+      "url": "https://x.com/WaytoAGI/status/2033834562007273784"
+    }
+  ],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": [
+      {
+        "id": "2033834562007273784",
+        "author": "WaytoAGI",
+        "username": "WaytoAGI",
+        "content": "April 8 — AGI HORIZON: Tokyo 2026 | Global AI Builders Summit will take place at Happo-en in Tokyo, Japan. Hosted by WaytoAGI, this highly curated summit converges the world's top AI leaders, tech practitioners, visionary founders, creators, and tier-1 investors. Experience a\n显示更多\n](https://x.com/WaytoAGI/status/2033834562007273784/analytics)\nWaytoAGI｜通往AGI之路\n](https://x.com/WaytoAGI)\n@WaytoAGI\n](https://x.com/WaytoAGI)",
+        "createdAt": "2026-03-17T00:00:00.000Z",
+        "likes": 3,
+        "retweets": 1,
+        "replies": 7,
+        "url": "https://x.com/WaytoAGI/status/2033834562007273784"
+      }
+    ]
+  },
+  "statistics": {
+    "totalEngagement": 11,
+    "topTweet": {
+      "id": "2033834562007273784",
+      "author": "WaytoAGI",
+      "username": "WaytoAGI",
+      "content": "April 8 — AGI HORIZON: Tokyo 2026 | Global AI Builders Summit will take place at Happo-en in Tokyo, Japan. Hosted by WaytoAGI, this highly curated summit converges the world's top AI leaders, tech practitioners, visionary founders, creators, and tier-1 investors. Experience a\n显示更多\n](https://x.com/WaytoAGI/status/2033834562007273784/analytics)\nWaytoAGI｜通往AGI之路\n](https://x.com/WaytoAGI)\n@WaytoAGI\n](https://x.com/WaytoAGI)",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "likes": 3,
+      "retweets": 1,
+      "replies": 7,
+      "url": "https://x.com/WaytoAGI/status/2033834562007273784"
+    }
+  }
+}
