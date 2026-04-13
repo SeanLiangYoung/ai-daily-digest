@@ -1,0 +1,62 @@
+{
+  "date": "2026-04-01",
+  "weekNumber": 14,
+  "dayOfWeek": 3,
+  "totalTweets": 1,
+  "activeCreators": 1,
+  "scheduledCreators": [
+    "turingou",
+    "elliotchen100",
+    "iamtonyzhu",
+    "xiaohu",
+    "oran_ge",
+    "yan5xu",
+    "tuturetom"
+  ],
+  "tweets": [
+    {
+      "id": "2038430926770950341",
+      "author": "iamtonyzhu",
+      "username": "iamtonyzhu",
+      "content": "OpenClaw 已经过气了 不好意思，n8n 和小龙虾我都没用过 我只坚守我的 Claude Code， 在这家买的 Claude 号是真稳定 https://maihaoguanjia.com\n9.3万\n](https://x.com/iamtonyzhu/status/2038430926770950341/analytics)\nTony出海\n](https://x.com/iamtonyzhu)\n@iamtonyzhu\n](https://x.com/iamtonyzhu)",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "likes": 26,
+      "retweets": 68,
+      "replies": 413,
+      "url": "https://x.com/iamtonyzhu/status/2038430926770950341"
+    }
+  ],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": [
+      {
+        "id": "2038430926770950341",
+        "author": "iamtonyzhu",
+        "username": "iamtonyzhu",
+        "content": "OpenClaw 已经过气了 不好意思，n8n 和小龙虾我都没用过 我只坚守我的 Claude Code， 在这家买的 Claude 号是真稳定 https://maihaoguanjia.com\n9.3万\n](https://x.com/iamtonyzhu/status/2038430926770950341/analytics)\nTony出海\n](https://x.com/iamtonyzhu)\n@iamtonyzhu\n](https://x.com/iamtonyzhu)",
+        "createdAt": "2026-03-30T00:00:00.000Z",
+        "likes": 26,
+        "retweets": 68,
+        "replies": 413,
+        "url": "https://x.com/iamtonyzhu/status/2038430926770950341"
+      }
+    ]
+  },
+  "statistics": {
+    "totalEngagement": 507,
+    "topTweet": {
+      "id": "2038430926770950341",
+      "author": "iamtonyzhu",
+      "username": "iamtonyzhu",
+      "content": "OpenClaw 已经过气了 不好意思，n8n 和小龙虾我都没用过 我只坚守我的 Claude Code， 在这家买的 Claude 号是真稳定 https://maihaoguanjia.com\n9.3万\n](https://x.com/iamtonyzhu/status/2038430926770950341/analytics)\nTony出海\n](https://x.com/iamtonyzhu)\n@iamtonyzhu\n](https://x.com/iamtonyzhu)",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "likes": 26,
+      "retweets": 68,
+      "replies": 413,
+      "url": "https://x.com/iamtonyzhu/status/2038430926770950341"
+    }
+  }
+}
