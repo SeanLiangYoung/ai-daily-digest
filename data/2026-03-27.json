@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-27",
+  "weekNumber": 13,
+  "dayOfWeek": 5,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "goocarlos",
+    "hongjun60",
+    "iamtonyzhu",
+    "SamuelQZQ",
+    "thinkingjimmy",
+    "AxtonLiu",
+    "xiaohu"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
