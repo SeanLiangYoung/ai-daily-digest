@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-07",
+  "weekNumber": 15,
+  "dayOfWeek": 2,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "dotey",
+    "op7418",
+    "fchollet",
+    "virushuo",
+    "Gorden_Sun",
+    "karpathy",
+    "demishassabis"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
