@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-06",
+  "weekNumber": 15,
+  "dayOfWeek": 1,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "Fenng",
+    "fchollet",
+    "Gorden_Sun",
+    "indie_maker_fox",
+    "nishuang",
+    "sama",
+    "ylecun"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
