@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-03",
+  "weekNumber": 14,
+  "dayOfWeek": 5,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "JefferyTatsuya",
+    "xiaohu",
+    "idoubicc",
+    "hongjun60",
+    "haibun",
+    "Cydiar404",
+    "AxtonLiu"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
