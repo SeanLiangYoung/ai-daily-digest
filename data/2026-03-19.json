@@ -1,0 +1,173 @@
+{
+  "date": "2026-03-19",
+  "weekNumber": 12,
+  "dayOfWeek": 4,
+  "totalTweets": 6,
+  "activeCreators": 4,
+  "scheduledCreators": [
+    "WaytoAGI",
+    "dotey",
+    "nishuang",
+    "lijigang",
+    "OpenAI",
+    "indie_maker_fox",
+    "op7418"
+  ],
+  "tweets": [
+    {
+      "id": "2033834562007273784",
+      "author": "WaytoAGI",
+      "username": "WaytoAGI",
+      "content": "April 8 — AGI HORIZON: Tokyo 2026 | Global AI Builders Summit will take place at Happo-en in Tokyo, Japan. Hosted by WaytoAGI, this highly curated summit converges the world's top AI leaders, tech practitioners, visionary founders, creators, and tier-1 investors. Experience a\n显示更多\n](https://x.com/WaytoAGI/status/2033834562007273784/analytics)\nWaytoAGI｜通往AGI之路\n](https://x.com/WaytoAGI)\n@WaytoAGI\n](https://x.com/WaytoAGI)",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "likes": 2,
+      "retweets": 1,
+      "replies": 5,
+      "url": "https://x.com/WaytoAGI/status/2033834562007273784"
+    },
+    {
+      "id": "2031769097688821809",
+      "author": "lijigang",
+      "username": "lijigang",
+      "content": "人的种种行为，都指向同一件事： “被看见”。\n4.1万\n](https://x.com/lijigang/status/2031769097688821809/analytics)\n李继刚\n](https://x.com/lijigang)\n@lijigang\n](https://x.com/lijigang)",
+      "createdAt": "2026-03-12T00:00:00.000Z",
+      "likes": 48,
+      "retweets": 37,
+      "replies": 452,
+      "url": "https://x.com/lijigang/status/2031769097688821809"
+    },
+    {
+      "id": "2033953592424731072",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "GPT-5.4 mini is available today in ChatGPT, Codex, and the API. Optimized for coding, computer use, multimodal understanding, and subagents. And it’s 2x faster than GPT-5 mini. https://openai.com/index/introducing-gpt-5-4-mini-and-nano/…\n142万\n](https://x.com/OpenAI/status/2033953592424731072/analytics)\nOpenAI\n](https://x.com/OpenAI)\n@OpenAI\n](https://x.com/OpenAI)",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "likes": 516,
+      "retweets": 1029,
+      "replies": 6074,
+      "url": "https://x.com/OpenAI/status/2033953592424731072"
+    },
+    {
+      "id": "2033953595637538849",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "GPT-5.4 nano is is also available starting today in the API.\n9.7万\n](https://x.com/OpenAI/status/2033953595637538849/analytics)\nOpenAI\n](https://x.com/OpenAI)\n@OpenAI\n](https://x.com/OpenAI)",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "likes": 41,
+      "retweets": 31,
+      "replies": 654,
+      "url": "https://x.com/OpenAI/status/2033953595637538849"
+    },
+    {
+      "id": "2033589201929933253",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "@OpenAI\nListen to the OpenAI Podcast on— Spotify https://open.spotify.com/show/0zojMEDizKMh3aTxnGLENP… Apple https://podcasts.apple.com/us/podcast/openai-podcast/id1820330260… YouTube\nyoutube.com\nBuilding AI for better healthcare — the OpenAI Podcast Ep. 14\nHealthcare systems around the world are under strain, and both patients and clinicians are feeling the impact. OpenAI's Head of Health Dr. Nate Gross and Kar...\n9.9万\n](https://x.com/OpenAI/status/2033589201929933253/analytics)\nOpenAI 已转帖\nRomain Huet\n](https://x.com/romainhuet)\n@romainhuet\n](https://x.com/romainhuet)",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "likes": 10,
+      "retweets": 19,
+      "replies": 88,
+      "url": "https://x.com/OpenAI/status/2033589201929933253"
+    },
+    {
+      "id": "2033113845120807170",
+      "author": "op7418",
+      "username": "op7418",
+      "content": "我复刻了 Claude 刚发布的生成式 UI 交互！\n前天 Anthropic 在 Claude 里面上线了基于生成式 UI 的新交互。 可以帮你在聊天信息流里面用地吗可视化的方式介绍一些概念和信息，远比原来的纯文本要好理解。 我之前就一直在看类似的方案，刚好 Claude...\n25万\n](https://x.com/op7418/status/2033113845120807170/analytics)\n歸藏(guizang.ai)\n](https://x.com/op7418)\n@op7418\n](https://x.com/op7418)",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "likes": 31,
+      "retweets": 73,
+      "replies": 439,
+      "url": "https://x.com/op7418/status/2033113845120807170"
+    }
+  ],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [
+      {
+        "id": "2033113845120807170",
+        "author": "op7418",
+        "username": "op7418",
+        "content": "我复刻了 Claude 刚发布的生成式 UI 交互！\n前天 Anthropic 在 Claude 里面上线了基于生成式 UI 的新交互。 可以帮你在聊天信息流里面用地吗可视化的方式介绍一些概念和信息，远比原来的纯文本要好理解。 我之前就一直在看类似的方案，刚好 Claude...\n25万\n](https://x.com/op7418/status/2033113845120807170/analytics)\n歸藏(guizang.ai)\n](https://x.com/op7418)\n@op7418\n](https://x.com/op7418)",
+        "createdAt": "2026-03-15T00:00:00.000Z",
+        "likes": 31,
+        "retweets": 73,
+        "replies": 439,
+        "url": "https://x.com/op7418/status/2033113845120807170"
+      }
+    ],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": [
+      {
+        "id": "2033834562007273784",
+        "author": "WaytoAGI",
+        "username": "WaytoAGI",
+        "content": "April 8 — AGI HORIZON: Tokyo 2026 | Global AI Builders Summit will take place at Happo-en in Tokyo, Japan. Hosted by WaytoAGI, this highly curated summit converges the world's top AI leaders, tech practitioners, visionary founders, creators, and tier-1 investors. Experience a\n显示更多\n](https://x.com/WaytoAGI/status/2033834562007273784/analytics)\nWaytoAGI｜通往AGI之路\n](https://x.com/WaytoAGI)\n@WaytoAGI\n](https://x.com/WaytoAGI)",
+        "createdAt": "2026-03-17T00:00:00.000Z",
+        "likes": 2,
+        "retweets": 1,
+        "replies": 5,
+        "url": "https://x.com/WaytoAGI/status/2033834562007273784"
+      },
+      {
+        "id": "2031769097688821809",
+        "author": "lijigang",
+        "username": "lijigang",
+        "content": "人的种种行为，都指向同一件事： “被看见”。\n4.1万\n](https://x.com/lijigang/status/2031769097688821809/analytics)\n李继刚\n](https://x.com/lijigang)\n@lijigang\n](https://x.com/lijigang)",
+        "createdAt": "2026-03-12T00:00:00.000Z",
+        "likes": 48,
+        "retweets": 37,
+        "replies": 452,
+        "url": "https://x.com/lijigang/status/2031769097688821809"
+      },
+      {
+        "id": "2033953592424731072",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "GPT-5.4 mini is available today in ChatGPT, Codex, and the API. Optimized for coding, computer use, multimodal understanding, and subagents. And it’s 2x faster than GPT-5 mini. https://openai.com/index/introducing-gpt-5-4-mini-and-nano/…\n142万\n](https://x.com/OpenAI/status/2033953592424731072/analytics)\nOpenAI\n](https://x.com/OpenAI)\n@OpenAI\n](https://x.com/OpenAI)",
+        "createdAt": "2026-03-18T00:00:00.000Z",
+        "likes": 516,
+        "retweets": 1029,
+        "replies": 6074,
+        "url": "https://x.com/OpenAI/status/2033953592424731072"
+      },
+      {
+        "id": "2033953595637538849",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "GPT-5.4 nano is is also available starting today in the API.\n9.7万\n](https://x.com/OpenAI/status/2033953595637538849/analytics)\nOpenAI\n](https://x.com/OpenAI)\n@OpenAI\n](https://x.com/OpenAI)",
+        "createdAt": "2026-03-18T00:00:00.000Z",
+        "likes": 41,
+        "retweets": 31,
+        "replies": 654,
+        "url": "https://x.com/OpenAI/status/2033953595637538849"
+      },
+      {
+        "id": "2033589201929933253",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "@OpenAI\nListen to the OpenAI Podcast on— Spotify https://open.spotify.com/show/0zojMEDizKMh3aTxnGLENP… Apple https://podcasts.apple.com/us/podcast/openai-podcast/id1820330260… YouTube\nyoutube.com\nBuilding AI for better healthcare — the OpenAI Podcast Ep. 14\nHealthcare systems around the world are under strain, and both patients and clinicians are feeling the impact. OpenAI's Head of Health Dr. Nate Gross and Kar...\n9.9万\n](https://x.com/OpenAI/status/2033589201929933253/analytics)\nOpenAI 已转帖\nRomain Huet\n](https://x.com/romainhuet)\n@romainhuet\n](https://x.com/romainhuet)",
+        "createdAt": "2026-03-17T00:00:00.000Z",
+        "likes": 10,
+        "retweets": 19,
+        "replies": 88,
+        "url": "https://x.com/OpenAI/status/2033589201929933253"
+      }
+    ]
+  },
+  "statistics": {
+    "totalEngagement": 9550,
+    "topTweet": {
+      "id": "2033953592424731072",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "GPT-5.4 mini is available today in ChatGPT, Codex, and the API. Optimized for coding, computer use, multimodal understanding, and subagents. And it’s 2x faster than GPT-5 mini. https://openai.com/index/introducing-gpt-5-4-mini-and-nano/…\n142万\n](https://x.com/OpenAI/status/2033953592424731072/analytics)\nOpenAI\n](https://x.com/OpenAI)\n@OpenAI\n](https://x.com/OpenAI)",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "likes": 516,
+      "retweets": 1029,
+      "replies": 6074,
+      "url": "https://x.com/OpenAI/status/2033953592424731072"
+    }
+  }
+}
