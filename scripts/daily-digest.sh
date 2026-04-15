@@ -2,13 +2,15 @@
 # AI Daily Digest - Main Entry Point
 # 
 # 功能：完整的每日流程
-# 1. 数据收集
-# 2. 报告生成  
-# 3. Git 提交
-# 4. Telegram 通知
+# 1. 收集 Twitter 数据
+# 2. 收集新闻资讯
+# 3. 生成报告
+# 4. Git 提交
+# 5. Telegram 通知
 #
 # 作者：Kai
 # 日期：2026-03-08
+# 更新：2026-04-15 添加新闻收集
 
 set -e
 
@@ -25,32 +27,43 @@ DATE=$(date +%Y-%m-%d)
 echo "📅 Date: ${DATE}"
 echo ""
 
-# Step 1: 数据收集
-echo "📊 Step 1/4: Collecting data..."
+# Step 1: 收集 Twitter 数据
+echo "🐦 Step 1/5: Collecting Twitter data..."
 bun run "${SCRIPT_DIR}/collect.ts"
 echo ""
 
-# Step 2: 生成报告
-echo "📝 Step 2/4: Generating report..."
-bun run "${SCRIPT_DIR}/generate-report.ts" "${DATE}"
+# Step 2: 收集新闻资讯
+echo "📰 Step 2/5: Collecting news..."
+bun run "${SCRIPT_DIR}/collect-news.ts"
 echo ""
 
-# Step 3: Git 提交
-echo "🚀 Step 3/4: Publishing to GitHub..."
+# Step 3: 生成报告 (包含 Twitter 和新闻)
+echo "📝 Step 3/5: Generating report..."
+bun run "${SCRIPT_DIR}/generate-news-report.ts" "${DATE}"
+echo ""
+
+# Step 4: Git 提交
+echo "🚀 Step 4/5: Publishing to GitHub..."
 "${SCRIPT_DIR}/publish.sh"
 echo ""
 
-# Step 4: Telegram 通知
-echo "📱 Step 4/4: Sending Telegram notification..."
-REPORT_PATH="reports/$(date +%Y)/$(date +%m)/${DATE}.md"
-GITHUB_URL="https://github.com/SeanLiangYoung/ai-daily-digest/blob/main/${REPORT_PATH}"
+# Step 5: Telegram 通知
+echo "📱 Step 5/5: Sending Telegram notification..."
+REPORT_PATH_TWITTER="reports/$(date +%Y)/$(date +%m)/${DATE}.md"
+GITHUB_URL_TWITTER="https://github.com/SeanLiangYoung/ai-daily-digest/blob/main/${REPORT_PATH_TWITTER}"
 
-MESSAGE="📰 AI Daily Digest - ${DATE}
+MESSAGE="🌊 AI Daily Digest - ${DATE}
 
-✅ 今日报告已生成并提交
+✅ 今日报告已生成
+
+📰 报告内容：
+• Twitter 推文汇总
+• AI & 科技新闻
+• Crypto & Web3 新闻
+• 商业 & 创业新闻
 
 🔗 查看报告：
-${GITHUB_URL}
+${GITHUB_URL_TWITTER}
 
 ⏰ 下次更新：明天 08:00
 
@@ -63,7 +76,8 @@ echo ""
 echo "✨ Daily digest workflow complete!"
 echo ""
 echo "📋 Summary:"
-echo "  - Data collected ✓"
+echo "  - Twitter data collected ✓"
+echo "  - News data collected ✓"
 echo "  - Report generated ✓"
 echo "  - Pushed to GitHub ✓"
 echo "  - Notification sent ✓"

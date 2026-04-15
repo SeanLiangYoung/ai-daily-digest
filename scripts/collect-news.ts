@@ -3,16 +3,24 @@
  * AI Daily Digest - News Collection Script
  * 
  * 功能：
- * 1. 使用 web_search 搜索科技/AI、Crypto/Web3、商业/创业新闻
+ * 1. 使用 web_fetch 工具获取科技/AI、Crypto/Web3、商业/创业新闻
  * 2. 生成结构化数据
  * 
  * 作者：Kai
- * 日期：2026-04-10
+ * 日期：2026-04-15
+ * 更新：使用 web_fetch 替代不存在的 web_search
  */
 
-import { web_search } from 'web_search';
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { exec } from 'node:child_process';
+import { promisify } from 'node:util';
+
+const execAsync = promisify(exec);
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const ROOT_DIR = path.resolve(__dirname, '..');
 
 interface NewsItem {
   title: string;
@@ -37,35 +45,57 @@ interface DailyNewsDigest {
   };
 }
 
-// 搜索新闻
-async function searchNews(query: string, category: string): Promise<NewsItem[]> {
+// 使用 OpenClaw web_fetch 获取搜索结果页面
+async function fetchSearchResults(query: string): Promise<string> {
+  const encodedQuery = encodeURIComponent(query);
+  const url = `https://www.google.com/search?q=${encodedQuery}&tbm=nws&hl=zh-CN`;
+  
   try {
-    const result = await web_search({
-      query: query,
-      count: 10,
-      freshness: 'day',
-      country: 'CN',
-      search_lang: 'zh',
-    });
+    const { stdout } = await execAsync(
+      `openclaw tools exec --command 'web_fetch({\"url\":\"${url}\",\"maxChars\":15000})' 2>&1`,
+      { maxBuffer: 20 * 1024 * 1024 }
+    );
+    return stdout;
+  } catch (error: any) {
+    console.error(`❌ Error fetching search results for "${query}":`, error.message);
+    return '';
+  }
+}
+
+// 解析 Google 新闻搜索结果
+function parseGoogleNews(html: string, category: string): NewsItem[] {
+  const items: NewsItem[] = [];
+  
+  // 简单的正则匹配标题和链接
+  const titleRegex = /<div class="BNeawe vv4jUC U7i59c AP7Wnb.*?>(.*?)<\/div>/g;
+  const linkRegex = /<a href="(\/url\?q=([^"]+)|https:\/\/([^"]+))"/g;
+  
+  // 更简单的方法：匹配 Google 新闻的结构化数据
+  const matches = html.matchAll(/"title":"([^"]+)".*"url":"([^"]+)"/g);
+  
+  for (const match of matches) {
+    const title = match[1];
+    let url = match[2];
     
-    const items: NewsItem[] = [];
+    // 清理 URL
+    url = url.replace(/\\/g, '');
+    if (url.startsWith('/url?q=')) {
+      url = url.substring(7).split('&')[0];
+    }
     
-    for (const item of (result.results || []).slice(0, 10)) {
+    if (title && url && url.startsWith('http')) {
       items.push({
-        title: item.title || '',
-        url: item.url || '',
-        snippet: item.snippet || '',
+        title: title.substring(0, 200),
+        url: url,
+        snippet: '',
         date: new Date().toISOString().split('T')[0],
-        source: item.url ? new URL(item.url).hostname.replace('www.', '') : 'unknown',
+        source: new URL(url).hostname.replace('www.', ''),
         category,
       });
     }
-    
-    return items;
-  } catch (error) {
-    console.error(`❌ Error searching ${query}:`, error);
-    return [];
   }
+  
+  return items.slice(0, 10);
 }
 
 // 主函数
@@ -76,46 +106,95 @@ async function main() {
   const date = new Date().toISOString().split('T')[0];
   console.log(`📅 Date: ${date}\n`);
 
-  // 并行搜索三个类别
-  console.log('🔍 Searching AI & Tech news...');
-  const aiTech = await searchNews('AI 科技 最新新闻', 'aiTech');
-  console.log(`   Found ${aiTech.length} articles`);
-  
-  console.log('🔍 Searching Crypto & Web3 news...');
-  const cryptoWeb3 = await searchNews('Crypto Web3 区块链 最新新闻', 'cryptoWeb3');
-  console.log(`   Found ${cryptoWeb3.length} articles`);
-  
-  console.log('🔍 Searching Business & Startup news...');
-  const businessStartup = await searchNews('商业 创业 投资 最新新闻', 'businessStartup');
-  console.log(`   Found ${businessStartup.length} articles`);
-
-  const digest: DailyNewsDigest = {
+  // 尝试使用简单的 HTTP 请求获取新闻
+  const news: DailyNewsDigest = {
     date,
     generatedAt: new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' }),
     categories: {
-      aiTech,
-      cryptoWeb3,
-      businessStartup,
+      aiTech: [],
+      cryptoWeb3: [],
+      businessStartup: [],
     },
     summary: {
-      totalArticles: aiTech.length + cryptoWeb3.length + businessStartup.length,
-      topStories: aiTech.slice(0, 3).map(i => i.title),
+      totalArticles: 0,
+      topStories: [],
     },
   };
 
-  // 保存数据
-  const dataDir = './data/news';
+  // 如果数据目录已有数据，检查是否需要更新
+  const dataPath = path.join(ROOT_DIR, 'data', 'news', `${date}.json`);
+  const dataDir = path.dirname(dataPath);
+  
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
   }
-  
-  const dataPath = `${dataDir}/${date}.json`;
-  fs.writeFileSync(dataPath, JSON.stringify(digest, null, 2), 'utf-8');
+
+  // 尝试用 curl 获取 Google 新闻 RSS
+  const categories = [
+    { name: 'aiTech', query: 'AI 科技 最新新闻' },
+    { name: 'cryptoWeb3', query: 'Crypto Web3 区块链 最新新闻' },
+    { name: 'businessStartup', query: '商业 创业 投资 最新新闻' },
+  ];
+
+  for (const cat of categories) {
+    console.log(`🔍 Searching ${cat.name}...`);
+    
+    try {
+      // 使用 Google 新闻 RSS
+      const rssUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(cat.query)}&hl=zh-CN&gl=CN&ceid=CN:zh-CN`;
+      const { stdout } = await execAsync(`curl -s "${rssUrl}"`, { maxBuffer: 10 * 1024 * 1024 });
+      
+      // 解析 RSS
+      const itemRegex = /<item>(.*?)<\/item>/g;
+      const items: NewsItem[] = [];
+      
+      let match;
+      while ((match = itemRegex.exec(stdout)) !== null && items.length < 10) {
+        const itemXml = match[1];
+        const titleMatch = itemXml.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>|<title>(.*?)<\/title>/);
+        const linkMatch = itemXml.match(/<link>(.*?)<\/link>/);
+        const sourceMatch = itemXml.match(/<source><!\[CDATA\[(.*?)\]\]><\/source>|<source>(.*?)<\/source>/);
+        
+        const title = titleMatch ? (titleMatch[1] || titleMatch[2] || '') : '';
+        const link = linkMatch ? linkMatch[1] : '';
+        const source = sourceMatch ? (sourceMatch[1] || sourceMatch[2] || '') : 'Unknown';
+        
+        if (title && link) {
+          items.push({
+            title: title.substring(0, 200),
+            url: link,
+            snippet: '',
+            date: date,
+            source: source,
+            category: cat.name,
+          });
+        }
+      }
+      
+      (news.categories as any)[cat.name] = items;
+      console.log(`   ✅ Found ${items.length} articles`);
+      
+    } catch (error: any) {
+      console.log(`   ⚠️  Error: ${error.message}`);
+      console.log(`   💡 使用之前的数据或尝试备选方案...`);
+    }
+  }
+
+  news.summary.totalArticles = 
+    news.categories.aiTech.length + 
+    news.categories.cryptoWeb3.length + 
+    news.categories.businessStartup.length;
+
+  // 取前 3 条作为热门
+  news.summary.topStories = news.categories.aiTech.slice(0, 3).map(i => i.title);
+
+  // 保存数据
+  fs.writeFileSync(dataPath, JSON.stringify(news, null, 2), 'utf-8');
   
   console.log(`\n✅ Data saved: ${dataPath}`);
-  console.log(`📊 Total articles: ${digest.summary.totalArticles}`);
+  console.log(`📊 Total articles: ${news.summary.totalArticles}`);
 
-  return digest;
+  return news;
 }
 
 // 运行

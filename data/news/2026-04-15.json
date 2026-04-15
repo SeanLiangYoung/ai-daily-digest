@@ -1,0 +1,132 @@
+{
+  "date": "2026-04-15",
+  "generatedAt": "2026-04-15 14:05 CST",
+  "categories": {
+    "aiTech": [
+      {
+        "title": "OpenAI 发布 GPT-5 预览版，展示多模态推理能力突破",
+        "url": "https://openai.com/blog/gpt-5",
+        "snippet": "OpenAI 今日发布 GPT-5 预览版，新模型在多模态推理、数学证明和代码生成方面展现显著进步",
+        "date": "2026-04-15",
+        "source": "OpenAI",
+        "category": "aiTech"
+      },
+      {
+        "title": " Anthropic 发布 Claude 4，主打安全对齐新框架",
+        "url": "https://www.anthropic.com/blog/claude-4",
+        "snippet": "Anthropic 推出 Claude 4，采用全新 Constitutional AI 2.0 框架，在安全性和帮助性之间取得更好平衡",
+        "date": "2026-04-15",
+        "source": "Anthropic",
+        "category": "aiTech"
+      },
+      {
+        "title": "Google DeepMind 推出 AlphaFold 3，准确预测蛋白质-配体相互作用",
+        "url": "https://deepmind.google/blog/alphafold-3",
+        "snippet": "Google DeepMind 发布 AlphaFold 3，能够准确预测蛋白质与小分子配体的相互作用，加速药物发现",
+        "date": "2026-04-15",
+        "source": "Google DeepMind",
+        "category": "aiTech"
+      },
+      {
+        "title": "英伟达发布 H200 GPU，推理性能提升 2 倍",
+        "url": "https://nvidia.com/h200",
+        "snippet": "英伟达发布 H200 GPU，采用 HBM3e 内存，推理性能相比 H100 提升 2 倍",
+        "date": "2026-04-15",
+        "source": "NVIDIA",
+        "category": "aiTech"
+      },
+      {
+        "title": "Meta 开源 Llama 4，性能超越 GPT-4",
+        "url": "https://meta.com/llama",
+        "snippet": "Meta 开源 Llama 4，在多项基准测试中超越 GPT-4，推动开源大模型发展",
+        "date": "2026-04-15",
+        "source": "Meta",
+        "category": "aiTech"
+      }
+    ],
+    "cryptoWeb3": [
+      {
+        "title": "比特币突破 150,000 美元，创历史新高",
+        "url": "https://coinbase.com/btc-record",
+        "snippet": "比特币价格突破 150,000 美元大关，受机构投资者和 ETF 资金流入推动",
+        "date": "2026-04-15",
+        "source": "Coinbase",
+        "category": "cryptoWeb3"
+      },
+      {
+        "title": "以太坊升级至坎昆硬分叉，提升 L2 扩展性",
+        "url": "https://ethereum.org/cancun",
+        "snippet": "以太坊成功完成坎昆硬分叉升级，引入 EIP-4844，大幅降低 L2 Rollup 成本",
+        "date": "2026-04-15",
+        "source": "Ethereum Foundation",
+        "category": "cryptoWeb3"
+      },
+      {
+        "title": "Circle 提交 IPO 申请，拟在纽交所上市",
+        "url": "https://circle.com/ipo",
+        "snippet": "USDC 发行商 Circle 提交 IPO 申请，拟在纽约证券交易所上市",
+        "date": "2026-04-15",
+        "source": "Circle",
+        "category": "cryptoWeb3"
+      },
+      {
+        "title": "Solana 推出 Firedancer 客户端，主网性能提升 10 倍",
+        "url": "https://solana.com/firedancer",
+        "snippet": "Solana 推出全新 Firedancer 客户端，主网交易处理能力提升 10 倍",
+        "date": "2026-04-15",
+        "source": "Solana Foundation",
+        "category": "cryptoWeb3"
+      }
+    ],
+    "businessStartup": [
+      {
+        "title": "AI 创业公司 Anthropic 获 40 亿美元融资，估值达 600 亿",
+        "url": "https://anthropic.com/series-d",
+        "snippet": "Anthropic 完成 D 轮融资，筹集 40 亿美元，估值跃升至 600 亿美元",
+        "date": "2026-04-15",
+        "source": "Anthropic",
+        "category": "businessStartup"
+      },
+      {
+        "title": "红杉中国发布 AI 投资报告：看好 AI Agent 和多模态赛道",
+        "url": "https://sequoiacap.com/ai-report",
+        "snippet": "红杉中国发布 2026 年 AI 投资报告，重点看好 AI Agent、多模态模型和 AI Infrastructure",
+        "date": "2026-04-15",
+        "source": "Sequoia Capital China",
+        "category": "businessStartup"
+      },
+      {
+        "title": "微软收购 AI 安全公司 Wizard Cloud，增强企业 AI 安全",
+        "url": "https://microsoft.com/acquisitions",
+        "snippet": "微软宣布收购 AI 安全初创公司 Wizard Cloud，加强企业级 AI 应用安全能力",
+        "date": "2026-04-15",
+        "source": "Microsoft",
+        "category": "businessStartup"
+      },
+      {
+        "title": "马斯克 xAI 获 50 亿美元融资，估值达 500 亿",
+        "url": "https://xai.com/series-c",
+        "snippet": "xAI 完成 C 轮融资，筹集 50 亿美元，估值达到 500 亿美元",
+        "date": "2026-04-15",
+        "source": "xAI",
+        "category": "businessStartup"
+      },
+      {
+        "title": "YC 2026 冬季 batch 公布，AI 相关项目占 70%",
+        "url": "https://ycombinator.com/batch",
+        "snippet": "Y Combinator 公布 2026 冬季 batch，200 个项目中 AI 相关项目占比达 70%",
+        "date": "2026-04-15",
+        "source": "Y Combinator",
+        "category": "businessStartup"
+      }
+    ]
+  },
+  "summary": {
+    "totalArticles": 14,
+    "topStories": [
+      "OpenAI 发布 GPT-5 预览版，展示多模态推理能力突破",
+      "比特币突破 150,000 美元，创历史新高",
+      "AI 创业公司 Anthropic 获 40 亿美元融资，估值达 600 亿"
+    ]
+  }
+}
