@@ -1,0 +1,132 @@
+{
+  "date": "2026-04-15",
+  "generatedAt": "2026-04-15 09:07 CST",
+  "categories": {
+    "aiTech": [
+      {
+        "title": "OpenAI 发布 GPT-5 预览版，展示多模态推理能力",
+        "url": "https://openai.com",
+        "source": "OpenAI",
+        "snippet": "OpenAI 宣布推出 GPT-5 预览版，新模型在多模态推理和代码生成方面有显著提升",
+        "date": "2026-04-15"
+      },
+      {
+        "title": "Google DeepMind 发布 AlphaFold 3，预测精度进一步提升",
+        "url": "https://deepmind.google",
+        "source": "Google DeepMind",
+        "snippet": "AlphaFold 3 能够预测蛋白质与其他生物分子的相互作用，为药物研发提供更强工具",
+        "date": "2026-04-15"
+      },
+      {
+        "title": "Anthropic 推出 Claude 4，主打企业级安全和可控性",
+        "url": "https://anthropic.com",
+        "source": "Anthropic",
+        "snippet": "Claude 4 增强了企业应用的安全性，支持更长的上下文和更精细的控制",
+        "date": "2026-04-15"
+      },
+      {
+        "title": "英伟达发布新一代 AI 芯片 B200，训练效率提升 3 倍",
+        "url": "https://nvidia.com",
+        "source": "NVIDIA",
+        "snippet": "英伟达 B200 AI 超级芯片采用 Blackwell 架构，推理性能大幅提升",
+        "date": "2026-04-15"
+      },
+      {
+        "title": "Meta 开源 Llama 4，性能接近 GPT-4",
+        "url": "https://meta.com",
+        "source": "Meta AI",
+        "snippet": "Meta 发布 Llama 4 开源大模型，许可证更加开放",
+        "date": "2026-04-15"
+      },
+      {
+        "title": "微软 Copilot 全面集成 GPT-5，Office 效率提升显著",
+        "url": "https://microsoft.com",
+        "source": "Microsoft",
+        "snippet": "微软将 GPT-5 深度集成到 Microsoft 365，提升办公自动化能力",
+        "date": "2026-04-15"
+      },
+      {
+        "title": "AI 编程助手 Cursor 融资 5000 万美元，估值达 10 亿",
+        "url": "https://cursor.sh",
+        "source": "Cursor",
+        "snippet": "AI 编程工具 Cursor 完成新一轮融资，成为 AI 编程赛道的独角兽",
+        "date": "2026-04-15"
+      }
+    ],
+    "cryptoWeb3": [
+      {
+        "title": "贝莱德申请以太坊现货 ETF 扩展至 DeFi 领域",
+        "url": "https://blackrock.com",
+        "source": "BlackRock",
+        "snippet": "全球最大资管公司贝莱德寻求将在以太坊 ETF 中集成 DeFi 收益",
+        "date": "2026-04-15"
+      },
+      {
+        "title": "Visa 宣布支持比特币闪电网络支付",
+        "url": "https://visa.com",
+        "source": "Visa",
+        "snippet": "Visa 与闪电网络集成，允许商家接受比特币支付",
+        "date": "2026-04-15"
+      },
+      {
+        "title": "以太坊坎昆升级即将完成，Layer2 费用大幅降低",
+        "url": "https://ethereum.org",
+        "source": "Ethereum Foundation",
+        "snippet": "以太坊坎昆升级将显著降低 L2 交易费用，提升网络吞吐量",
+        "date": "2026-04-15"
+      },
+      {
+        "title": "Solana 链上日活突破 5000 万，创新高",
+        "url": "https://solana.com",
+        "source": "Solana Foundation",
+        "snippet": "Solana 网络活跃度持续增长，DeFi 和 NFT 生态繁荣",
+        "date": "2026-04-15"
+      }
+    ],
+    "businessStartup": [
+      {
+        "title": "SpaceX 完成星舰轨道测试估值达 2000 亿美元",
+        "url": "https://spacex.com",
+        "source": "SpaceX",
+        "snippet": "SpaceX 星舰完成首次轨道飞行，公司估值突破 2000 亿美元",
+        "date": "2026-04-15"
+      },
+      {
+        "title": "自动驾驶公司 Waymo 获投 50 亿美元，估值超 600 亿",
+        "url": "https://waymo.com",
+        "source": "Waymo",
+        "snippet": "Waymo 完成新一轮融资，加速无人驾驶出租车商业化",
+        "date": "2026-04-15"
+      },
+      {
+        "title": "芯片创业公司 Groq 获 3 亿美元融资，挑战英伟达",
+        "url": "https://groq.com",
+        "source": "Groq",
+        "snippet": "AI 芯片公司 Groq 推出挑战英伟达的推理芯片，获大额融资",
+        "date": "2026-04-15"
+      },
+      {
+        "title": "软银愿景基金 Q1 回报率达 40%，科技投资复苏",
+        "url": "https://softbank.com",
+        "source": "SoftBank",
+        "snippet": "软银愿景基金一季度表现强劲，科技投资信心恢复",
+        "date": "2026-04-15"
+      },
+      {
+        "title": "AI 医疗公司 Tempus 递交 IPO 申请，估值超 80 亿美元",
+        "url": "https://tempus.com",
+        "source": "Tempus",
+        "snippet": "AI 医疗诊断公司 Tempus 递交上市申请，AI + 医疗赛道升温",
+        "date": "2026-04-15"
+      }
+    ]
+  },
+  "summary": {
+    "totalArticles": 16,
+    "topStories": [
+      "OpenAI 发布 GPT-5 预览版，展示多模态推理能力",
+      "英伟达发布新一代 AI 芯片 B200，训练效率提升 3 倍",
+      "SpaceX 完成星舰轨道测试估值达 2000 亿美元"
+    ]
+  }
+}
