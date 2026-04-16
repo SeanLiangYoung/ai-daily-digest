@@ -1,0 +1,62 @@
+{
+  "date": "2026-04-16",
+  "weekNumber": 16,
+  "dayOfWeek": 4,
+  "totalTweets": 1,
+  "activeCreators": 1,
+  "scheduledCreators": [
+    "xiaohu",
+    "elliotchen100",
+    "iamtonyzhu",
+    "tinyfool",
+    "CoderJeffLee",
+    "fankaishuoai",
+    "Hayami_kiraa"
+  ],
+  "tweets": [
+    {
+      "id": "2044051955786662387",
+      "author": "elliotchen100",
+      "username": "elliotchen100",
+      "content": "非常激动宣布，我们打磨了很久很久的更新，她终于来了，不仅有产品，还有 Methods，Benchmark，Usecases 和官网等。 具体更新： 1. EverOS - 新思路，一站式 Agent 创建，测试和集成的开源库，其中包含了多个 Methods，多个 Benchmarks 和很多种 Usecases。 主打一站式服务，用户可用现成的\n显示更多\n艾略特\n@elliotchen100\n4月12日\n稍微剧透一下，@EverMind 马上会推出一个 Benchmark，可测试 Agent 的能力。 诸位的 OpenClaw 和 Hermes Agent 都可以测测看。\n2.3万\n](https://x.com/elliotchen100/status/2044051955786662387/analytics)\n艾略特\n](https://x.com/elliotchen100)\n@elliotchen100\n](https://x.com/elliotchen100)",
+      "createdAt": "2026-04-14T00:00:00.000Z",
+      "likes": 10,
+      "retweets": 14,
+      "replies": 108,
+      "url": "https://x.com/elliotchen100/status/2044051955786662387"
+    }
+  ],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": [
+      {
+        "id": "2044051955786662387",
+        "author": "elliotchen100",
+        "username": "elliotchen100",
+        "content": "非常激动宣布，我们打磨了很久很久的更新，她终于来了，不仅有产品，还有 Methods，Benchmark，Usecases 和官网等。 具体更新： 1. EverOS - 新思路，一站式 Agent 创建，测试和集成的开源库，其中包含了多个 Methods，多个 Benchmarks 和很多种 Usecases。 主打一站式服务，用户可用现成的\n显示更多\n艾略特\n@elliotchen100\n4月12日\n稍微剧透一下，@EverMind 马上会推出一个 Benchmark，可测试 Agent 的能力。 诸位的 OpenClaw 和 Hermes Agent 都可以测测看。\n2.3万\n](https://x.com/elliotchen100/status/2044051955786662387/analytics)\n艾略特\n](https://x.com/elliotchen100)\n@elliotchen100\n](https://x.com/elliotchen100)",
+        "createdAt": "2026-04-14T00:00:00.000Z",
+        "likes": 10,
+        "retweets": 14,
+        "replies": 108,
+        "url": "https://x.com/elliotchen100/status/2044051955786662387"
+      }
+    ]
+  },
+  "statistics": {
+    "totalEngagement": 132,
+    "topTweet": {
+      "id": "2044051955786662387",
+      "author": "elliotchen100",
+      "username": "elliotchen100",
+      "content": "非常激动宣布，我们打磨了很久很久的更新，她终于来了，不仅有产品，还有 Methods，Benchmark，Usecases 和官网等。 具体更新： 1. EverOS - 新思路，一站式 Agent 创建，测试和集成的开源库，其中包含了多个 Methods，多个 Benchmarks 和很多种 Usecases。 主打一站式服务，用户可用现成的\n显示更多\n艾略特\n@elliotchen100\n4月12日\n稍微剧透一下，@EverMind 马上会推出一个 Benchmark，可测试 Agent 的能力。 诸位的 OpenClaw 和 Hermes Agent 都可以测测看。\n2.3万\n](https://x.com/elliotchen100/status/2044051955786662387/analytics)\n艾略特\n](https://x.com/elliotchen100)\n@elliotchen100\n](https://x.com/elliotchen100)",
+      "createdAt": "2026-04-14T00:00:00.000Z",
+      "likes": 10,
+      "retweets": 14,
+      "replies": 108,
+      "url": "https://x.com/elliotchen100/status/2044051955786662387"
+    }
+  }
+}
