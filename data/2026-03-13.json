@@ -1,0 +1,23 @@
+{
+  "date": "2026-03-13",
+  "weekNumber": 11,
+  "dayOfWeek": 5,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "iamtonyzhu",
+    "rasbt"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
