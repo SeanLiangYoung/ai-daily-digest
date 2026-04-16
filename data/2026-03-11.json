@@ -2,31 +2,28 @@
   "date": "2026-03-11",
   "weekNumber": 11,
   "dayOfWeek": 3,
-  "totalTweets": 2,
-  "activeCreators": 2,
-  "scheduledCreators": ["elliotchen100", "yan5xu"],
+  "totalTweets": 1,
+  "activeCreators": 1,
+  "scheduledCreators": [
+    "ylecun",
+    "op7418",
+    "indie_maker_fox",
+    "Gorden_Sun",
+    "lijigang",
+    "WaytoAGI",
+    "dotey"
+  ],
   "tweets": [
     {
-      "id": "2030618817500705103",
-      "author": "艾略特",
-      "username": "elliotchen100",
-      "content": "讲讲对龙虾!🦞的记忆理解，和一些记忆的使用场景， 同时宣传一波自家的开源产品，自部署免费。 https://github.com/EverMind-AI/EverMemOS",
-      "createdAt": "2026-03-08T00:00:00.000Z",
-      "likes": 1,
-      "retweets": 5,
-      "replies": 36,
-      "url": "https://x.com/elliotchen100/status/2030618817500705103"
-    },
-    {
-      "id": "2031381139227816257",
-      "author": "yan5xu",
-      "username": "yan5xu",
-      "content": "epiral 2.0 来啦，不过重点不是 epiral（!🦞），这次是 pinix，大概是东半球第一个专门为 agent 设计的 os hhh",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "likes": 8,
-      "retweets": 9,
-      "replies": 46,
-      "url": "https://x.com/yan5xu/status/2031381139227816257"
+      "id": "2030952029905207643",
+      "author": "op7418",
+      "username": "op7418",
+      "content": "小米做了个能在手机上跑的\"小龙虾 (Openclaw)\"：Agent 终于能接触现实世界\n刚开始 OpenClaw 火爆的时候我就感觉这种定时任务和陪伴产品非常适合落地到手机上。 也在前几天的文章里说过 Agent 接触到现实世界应该会很快。 不是只能通过还很遥远的人形机器人，现在的电动汽车是更好的渠道。...\n7.2万\n](https://x.com/op7418/status/2030952029905207643/analytics)\n歸藏(guizang.ai)\n](https://x.com/op7418)\n@op7418\n](https://x.com/op7418)",
+      "createdAt": "2026-03-09T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/op7418/status/2030952029905207643"
     }
   ],
   "categories": {
@@ -34,10 +31,22 @@
     "productLaunch": [],
     "industryInsights": [],
     "tutorialsResources": [],
-    "interestingFinds": []
+    "interestingFinds": [
+      {
+        "id": "2030952029905207643",
+        "author": "op7418",
+        "username": "op7418",
+        "content": "小米做了个能在手机上跑的\"小龙虾 (Openclaw)\"：Agent 终于能接触现实世界\n刚开始 OpenClaw 火爆的时候我就感觉这种定时任务和陪伴产品非常适合落地到手机上。 也在前几天的文章里说过 Agent 接触到现实世界应该会很快。 不是只能通过还很遥远的人形机器人，现在的电动汽车是更好的渠道。...\n7.2万\n](https://x.com/op7418/status/2030952029905207643/analytics)\n歸藏(guizang.ai)\n](https://x.com/op7418)\n@op7418\n](https://x.com/op7418)",
+        "createdAt": "2026-03-09T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/op7418/status/2030952029905207643"
+      }
+    ]
   },
   "statistics": {
-    "totalEngagement": 114,
+    "totalEngagement": 0,
     "topTweet": null
   }
 }
