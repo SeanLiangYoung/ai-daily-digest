@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-17",
+  "weekNumber": 16,
+  "dayOfWeek": 5,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "Cydiar404",
+    "AxtonLiu",
+    "yan5xu",
+    "lidangzzz",
+    "HongyuanCao",
+    "AlchainHust",
+    "shao__meng"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
