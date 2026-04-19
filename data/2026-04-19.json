@@ -1,0 +1,84 @@
+{
+  "date": "2026-04-19",
+  "weekNumber": 17,
+  "dayOfWeek": 0,
+  "totalTweets": 2,
+  "activeCreators": 2,
+  "scheduledCreators": [
+    "lijigang",
+    "demishassabis",
+    "dotey",
+    "OpenAI",
+    "lxfater",
+    "op7418",
+    "Fenng"
+  ],
+  "tweets": [
+    {
+      "id": "2044262531846565993",
+      "author": "lijigang",
+      "username": "lijigang",
+      "content": "我喜欢的人，大抵有两种特质：纯粹和赤诚。\n](https://x.com/lijigang/status/2044262531846565993/analytics)\n李继刚\n](https://x.com/lijigang)\n@lijigang\n](https://x.com/lijigang)",
+      "createdAt": "2026-04-15T00:00:00.000Z",
+      "likes": 24,
+      "retweets": 15,
+      "replies": 181,
+      "url": "https://x.com/lijigang/status/2044262531846565993"
+    },
+    {
+      "id": "2044634498432962806",
+      "author": "op7418",
+      "username": "op7418",
+      "content": "我做了个 Skill：让 AI 帮你生成 Logo 和图标\n前几天想给 CodePilot 设计个新 Logo，就跟 Gemini 聊了聊，让它生成一些 SVG 格式的 Logo。 结果出乎意料——生成的几个变体都很干净、规整，几何感很强。我把这些 Logo 发到推特上，热度挺高。 后来我又试着把这些...\n](https://x.com/op7418/status/2044634498432962806/analytics)\n歸藏(guizang.ai)\n](https://x.com/op7418)\n@op7418\n](https://x.com/op7418)",
+      "createdAt": "2026-04-16T00:00:00.000Z",
+      "likes": 170000,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/op7418/status/2044634498432962806"
+    }
+  ],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": [
+      {
+        "id": "2044262531846565993",
+        "author": "lijigang",
+        "username": "lijigang",
+        "content": "我喜欢的人，大抵有两种特质：纯粹和赤诚。\n](https://x.com/lijigang/status/2044262531846565993/analytics)\n李继刚\n](https://x.com/lijigang)\n@lijigang\n](https://x.com/lijigang)",
+        "createdAt": "2026-04-15T00:00:00.000Z",
+        "likes": 24,
+        "retweets": 15,
+        "replies": 181,
+        "url": "https://x.com/lijigang/status/2044262531846565993"
+      },
+      {
+        "id": "2044634498432962806",
+        "author": "op7418",
+        "username": "op7418",
+        "content": "我做了个 Skill：让 AI 帮你生成 Logo 和图标\n前几天想给 CodePilot 设计个新 Logo，就跟 Gemini 聊了聊，让它生成一些 SVG 格式的 Logo。 结果出乎意料——生成的几个变体都很干净、规整，几何感很强。我把这些 Logo 发到推特上，热度挺高。 后来我又试着把这些...\n](https://x.com/op7418/status/2044634498432962806/analytics)\n歸藏(guizang.ai)\n](https://x.com/op7418)\n@op7418\n](https://x.com/op7418)",
+        "createdAt": "2026-04-16T00:00:00.000Z",
+        "likes": 170000,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/op7418/status/2044634498432962806"
+      }
+    ]
+  },
+  "statistics": {
+    "totalEngagement": 170220,
+    "topTweet": {
+      "id": "2044634498432962806",
+      "author": "op7418",
+      "username": "op7418",
+      "content": "我做了个 Skill：让 AI 帮你生成 Logo 和图标\n前几天想给 CodePilot 设计个新 Logo，就跟 Gemini 聊了聊，让它生成一些 SVG 格式的 Logo。 结果出乎意料——生成的几个变体都很干净、规整，几何感很强。我把这些 Logo 发到推特上，热度挺高。 后来我又试着把这些...\n](https://x.com/op7418/status/2044634498432962806/analytics)\n歸藏(guizang.ai)\n](https://x.com/op7418)\n@op7418\n](https://x.com/op7418)",
+      "createdAt": "2026-04-16T00:00:00.000Z",
+      "likes": 170000,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/op7418/status/2044634498432962806"
+    }
+  }
+}
