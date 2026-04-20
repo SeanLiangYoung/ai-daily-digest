@@ -1,13 +1,260 @@
 {
   "date": "2026-04-20",
-  "generatedAt": "2026/4/20 08:02:06",
+  "generatedAt": "2026/4/20 10:39:44",
   "categories": {
-    "aiTech": [],
-    "cryptoWeb3": [],
-    "businessStartup": []
+    "aiTech": [
+      {
+        "title": "Binning barcodes and embracing AI: presenting last week’s biggest retail technology plays at a glance - Retail Technology Innovation Hub",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMU9Jc0djcy0wMDVlZEs3aU96WmFPSi1sQ210NXBLR3FSb0RfaUVwdGJ4ellaSGlublIteGdFTDlGRTZHdUNTMUxfSkNfR3NnbmZ1R2JkT0RmSk04NE1PNFZ5bnJxUlNGRzJpZHRmMnFNcjRWZTdUdDR2aFJrVVFwMmpYc2JxTm9xUnAxdVUtVW8wSEJRRnR2NGJmWUVpZE9teFluVXY0Sm9fT21mQTJJLVNhTlNHVmhvYUVDN3RNRnBnd1ItWi1XdVVsMGZ3NDB0dk5nZXNn?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "aiTech"
+      },
+      {
+        "title": "Tech Weekly: Markets Hit All-Time Highs as Strait of Hormuz Reopens - Investing News Network",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xc1ZETzNSQnR0UnducUtIRUtmTWRocmN3a0hNeUJFZC02VDJIa3NaTmVhZmVyTHB5LVNyWWJoU1g5dzRGQmFncjBUeU1KRUNfc2c?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "aiTech"
+      },
+      {
+        "title": "AI News: Artificial Intelligence Trends And Top AI Stocks To Watch - Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMTVTWnJlZkpsVU9ZV0g1WHdKQVBKOFFvcUpPeTJuMW9iT2FTMWI1N2hMYk1ud1cwQlBEVlJObDFVTnpoNnBhejJrZnVFelQ5V3NNRklrM2RlaHUtc2NsbmxWcVV1MWVzd082RUdTYmtJVW9MUmJRTG5sV1dJN3JCd1JNX2Z4VnZtV3VpbzdrNXdKNTVSc3FB?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "aiTech"
+      },
+      {
+        "title": "The latest AI news we announced in March 2026 - blog.google",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNzdaT3hReHZyb3lxSGNVSC1HenVSckNocHdrN3ZacW1vS3pPZ1VIOVlnQnBNWURMZTN3X0RDSGtVUzF4MGpCNDFzZERqS2FfcFRHNEppUUlqTkl1UDc1Njh6blJKYUNXTkRCQ0QxZXIyby1rRFZXOUNVSWhSUi1vX09wdV9lNE1W?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "aiTech"
+      },
+      {
+        "title": "Oracle cutting thousands in latest layoff round as company continues to ramp AI spending - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EWDd1VXBvQWcwcDFmbHZlRUk0aEoxcmJ5SGJKQW8yMEczRjJIVERubFRqc2tDUGRHSkcwd3Rkakc0YjJPQ2U1VExuZGZuTF9DQmNSMEZxdk5XVUFnRWNRQTlnUTZSdlNLQWpZdWZpSE_SAXZBVV95cUxQQ1F1bUtBSmctcDNFRVhCNFJSX0xQcnRGMHpMNF9mRkdLZEN0cXQtU0pveV9Gbl9Bc0R0akRoRkFJcHFnV0Flc0UwQ1RmUUdpeHNraHJyN1FLTkNqbTFRQzBmVU14UXVZYTdnWk5ZeHh1amI5Q05R?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "aiTech"
+      },
+      {
+        "title": "The trends that will shape AI and tech in 2026 - IBM",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5fZWU0YTVKa0ZHV2lnN0tsNlZ4U0JwWUt0RExPWXowOElCejlOai13LXRVSG5RMHQ2eVFDeWtPTVJCdjFKckR5Q2g1c1prM3JydFlwZFYxcnpvU3V1bkR6ZTA0bE9JMlRwaUZEVEZfTQ?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "aiTech"
+      },
+      {
+        "title": "Trump orders US agencies to stop use of Anthropic technology amid dispute over ethics of AI - The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZU1wcmotZ0tCMV9CYUNmX1lxalYzMDlUYXlmNlpvMlhNdHZwYjE5Vlh0eVNvYWpZRWczR3Jidm56SU1uUUFRRDlvdnM4c1J3VUNzY0tiNGEtQThMYUVfU1dSUzN1UnZ5WG1jdFB6SjFfOGxMVEg0ZWZueC1USm1FYktrYVNncEJuRWtn?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "aiTech"
+      },
+      {
+        "title": "Pentagon official lashes out at Anthropic as talks break down: \"You have to trust your military to do the right thing\" - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd2w0ZzdXNjVsVzV4SE1NYWdlWVloRUVrV2t1M0hNS1VYZDdqVk5FS0FXZGJEYmRuQ2FzUTdIcFdwV1ZkLXpzaWRZYnRLOHk5SVJhdGtURXVSSGhTSGRmb3ZUX3o0b01yXzNoSWZHMi1MTEJDV283eGMweWdhblN4TkQ3cm1RcDlWdFU3WW1maUNid0Rt0gGaAUFVX3lxTFAzcldjNXhpTE11N2wzMVFiTkRtRlZmS3ZNeTRTWmtTcUhuYkJQbFFyUEk0V29ZNVRpLTRhYzRrRVdudzJYSndaMVRnSnJUNW5YVEVVS1VYS1J1ZEd3akJtUVVBLXFaNW94OHI1VnlIM3RLYnlGSzlaWmxiRXpNRnFtdG13WENGZUJjZXY1YkZ0bWJCNTN2R0JLdnc?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "aiTech"
+      },
+      {
+        "title": "AI threatens \"highly disruptive’’ impact for N.C. tech jobs - Business North Carolina",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVHVSVmg2UXlRaXpRYnFEVTJLMVhjVUFSdndUX1E4WF8yRF8zSzdGNVJjVXJya2tFTG1TOG1haGdJZG5vaUE5eTFkaWlpUHk3UHZNc2FqRDl1dlNsVVBYeG4wcTBOTlRkRjlNQUxkcmVPaXl4UURWUmlUSVRXcmtmekFodDNlUQ?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "aiTech"
+      },
+      {
+        "title": "Misuse of AI chatbots tops annual list of health technology hazards - ECRI",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONWw2X1dMYUxOZXV2UC1TTlRsVi02ZnlvcGhkdVIzeFM4TERULUdxOE8tWU5PdkthdnpfTkNLcmh6c3VXZTE0RTVPaUEyY3lKQ2lremFiZDF2eG5pdHJIaDBaT1psM19DSEI2N1psT3MxTFV0X1RHNUVBYVVWd2cxTFFPbkdEQkV5SDNxek15WXh3Q2Q5OW81OXlZLTZhM1UxMEdOWjZueFo?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "aiTech"
+      }
+    ],
+    "cryptoWeb3": [
+      {
+        "title": "This Cryptocurrency Has Quietly Outperformed Bitcoin Over the Last Year - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZTNDNDVsY0JDMGNwRkVqNjFaYnNoOUoydzI4Z1FfTEZiRWZCOUJLUENDRVlYZkFFdXc1c1h6Z0d5Rlgta3RMamVZQ0lDaTc2MXF5MXlXYUxKM2dDNmJacVlKUi1MQ2VNRjRCM2UxS2p4ZC0xOTJCSDRPdGdLWUtkQk9LMXBGck4zUmpobzRsMXJLTmUxTE1nRzR1bTdOU3hicEx6Qm9FcVQwOS1DTlRVbG1YNA?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "cryptoWeb3"
+      },
+      {
+        "title": "Solana Price Prediction: Can Solana Overtake Bitcoin? Here’s How Far SOL Has to Go - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa2ZnWU03bEhQY0ZrRlJvY3ZRYlh1ajBCX1htMFlOME9wbXAybU5yNlNrd3U3NWpNaGNqY01YTXdrQ3gxc21jY1RsaWhRSGtuVkxDUndZMW9FRHQ4VVhIRWtKS2w3ZWlTRS1OREpaQU04VUQxTlNnX0dpa0NaQzRzOHBqMmpKd3NiQlplWU4yWlVaUTRZdzVjeXd0cGtwTlo1cUNGOHQ3N0dRMEdKaVdpX0o1TmhuTFN5SzlZZGU4YjA?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "cryptoWeb3"
+      },
+      {
+        "title": "Major DeFi hack becomes the largest of 2026 yet - thestreet.com",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeUQyWDVSeFV1SGVIMWlaejRTVzg0X2thVmdUeWtsSGhvWDdjbkk0TXpJUFdCNXAtYm1yTjZuMkFXZmdzY3d1V3QtWk9PWkE5ejZpTm9KbW1lcG5xXzlZZnRtd1ppcFA2NDQwYi0yc0hmUnJZMXJRNWdwUUZQdVdOdTNPR0FYNjg4em9SYU5pdl9vQQ?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "cryptoWeb3"
+      },
+      {
+        "title": "'DeFi is dead': Here is how crypto community is reacting after massive $292 million hack - CoinDesk",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYlBVNDNnNmpoNUZ1d3pTVHFXenplTmJZZVVyRHN5SWdBbmxRUkVtUnVvbmlnZnZFMmJIU1lGb2Voa29Fem9wV1lOUTVFQm1kc1hlYllLYldQLWdQNlpBb3JlM0Nocm5rNHMwcXRKY2JjNjNCTVgzYTN3OFp2aGNYZWpyM25PN2o4R2RxUi12ZXZhTm5rdnB5d2VBU2V0NEM5MUZfVEF1V3RRVmhNdEczLU9FaWFac0RwMjR6UVBsNDdPM0RBRkFYVFp0VkJDWnNoXzdFZWlRaGM?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "cryptoWeb3"
+      },
+      {
+        "title": "Bitcoin dips as Iran conflict stokes broader crypto market volatility - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOc0V2bFlwT1hKUUVmd1NIclh1bDFJWEJvZTJfYXFUUVROeGc2bmJPM1dsbWltWW1SaDRYN3Fva1otSjVJOW5oU2xhcmZoOUo5ajZoNndzUHFuUjRYOE8wOEpadDg1dG1KX093SF9uTFlCZ1VOV3Jaek42bkpDZTdjSjJZVVJyNEs4cER3QWRQNEEzZldiTVN3TWlxNWp0NzN1RUh3LVJxYUptbng2QXp0Y3VRUWxpZUlCbFRjYXY0b1h1TS1IQUhn?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "cryptoWeb3"
+      },
+      {
+        "title": "Fresh Manipulation Warnings Hit Other Crypto Projects After RAVE’s 95% Collapse - Bitcoin News",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVlRHTGVLZFhFcC15NjU0TGZkMFozM2c4WjVwWUN6dDZSSWtnU0s2YkFYc0JlellhNlNmVm1oVjVnSDlCM2xxYjFQZ1N4SFpJeVIyMnh1b3VBcmdkem94MGdSSDMtN2tHUWNiR1dXOTR2UlBONnhEZjlhdFZkdHh2WTVwNlhwaG9QOHIxOF9YZ3dtRmMwckRqcmk4Ull6SndXdEQ5T0pn?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "cryptoWeb3"
+      },
+      {
+        "title": "The Crypto Market's Fear Index Is Flashing Red. Here's What Smart Investors Are Doing About It. - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeXU2MWxiNFJWWkRQWG1iYWF1dTFlNDNZRlNndk1IQjlBN3hYQUdRdFJpeTZTdlE2dVh4eDJhWC1vTEVENEZycENPN3hHZ1hPTUJSQUdFWUc1Z1dIbFFoc0JpcmtQQ08tLUdwYXY1Y0xuZkV4cFB3MW05WGl3OG12aW1xVEc3eFhIWW80MHlJZVhwSmcwVDR6UC1CcWFfNGlv?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "cryptoWeb3"
+      },
+      {
+        "title": "What Is ASTEROID Crypto and Why Did Elon Musk’s Reply Send It Up 68,000% - Coinpedia",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbXhaQ3BfX0NIUmhicDFnRGtGTk1jRjRIN3lPeTFHeEhUV1ViekV1YkJZbFY5bE56bDJ2SGp3eW9Zbnh4UGhlNEFaU243ak1BSDFuSFEyZlA3NV9zTUtGWTN2d2RsZllUMG4tN3dGbE1OR3ZQdzhlcnVkSnBzSkRxUmk2S3ZfMksyRnB4WDRmcXd3X2FZZW9xMktaWjcyUdIBowFBVV95cUxNekgtTGRLc3Z2eXpEUVpiSVBxUGVMa2dPSU1MX3B3N3ZzMVZ1MWZpQi14QUF2clpZN3lLN1VrZ192cTRCRHlfUFl5YzQ5cXlOUUFwWmNpTUlvSDlINGw1a3k0TmhsUXlTZEwySnlabGMzOWZOd05td2ZIS0ZFQkgyYTRodWs5enluQjZldDlXdmdRVzF6RHBPa3VRVnFLakU5ZHZj?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "cryptoWeb3"
+      },
+      {
+        "title": "Monero 12-year anniversary: Privacy crypto still standing strong - crypto.news",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcWFZYmQtMjdYa21YeXg1QXpiRjNPcGl0ZktObU1IVjFsRTJmQXNEZFU3Qm5LWXpucjVkbHN4RkVWZkhnc0VDcjc2c2UxczQycGg4ekFxMTNfYmZqaVZ0a3d4UV9aVlhDZEhOaWRHenVqenNiRGxkV21yMkRHRmg5V0RjcEdyMFUyd2VOTA?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "cryptoWeb3"
+      },
+      {
+        "title": "Crypto at Festivals in 2026: Real Access, Limited Payments, Fresh Speculation - CCN.com",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTUJNSXZ5SHk2SGUxMGE4RDVoU1U4eGpiVHB1Y3JnamVYV1JKdlFjZzVEa0l0WW1kVlN0aHpEU3c3ckROVG9ldTctS2M4QllGSXpGNkxPRUJxdjRDZzRPMG52cWJmZFNabGJfZnVtdUhQdkRVZG5VbzJwYm1PRnpjdVRtb3pzTWpDNk5zSjNya1hjTVZhdlg2MnZYcGJmaFZjOXN5SUU0OA?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "cryptoWeb3"
+      }
+    ],
+    "businessStartup": [
+      {
+        "title": "Austin startup funding surges to $7.19B as mega rounds dominate - The Business Journals",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeTVwZU53aUxXZTJDZHAxemxTZTY0SEZzZmk4UkVpaktwREJ1enFlRGZKYWxCb1hNS0tBN0ZJN1VXY0NoUjlXd1BWc1BYZnlVbXJZTE5ROU1VZFhtci0wNlVyc1EtMTZvQlI5WE14RW1rb1U5MVFiSDR1ZEFxaUkyaFU3ZHFtaHMtQlkyU05iRGJ2MTZ0N3E1d1BDNWFHUQ?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "businessStartup"
+      },
+      {
+        "title": "US Startup Funding Slows Sharply In March - Crunchbase News",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVjFZR0xiNVNReVUtSXdYUy1KZXBQbGZUc3I1LWdjdlVQTXR0TVBZX01ibGlZd25FQnI4bWx6b3RNZHBidWoyNTJlUDVYM0tVOG5zenROWXNXSlVLWGVweFpBWFh3REZNUDBJQVJvQ0s1al9BWm5pOTRjYzB1ZnFCTmZTV1I?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "businessStartup"
+      },
+      {
+        "title": "How To Start A Business: A Step by Step Guide For 2026 - Business News Daily",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGbmw1VmcxdXZXTkpSY2FIR01JR3FudzlMeGtEZmtoajM0QWpWTk9ZQzA1Y3NnZlZzdUZGczE2M09HLTZoNzZwUWlDXzdkRzBzMXpsOHJnZ2JnVENfRUR1NGZ3T3YtWHVKM3ZxNklWY3V1aDNPdUE?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "businessStartup"
+      },
+      {
+        "title": "NC startup investors on getting (and staying) hired in the AI jobs market - Raleigh News &amp; Observer",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9VQURuRTBQLUZHS2RXWm12Z3lLcklZMndHOE1DYWRMRjMwbGppNlRHb1lfSnNGcWxEZ3BSX0JQWEN5VjVsZjZTTmx4M0d0RnVxMkRJYS1wbW02dzFiUGRwN2YxZDJTSXRCc0l3S2tWSGx1UdIBckFVX3lxTFA2Z2tvQWI0bGJWQXlmT19WXzhHZUgwM0lZWmI0aENmVlROZzF4bGZUNjVNYm81WTMwUVdHUkR4ZHpFdnRLZjhwY2RmN2VVQjFuSG91MnZjV1BZSEI4RF84RHNHeTZ6WF8ta29CSjV0QmhMUQ?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "businessStartup"
+      },
+      {
+        "title": "DED stops awarding funding for Business Innovation Act programs, offers no clear explanation - Silicon Prairie News",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNko5NVpjYXRTaXBnbnlyS29raEh6bjc3WlQ1YVZncDNUOGVsVjltb29IVEZnaDM5dVBfSkpMTkJqR1RhMEJhQmNBR0c0V0dNazJnTzZaLU1fdmJRdGplYXdBR0prRDVnVWp5MGZaTVpWUTJaUEltQnJPTVpMMHZxQ0YwWG9XX0hQN2podlQxb1hRQ0pTd0M4QnktWjk2c3dzb1BqdG1HOWJ6LUZIQm1qRW9EbGVRTGpzWjZGanJQR3c?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "businessStartup"
+      },
+      {
+        "title": "AI Stocks At A Crossroads: Google Rises, TSMC Sparks Rally, Software Retreats - Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5GUXpWazJCelZMdE04MFlEeG1sNHFLWnhLcWJsWHYxQjRQeURNcnFod2dUUzM4TzYtVjEwVTNNRlZncXZ3U19PejRyZUtrNDhFU2ZJY2FrZlQyT2x6c0Nsci1vcjhpVnNQMUx6V204SXNzNkE0ZTNua2hvNGpydw?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "businessStartup"
+      },
+      {
+        "title": "This New Orleans investment firm aims to close a startup funding gap in the South - NOLA.com",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZVBldUREc2RRVFEtVm5XUE5ZNHZ4TERSNWpYUV9GdnVncGhMQjYwb1RwR3RpNHU1QjRNZEViSkhNTV9WWkpjcnJLbmpMbXI4RHhBQmJaQXE2cDItRmVnWGVxRVhyVWJBNF9nQW16VVcySzhzVWI3cjB0RnZEQ3g5aUE5VTRFVXVpQjNEaWhONkdhSUV3WnluUXRkMFBhelZZTktZbEZkLUhFcE9XYmxDODV6cDZEZ29LTVV6cWMxRXpLQktFX1c4X1VLWENfUi1hZXRqd3U2MHhvNXFJ0gHiAUFVX3lxTFBmS1RKb29rREE2aUFQMW9Xdmd0dzJ4dmxKX0xVNktsZXd3WDU4dllqNnFTNEdfZllXUjUtVDUtSkFrNFRScHpWOEIzc1NFNGxrMl9ES3ljQVJITVYwZWtLX0xWYmNQTWJOOG1HNElQeTJES0xFTHFzb2p4cWFEZmJ1NF85dVJycWNMQWN1dlc1ZmdNb3ljZkExU1ZlbEEwaEY2d01EQUdJSU1qSGVQcVhyUEF5QnRSWWhjdFVHeU5fN080VGN3WVRXUmNwLTg2Ty0xOTBEQXBhVVhtWnptX0R6blE?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "businessStartup"
+      },
+      {
+        "title": "US AI fintech startup Flex raises $60M to redefine finance for mid-sized businesses - Tech Funding News",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaGJ1X2RWWnM1eUtZaUg2bWpyUXl5Vlc0OXN1WlhnSVBDbHVqZjZPWDlQYjhOVkprRkc4anNzLTlSNXcwcjVuYlZ0blJJYmpPMHBXTXd1bnVMdnFkN2lIVGhrODVzcl9UZDFjZy1UVTNZeE9zUUZ3ZC1Ka0N1YXM1aHFDWWh5enBVUzlNUVNmd0U1M3FNMUV4aFVubzhLbUVBdG15bnJnakhCWXprM1Y4Ng?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "businessStartup"
+      },
+      {
+        "title": "MENA startup funding drops to $784.9m in October - Arab News",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByVkE1aG5EbDhMRnV6a3B3c2xER0tvOEh3eHl2Uk5MUWNIRVZVTE9RZ2daQ2pDaGVzMWMzRUc3dGJSa1Rfc2JHZlF1eXdUdnF4UmhndHRYX1lORjBxMml5OGhNM3k?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "businessStartup"
+      },
+      {
+        "title": "Nvidia to invest up to $1 billion in AI startup Poolside, Bloomberg News reports - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdWpiNHdVTDlYdmJFUDVEcDFaWlpzVkoxVDBBRldtbXJhaHA3RXdCRTBNU2Q2YVo4bTQ3dGxYS0hqU2VscXdWVW5IdWJNdF9fbWo5YWRtSjg5dlE3V2lVRlFfc1c1UVBpYkpMa1BNNHRoanhEZlRad1R5M1d0R1RBWENDRm5uOFdqMU5leHZ6alg0MmxwWGVBRVhnRENKZThiYjJUOEVWM0l3cnVLMXZCSGdvb0k?oc=5",
+        "snippet": "",
+        "date": "2026-04-20",
+        "source": "Unknown",
+        "category": "businessStartup"
+      }
+    ]
   },
   "summary": {
-    "totalArticles": 0,
-    "topStories": []
+    "totalArticles": 30,
+    "topStories": [
+      "Binning barcodes and embracing AI: presenting last week’s biggest retail technology plays at a glance - Retail Technology Innovation Hub",
+      "Tech Weekly: Markets Hit All-Time Highs as Strait of Hormuz Reopens - Investing News Network",
+      "AI News: Artificial Intelligence Trends And Top AI Stocks To Watch - Investor's Business Daily"
+    ]
   }
 }

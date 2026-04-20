@@ -15,7 +15,21 @@
     "kaifulee": 17,
     "indie_maker_fox": 17,
     "Gorden_Sun": 17,
-    "sama": 17
+    "sama": 17,
+    "virushuo": 17,
+    "goodfellow_ian": 17,
+    "WaytoAGI": 17,
+    "ylecun": 17,
+    "karpathy": 17,
+    "nishuang": 17,
+    "seclink": 17,
+    "xiaohu": 17,
+    "hongjun60": 17,
+    "AxtonLiu": 17,
+    "haibun": 17,
+    "iamtonyzhu": 17,
+    "JefferyTatsuya": 17,
+    "Tumeng05": 17
   },
   "note": "原 data/scheduling-state.json 因合并产生重复键与残缺 JSON；已重建为当前周（week 16）有效调度。若需恢复更早周次的 creator 映射，请从 Git 历史或备份中比对。"
 }
