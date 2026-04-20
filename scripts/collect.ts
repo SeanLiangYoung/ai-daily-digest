@@ -323,14 +323,20 @@ function parseMarkdownToTweets(
     const line = lines[i].trim();
     
     // 匹配日期格式: [2025年12月4日](链接) 或 [3月8日](链接)
+    // 也支持纯文本日期格式（新抓取工具输出）: 2025年12月4日 或 3月8日 或 Oct 30
     const fullDateMatch = line.match(/\[(\d{4})年(\d{1,2})月(\d{1,2})日\]\(([^)]+)\)/);
     const shortDateMatch = line.match(/\[(\d{1,2})月(\d{1,2})日\]\(([^)]+)\)/);
     const engFullMatch = line.match(/\[([A-Za-z]{3}\s\d{1,2},\s\d{4})\]\(([^)]+)\)/);
     const engShortMatch = line.match(/\[([A-Za-z]{3}\s\d{1,2})\]\(([^)]+)\)/);
     
-    if (fullDateMatch || shortDateMatch || engFullMatch || engShortMatch) {
-      // 保存上一条推文
-      if (currentTweet.url && contentBuffer.length > 0) {
+    // 纯文本日期匹配（无链接格式）
+    const fullDateTextMatch = line.match(/^(\d{4})年(\d{1,2})月(\d{1,2})日\s*$/);
+    const shortDateTextMatch = line.match(/^(\d{1,2})月(\d{1,2})日\s*$/);
+    const engDateTextMatch = line.match(/^([A-Za-z]{3})\s+(\d{1,2})(?:,\s*(\d{4}))?\s*$/);
+    
+    if (fullDateMatch || shortDateMatch || engFullMatch || engShortMatch || fullDateTextMatch || shortDateTextMatch || engDateTextMatch) {
+      // 保存上一条推文（现在也支持无链接的纯文本日期）
+      if (contentBuffer.length > 0 && (currentTweet.url || currentTweet.createdAt)) {
         const content = contentBuffer.join('\n').trim();
         if (content && isWithinDateRange(currentTweet.createdAt || '', startDate, endDate)) {
           tweets.push({
@@ -382,6 +388,29 @@ function parseMarkdownToTweets(
         const year = monthNum > currentMonth ? currentYear - 1 : currentYear;
         currentTweet.createdAt = `${year}-${monthMap[monthStr] || '01'}-${day.padStart(2, '0')}T00:00:00.000Z`;
         currentTweet.url = url;
+      } else if (fullDateTextMatch) {
+        // 纯文本日期: 2025年12月4日
+        const [, year, month, day] = fullDateTextMatch;
+        currentTweet.createdAt = `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}T00:00:00.000Z`;
+        currentTweet.url = '';
+      } else if (shortDateTextMatch) {
+        // 纯文本日期: 3月8日
+        const [, month, day] = shortDateTextMatch;
+        const monthNum = parseInt(month);
+        const year = monthNum > currentMonth ? currentYear - 1 : currentYear;
+        currentTweet.createdAt = `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}T00:00:00.000Z`;
+        currentTweet.url = '';
+      } else if (engDateTextMatch) {
+        // 纯文本日期: Oct 30 或 Oct 30, 2025
+        const [, monthStr, day, yearOpt] = engDateTextMatch;
+        const monthMap: Record<string, string> = {
+          'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
+          'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
+        };
+        const monthNum = parseInt(monthMap[monthStr] || '01');
+        const year = yearOpt || (monthNum > currentMonth ? String(currentYear - 1) : String(currentYear));
+        currentTweet.createdAt = `${year}-${monthMap[monthStr] || '01'}-${day.padStart(2, '0')}T00:00:00.000Z`;
+        currentTweet.url = '';
       }
       
       // 提取推文 ID
@@ -412,8 +441,8 @@ function parseMarkdownToTweets(
       continue;
     }
     
-    // 收集内容 (非特殊行)
-    if (line && currentTweet.url && !line.startsWith('#') && !line.startsWith('---') && 
+    // 收集内容 (非特殊行) - 现在也支持无链接的纯文本日期
+    if (line && (currentTweet.url || currentTweet.createdAt) && !line.startsWith('#') && !line.startsWith('---') && 
         !line.startsWith('![') && !line.startsWith('http') && !line.startsWith('```')) {
       // 移除链接但保留文字
       const cleanedLine = line.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
@@ -423,8 +452,8 @@ function parseMarkdownToTweets(
     }
   }
   
-  // 保存最后一条推文
-  if (currentTweet.url && contentBuffer.length > 0) {
+  // 保存最后一条推文（现在也支持无链接的纯文本日期）
+  if (contentBuffer.length > 0 && (currentTweet.url || currentTweet.createdAt)) {
     const content = contentBuffer.join('\n').trim();
     if (content && isWithinDateRange(currentTweet.createdAt || '', startDate, endDate)) {
       tweets.push({
@@ -436,7 +465,7 @@ function parseMarkdownToTweets(
         likes: currentTweet.likes || 0,
         retweets: currentTweet.retweets || 0,
         replies: currentTweet.replies || 0,
-        url: currentTweet.url
+        url: currentTweet.url || ''
       });
     }
   }

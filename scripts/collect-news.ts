@@ -129,20 +129,20 @@ async function main() {
     fs.mkdirSync(dataDir, { recursive: true });
   }
 
-  // 尝试用 curl 获取 Google 新闻 RSS
+  // 使用 English 查询（中文 RSS 经常返回空结果）
   const categories = [
-    { name: 'aiTech', query: 'AI 科技 最新新闻' },
-    { name: 'cryptoWeb3', query: 'Crypto Web3 区块链 最新新闻' },
-    { name: 'businessStartup', query: '商业 创业 投资 最新新闻' },
+    { name: 'aiTech', query: 'AI technology breaking news' },
+    { name: 'cryptoWeb3', query: 'Cryptocurrency Bitcoin blockchain news' },
+    { name: 'businessStartup', query: 'business startup investment news' },
   ];
 
   for (const cat of categories) {
     console.log(`🔍 Searching ${cat.name}...`);
     
     try {
-      // 使用 Google 新闻 RSS
-      const rssUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(cat.query)}&hl=zh-CN&gl=CN&ceid=CN:zh-CN`;
-      const { stdout } = await execAsync(`curl -s "${rssUrl}"`, { maxBuffer: 10 * 1024 * 1024 });
+      // 使用 Google 新闻 RSS (英文)
+      const rssUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(cat.query)}&hl=en&gl=US&ceid=US:en`;
+      const { stdout, stderr } = await execAsync(`curl -sL "${rssUrl}"`, { maxBuffer: 10 * 1024 * 1024 });
       
       // 解析 RSS
       const itemRegex = /<item>(.*?)<\/item>/g;
