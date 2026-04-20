@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-20",
+  "weekNumber": 17,
+  "dayOfWeek": 1,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "fchollet",
+    "AnthropicAI",
+    "AIatMeta",
+    "kaifulee",
+    "indie_maker_fox",
+    "Gorden_Sun",
+    "sama"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
