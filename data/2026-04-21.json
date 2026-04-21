@@ -1,0 +1,52 @@
+{
+  "date": "2026-04-21",
+  "weekNumber": 17,
+  "dayOfWeek": 2,
+  "totalTweets": 1,
+  "activeCreators": 1,
+  "scheduledCreators": [
+    "AlchainHust",
+    "xicilion",
+    "Cydiar404",
+    "elliotchen100",
+    "santiagoyoungus",
+    "nateleex",
+    "shao__meng"
+  ],
+  "tweets": [
+    {
+      "id": "2044051955786662387",
+      "author": "elliotchen100",
+      "username": "elliotchen100",
+      "content": "非常激动宣布，我们打磨了很久很久的更新，她终于来了，不仅有产品，还有 Methods，Benchmark，Usecases 和官网等。 具体更新： 1. EverOS - 新思路，一站式 Agent 创建，测试和集成的开源库，其中包含了多个 Methods，多个 Benchmarks 和很多种 Usecases。 主打一站式服务，用户可用现成的\n显示更多\n艾略特\n@elliotchen100",
+      "createdAt": "2026-04-14T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/elliotchen100/status/2044051955786662387"
+    }
+  ],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": [
+      {
+        "id": "2044051955786662387",
+        "author": "elliotchen100",
+        "username": "elliotchen100",
+        "content": "非常激动宣布，我们打磨了很久很久的更新，她终于来了，不仅有产品，还有 Methods，Benchmark，Usecases 和官网等。 具体更新： 1. EverOS - 新思路，一站式 Agent 创建，测试和集成的开源库，其中包含了多个 Methods，多个 Benchmarks 和很多种 Usecases。 主打一站式服务，用户可用现成的\n显示更多\n艾略特\n@elliotchen100",
+        "createdAt": "2026-04-14T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/elliotchen100/status/2044051955786662387"
+      }
+    ]
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
