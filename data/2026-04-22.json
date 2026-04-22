@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-22",
+  "weekNumber": 17,
+  "dayOfWeek": 3,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "yihui_indie",
+    "thinkingjimmy",
+    "lidangzzz",
+    "idoubicc",
+    "rasbt",
+    "berryxia",
+    "goocarlos"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
