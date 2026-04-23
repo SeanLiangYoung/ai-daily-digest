@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-23",
+  "weekNumber": 17,
+  "dayOfWeek": 4,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "tinyfool",
+    "HongyuanCao",
+    "vista8",
+    "oran_ge",
+    "yan5xu",
+    "turingou",
+    "Valley101_Qian"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
