@@ -1,6 +1,6 @@
 {
   "weekNumber": 17,
-  "lastUpdate": "2026-04-23",
+  "lastUpdate": "2026-04-24",
   "creatorSchedule": {
     "lijigang": 17,
     "demishassabis": 17,
@@ -50,7 +50,16 @@
     "oran_ge": 17,
     "yan5xu": 17,
     "turingou": 17,
-    "Valley101_Qian": 17
+    "Valley101_Qian": 17,
+    "tuturetom": 17,
+    "nextify2024": 17,
+    "Hayami_kiraa": 17,
+    "SamuelQZQ": 17,
+    "fankaishuoai": 17,
+    "weijunext": 17,
+    "CoderJeffLee": 17,
+    "readyfor2025": 17,
+    "XDash": 17
   },
   "note": "原 data/scheduling-state.json 因合并产生重复键与残缺 JSON；已重建为当前周（week 16）有效调度。若需恢复更早周次的 creator 映射，请从 Git 历史或备份中比对。"
 }
