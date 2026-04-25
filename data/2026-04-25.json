@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-25",
+  "weekNumber": 17,
+  "dayOfWeek": 6,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}

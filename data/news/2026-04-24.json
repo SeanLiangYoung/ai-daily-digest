@@ -1,6 +1,13 @@
 {
   "date": "2026-04-24",
-  "sources": [],
-  "articles": [],
-  "total": 0
+  "generatedAt": "2026/4/24 08:03:19",
+  "categories": {
+    "aiTech": [],
+    "cryptoWeb3": [],
+    "businessStartup": []
+  },
+  "summary": {
+    "totalArticles": 0,
+    "topStories": []
+  }
 }
