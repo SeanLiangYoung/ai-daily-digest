@@ -2,19 +2,61 @@
   "date": "2026-04-25",
   "weekNumber": 17,
   "dayOfWeek": 6,
-  "totalTweets": 0,
-  "activeCreators": 0,
-  "scheduledCreators": [],
-  "tweets": [],
+  "totalTweets": 1,
+  "activeCreators": 1,
+  "scheduledCreators": [
+    "WaytoAGI",
+    "AIatMeta",
+    "sama",
+    "lijigang",
+    "Fenng",
+    "virushuo",
+    "dotey"
+  ],
+  "tweets": [
+    {
+      "id": "2047137823682363473",
+      "author": "lijigang",
+      "username": "lijigang",
+      "content": "举办活动的第一要义： 要对得起大家的时间\n](https://x.com/lijigang/status/2047137823682363473/analytics)\n李继刚\n](https://x.com/lijigang)\n@lijigang\n](https://x.com/lijigang)",
+      "createdAt": "2026-04-23T00:00:00.000Z",
+      "likes": 26,
+      "retweets": 3,
+      "replies": 62,
+      "url": "https://x.com/lijigang/status/2047137823682363473"
+    }
+  ],
   "categories": {
     "techBreakthrough": [],
     "productLaunch": [],
     "industryInsights": [],
     "tutorialsResources": [],
-    "interestingFinds": []
+    "interestingFinds": [
+      {
+        "id": "2047137823682363473",
+        "author": "lijigang",
+        "username": "lijigang",
+        "content": "举办活动的第一要义： 要对得起大家的时间\n](https://x.com/lijigang/status/2047137823682363473/analytics)\n李继刚\n](https://x.com/lijigang)\n@lijigang\n](https://x.com/lijigang)",
+        "createdAt": "2026-04-23T00:00:00.000Z",
+        "likes": 26,
+        "retweets": 3,
+        "replies": 62,
+        "url": "https://x.com/lijigang/status/2047137823682363473"
+      }
+    ]
   },
   "statistics": {
-    "totalEngagement": 0,
-    "topTweet": null
+    "totalEngagement": 91,
+    "topTweet": {
+      "id": "2047137823682363473",
+      "author": "lijigang",
+      "username": "lijigang",
+      "content": "举办活动的第一要义： 要对得起大家的时间\n](https://x.com/lijigang/status/2047137823682363473/analytics)\n李继刚\n](https://x.com/lijigang)\n@lijigang\n](https://x.com/lijigang)",
+      "createdAt": "2026-04-23T00:00:00.000Z",
+      "likes": 26,
+      "retweets": 3,
+      "replies": 62,
+      "url": "https://x.com/lijigang/status/2047137823682363473"
+    }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-26",
+  "weekNumber": 18,
+  "dayOfWeek": 0,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "goodfellow_ian",
+    "Fenng",
+    "kaifulee",
+    "lxfater",
+    "WaytoAGI",
+    "dotey",
+    "indie_maker_fox"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
