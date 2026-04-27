@@ -1,0 +1,52 @@
+{
+  "date": "2026-04-27",
+  "weekNumber": 18,
+  "dayOfWeek": 1,
+  "totalTweets": 1,
+  "activeCreators": 1,
+  "scheduledCreators": [
+    "virushuo",
+    "fchollet",
+    "sama",
+    "OpenAI",
+    "Gorden_Sun",
+    "nishuang",
+    "AIatMeta"
+  ],
+  "tweets": [
+    {
+      "id": "1777248101363tv99xoon9",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "GPT-5.5 is now available in the API. The model brings higher intelligence and stronger token efficiency to complex work, helping tasks get done with fewer retries. x.com/16338749515087…\nToday we’re introducing two big steps for health at OpenAI: - ChatGPT for Clinicians, a free version of ChatGPT designed for clinical work - HealthBench Professional, a new benchmark to evaluate real clinician chat tasks We’re excited about what this can unlock for care. !❤️\nIntroducing GPT-5.5 A new class of intelligence for real work and powering agents, built to understand complex goals, use tools, check its work, and carry more tasks through to completion. It marks a new way of getting computer work done. Now available in ChatGPT and Codex.\nIn ChatGPT, full-stack inference improvements enable a more capable model at faster speed. This efficiency is a game-changer for GPT-5.5 Pro, now a much more practical option for demanding tasks, and a step change in the level of difficulty and quality of work ChatGPT can take on\nGPT-5.5 is rolling out today for Plus, Pro, Business and Enterprise users across ChatGPT and Codex. We’re also introducing GPT-5.5 Pro for Pro, Business, and Enterprise users in ChatGPT.\nIntroducing workspace agents in ChatGPT—shared agents that can handle complex tasks and long-running workflows across tools and teams.\nWorkspace agents can work across tools—pulling context from docs, email, chats, code, and systems, and taking approved actions like updating\nissues, creating docs, or sending messages. In\n, agents can jump into a thread, understand what’s needed, pull the right",
+      "createdAt": "2026-04-25T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": ""
+    }
+  ],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": [
+      {
+        "id": "1777248101363tv99xoon9",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "GPT-5.5 is now available in the API. The model brings higher intelligence and stronger token efficiency to complex work, helping tasks get done with fewer retries. x.com/16338749515087…\nToday we’re introducing two big steps for health at OpenAI: - ChatGPT for Clinicians, a free version of ChatGPT designed for clinical work - HealthBench Professional, a new benchmark to evaluate real clinician chat tasks We’re excited about what this can unlock for care. !❤️\nIntroducing GPT-5.5 A new class of intelligence for real work and powering agents, built to understand complex goals, use tools, check its work, and carry more tasks through to completion. It marks a new way of getting computer work done. Now available in ChatGPT and Codex.\nIn ChatGPT, full-stack inference improvements enable a more capable model at faster speed. This efficiency is a game-changer for GPT-5.5 Pro, now a much more practical option for demanding tasks, and a step change in the level of difficulty and quality of work ChatGPT can take on\nGPT-5.5 is rolling out today for Plus, Pro, Business and Enterprise users across ChatGPT and Codex. We’re also introducing GPT-5.5 Pro for Pro, Business, and Enterprise users in ChatGPT.\nIntroducing workspace agents in ChatGPT—shared agents that can handle complex tasks and long-running workflows across tools and teams.\nWorkspace agents can work across tools—pulling context from docs, email, chats, code, and systems, and taking approved actions like updating\nissues, creating docs, or sending messages. In\n, agents can jump into a thread, understand what’s needed, pull the right",
+        "createdAt": "2026-04-25T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": ""
+      }
+    ]
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
