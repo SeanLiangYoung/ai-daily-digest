@@ -1,6 +1,6 @@
 {
   "weekNumber": 18,
-  "lastUpdate": "2026-04-27",
+  "lastUpdate": "2026-04-28",
   "creatorSchedule": {
     "goodfellow_ian": 18,
     "Fenng": 18,
@@ -15,7 +15,14 @@
     "OpenAI": 18,
     "Gorden_Sun": 18,
     "nishuang": 18,
-    "AIatMeta": 18
+    "AIatMeta": 18,
+    "ylecun": 18,
+    "AnthropicAI": 18,
+    "demishassabis": 18,
+    "op7418": 18,
+    "karpathy": 18,
+    "lijigang": 18,
+    "JefferyTatsuya": 18
   },
   "note": "原 data/scheduling-state.json 因合并产生重复键与残缺 JSON；已重建为当前周（week 16）有效调度。若需恢复更早周次的 creator 映射，请从 Git 历史或备份中比对。"
 }
