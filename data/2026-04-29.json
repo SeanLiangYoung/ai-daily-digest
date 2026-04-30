@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-29",
+  "weekNumber": 18,
+  "dayOfWeek": 3,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "goocarlos",
+    "weijunext",
+    "haibun",
+    "Hayami_kiraa",
+    "xiaohu",
+    "SamuelQZQ",
+    "Tumeng05"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
