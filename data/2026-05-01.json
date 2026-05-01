@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-01",
+  "weekNumber": 18,
+  "dayOfWeek": 5,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "tinyfool",
+    "seclink",
+    "elliotchen100",
+    "Cydiar404",
+    "hongjun60",
+    "shao__meng",
+    "vista8"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}

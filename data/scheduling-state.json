@@ -1,6 +1,6 @@
 {
   "weekNumber": 18,
-  "lastUpdate": "2026-04-30",
+  "lastUpdate": "2026-05-01",
   "creatorSchedule": {
     "goodfellow_ian": 18,
     "Fenng": 18,
@@ -36,7 +36,14 @@
     "turingou": 18,
     "santiagoyoungus": 18,
     "HongyuanCao": 18,
-    "tuturetom": 18
+    "tuturetom": 18,
+    "tinyfool": 18,
+    "seclink": 18,
+    "elliotchen100": 18,
+    "Cydiar404": 18,
+    "hongjun60": 18,
+    "shao__meng": 18,
+    "vista8": 18
   },
   "note": "原 data/scheduling-state.json 因合并产生重复键与残缺 JSON；已重建为当前周（week 16）有效调度。若需恢复更早周次的 creator 映射，请从 Git 历史或备份中比对。"
 }
