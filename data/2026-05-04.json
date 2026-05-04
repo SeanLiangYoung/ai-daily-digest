@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-04",
+  "weekNumber": 19,
+  "dayOfWeek": 1,
+  "totalTweets": 2,
+  "activeCreators": 1,
+  "scheduledCreators": [
+    "goodfellow_ian",
+    "kaifulee",
+    "dotey",
+    "OpenAI",
+    "virushuo",
+    "lxfater",
+    "karpathy"
+  ],
+  "tweets": [
+    {
+      "id": "1777852895247oc9lgmhpi",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "OpenAI DevDay is back. San Francisco September 29\nShow us the Codex pets you hatched. Use /hatch to create your own Codex pet. We’ll pick 10 favorites to get 30 days of ChatGPT Pro.\nOpenAI Developers\n@OpenAIDevs",
+      "createdAt": "2026-04-30T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": ""
+    },
+    {
+      "id": "1777852895247u8jj8j2z9",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "回复 @OpenAIDevs\nCustomize your Codex pet with /hatch\nBring your workflow to Codex in just a few clicks. Import settings, plugins, agents, project configuration, and more so you can keep working with fewer interruptions. Your move.\nCurious about Codex? It's time to switch. You can migrate to Codex directly in the Codex app and the CLI.\nOne week since the launch of GPT-5.5, and it’s already our strongest model launch yet. API revenue is growing more than 2x faster than any prior release, while Codex doubled revenue in under seven days as enterprise demand for agentic coding tools keeps climbing.\nIt's never been easier to do everyday work with Codex. Choose your role, connect the apps you use every day, and try suggested prompts. Codex helps with everything from research and planning to docs, slides, spreadsheets, and more.",
+      "createdAt": "2026-05-02T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": ""
+    }
+  ],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [
+      {
+        "id": "1777852895247u8jj8j2z9",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "回复 @OpenAIDevs\nCustomize your Codex pet with /hatch\nBring your workflow to Codex in just a few clicks. Import settings, plugins, agents, project configuration, and more so you can keep working with fewer interruptions. Your move.\nCurious about Codex? It's time to switch. You can migrate to Codex directly in the Codex app and the CLI.\nOne week since the launch of GPT-5.5, and it’s already our strongest model launch yet. API revenue is growing more than 2x faster than any prior release, while Codex doubled revenue in under seven days as enterprise demand for agentic coding tools keeps climbing.\nIt's never been easier to do everyday work with Codex. Choose your role, connect the apps you use every day, and try suggested prompts. Codex helps with everything from research and planning to docs, slides, spreadsheets, and more.",
+        "createdAt": "2026-05-02T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": ""
+      }
+    ],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": [
+      {
+        "id": "1777852895247oc9lgmhpi",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "OpenAI DevDay is back. San Francisco September 29\nShow us the Codex pets you hatched. Use /hatch to create your own Codex pet. We’ll pick 10 favorites to get 30 days of ChatGPT Pro.\nOpenAI Developers\n@OpenAIDevs",
+        "createdAt": "2026-04-30T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": ""
+      }
+    ]
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
