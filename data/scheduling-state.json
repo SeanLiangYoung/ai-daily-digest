@@ -1,6 +1,6 @@
 {
   "weekNumber": 19,
-  "lastUpdate": "2026-05-04",
+  "lastUpdate": "2026-05-05",
   "creatorSchedule": {
     "AnthropicAI": 19,
     "indie_maker_fox": 19,
@@ -15,7 +15,14 @@
     "OpenAI": 19,
     "virushuo": 19,
     "lxfater": 19,
-    "karpathy": 19
+    "karpathy": 19,
+    "fchollet": 19,
+    "sama": 19,
+    "WaytoAGI": 19,
+    "ylecun": 19,
+    "Fenng": 19,
+    "AIatMeta": 19,
+    "CoderJeffLee": 19
   },
   "note": "原 data/scheduling-state.json 因合并产生重复键与残缺 JSON；已重建为当前周（week 16）有效调度。若需恢复更早周次的 creator 映射，请从 Git 历史或备份中比对。"
 }
