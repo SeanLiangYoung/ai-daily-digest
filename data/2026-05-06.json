@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-06",
+  "weekNumber": 19,
+  "dayOfWeek": 3,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "xiaohu",
+    "weijunext",
+    "AlchainHust",
+    "readyfor2025",
+    "thinkingjimmy",
+    "AxtonLiu",
+    "JefferyTatsuya"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
