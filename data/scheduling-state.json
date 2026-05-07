@@ -1,6 +1,6 @@
 {
   "weekNumber": 19,
-  "lastUpdate": "2026-05-06",
+  "lastUpdate": "2026-05-07",
   "creatorSchedule": {
     "AnthropicAI": 19,
     "indie_maker_fox": 19,
@@ -29,7 +29,14 @@
     "readyfor2025": 19,
     "thinkingjimmy": 19,
     "AxtonLiu": 19,
-    "JefferyTatsuya": 19
+    "JefferyTatsuya": 19,
+    "SamuelQZQ": 19,
+    "oran_ge": 19,
+    "nextify2024": 19,
+    "goocarlos": 19,
+    "haibun": 19,
+    "berryxia": 19,
+    "shao__meng": 19
   },
   "note": "原 data/scheduling-state.json 因合并产生重复键与残缺 JSON；已重建为当前周（week 16）有效调度。若需恢复更早周次的 creator 映射，请从 Git 历史或备份中比对。"
 }

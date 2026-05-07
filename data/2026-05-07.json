@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-07",
+  "weekNumber": 19,
+  "dayOfWeek": 4,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "SamuelQZQ",
+    "oran_ge",
+    "nextify2024",
+    "goocarlos",
+    "haibun",
+    "berryxia",
+    "shao__meng"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
