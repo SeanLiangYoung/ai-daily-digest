@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-10",
+  "weekNumber": 20,
+  "dayOfWeek": 0,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "ylecun",
+    "AIatMeta",
+    "nishuang",
+    "dotey",
+    "karpathy",
+    "kaifulee",
+    "goodfellow_ian"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
