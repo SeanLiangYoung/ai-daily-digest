@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-11",
+  "weekNumber": 20,
+  "dayOfWeek": 1,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "demishassabis",
+    "sama",
+    "op7418",
+    "lijigang",
+    "OpenAI",
+    "Fenng",
+    "WaytoAGI"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
