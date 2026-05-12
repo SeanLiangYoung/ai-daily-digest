@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-12",
+  "weekNumber": 20,
+  "dayOfWeek": 2,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "virushuo",
+    "lxfater",
+    "fchollet",
+    "Gorden_Sun",
+    "AnthropicAI",
+    "indie_maker_fox",
+    "berryxia"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
