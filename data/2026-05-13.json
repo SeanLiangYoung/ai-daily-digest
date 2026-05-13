@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-13",
+  "weekNumber": 20,
+  "dayOfWeek": 3,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "HongyuanCao",
+    "iamtonyzhu",
+    "turingou",
+    "XDash",
+    "idoubicc",
+    "Tumeng05",
+    "goocarlos"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
