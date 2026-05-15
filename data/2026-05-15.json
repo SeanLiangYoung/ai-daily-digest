@@ -1,0 +1,16 @@
+{
+  "date": "2026-05-15",
+  "weekNumber": 20,
+  "dayOfWeek": 5,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": ["fankaishuoai", "seclink", "yan5xu", "nextify2024", "readyfor2025", "oran_ge", "nateleex"],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "fundingNews": [],
+    "safetyEthics": []
+  }
+}
