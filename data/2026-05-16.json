@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-16",
+  "weekNumber": 20,
+  "dayOfWeek": 6,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "Valley101_Qian",
+    "weijunext",
+    "tuturetom",
+    "lidangzzz",
+    "AxtonLiu",
+    "haibun",
+    "tinyfool"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
