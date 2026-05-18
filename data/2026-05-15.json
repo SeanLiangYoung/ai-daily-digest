@@ -4,13 +4,25 @@
   "dayOfWeek": 5,
   "totalTweets": 0,
   "activeCreators": 0,
-  "scheduledCreators": ["fankaishuoai", "seclink", "yan5xu", "nextify2024", "readyfor2025", "oran_ge", "nateleex"],
+  "scheduledCreators": [
+    "fankaishuoai",
+    "seclink",
+    "yan5xu",
+    "nextify2024",
+    "readyfor2025",
+    "oran_ge",
+    "nateleex"
+  ],
   "tweets": [],
   "categories": {
     "techBreakthrough": [],
     "productLaunch": [],
     "industryInsights": [],
-    "fundingNews": [],
-    "safetyEthics": []
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
   }
 }
