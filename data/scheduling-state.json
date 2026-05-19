@@ -1,6 +1,6 @@
 {
   "weekNumber": 21,
-  "lastUpdate": "2026-05-18",
+  "lastUpdate": "2026-05-19",
   "creatorSchedule": {
     "virushuo": 21,
     "AIatMeta": 21,
@@ -15,7 +15,14 @@
     "AnthropicAI": 21,
     "kaifulee": 21,
     "sama": 21,
-    "demishassabis": 21
+    "demishassabis": 21,
+    "fchollet": 21,
+    "lxfater": 21,
+    "ylecun": 21,
+    "karpathy": 21,
+    "goodfellow_ian": 21,
+    "WaytoAGI": 21,
+    "JefferyTatsuya": 21
   },
   "note": "原 data/scheduling-state.json 因合并产生重复键与残缺 JSON；已重建为当前周（week 16）有效调度。若需恢复更早周次的 creator 映射，请从 Git 历史或备份中比对。"
 }
