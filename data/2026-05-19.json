@@ -4,7 +4,25 @@
   "dayOfWeek": 2,
   "totalTweets": 0,
   "activeCreators": 0,
-  "scheduledCreators": ["fchollet", "lxfater", "ylecun", "karpathy", "goodfellow_ian", "WaytoAGI", "JefferyTatsuya"],
+  "scheduledCreators": [
+    "fchollet",
+    "lxfater",
+    "ylecun",
+    "karpathy",
+    "goodfellow_ian",
+    "WaytoAGI",
+    "JefferyTatsuya"
+  ],
   "tweets": [],
-  "categories": {"techBreakthrough": [], "productLaunch": [], "industryInsights": [], "fundingNews": [], "safetyEthics": []}
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
 }
