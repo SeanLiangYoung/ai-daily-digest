@@ -4,7 +4,25 @@
   "dayOfWeek": 6,
   "totalTweets": 0,
   "activeCreators": 0,
-  "scheduledCreators": ["shao__meng", "idoubicc", "weijunext", "thinkingjimmy", "yihui_indie", "XDash", "hongjun60"],
+  "scheduledCreators": [
+    "shao__meng",
+    "idoubicc",
+    "weijunext",
+    "thinkingjimmy",
+    "yihui_indie",
+    "XDash",
+    "hongjun60"
+  ],
   "tweets": [],
-  "categories": {"techBreakthrough": [], "productLaunch": [], "industryInsights": [], "fundingNews": [], "safetyEthics": []}
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
 }
