@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-26",
+  "weekNumber": 22,
+  "dayOfWeek": 2,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "demishassabis",
+    "AnthropicAI",
+    "indie_maker_fox",
+    "sama",
+    "ylecun",
+    "fchollet",
+    "vista8"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
