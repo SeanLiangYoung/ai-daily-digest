@@ -1,6 +1,6 @@
 {
   "weekNumber": 22,
-  "lastUpdate": "2026-05-26",
+  "lastUpdate": "2026-05-28",
   "creatorSchedule": {
     "Gorden_Sun": 22,
     "lijigang": 22,
@@ -22,7 +22,21 @@
     "sama": 22,
     "ylecun": 22,
     "fchollet": 22,
-    "vista8": 22
+    "vista8": 22,
+    "berryxia": 22,
+    "tinyfool": 22,
+    "AxtonLiu": 22,
+    "tuturetom": 22,
+    "HongyuanCao": 22,
+    "seclink": 22,
+    "elliotchen100": 22,
+    "oran_ge": 22,
+    "idoubicc": 22,
+    "yihui_indie": 22,
+    "xiaohu": 22,
+    "readyfor2025": 22,
+    "AlchainHust": 22,
+    "Cydiar404": 22
   },
   "note": "原 data/scheduling-state.json 因合并产生重复键与残缺 JSON；已重建为当前周（week 16）有效调度。若需恢复更早周次的 creator 映射，请从 Git 历史或备份中比对。"
 }

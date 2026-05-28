@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-28",
+  "weekNumber": 22,
+  "dayOfWeek": 4,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "oran_ge",
+    "idoubicc",
+    "yihui_indie",
+    "xiaohu",
+    "readyfor2025",
+    "AlchainHust",
+    "Cydiar404"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
