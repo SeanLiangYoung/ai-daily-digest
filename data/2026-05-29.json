@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-29",
+  "weekNumber": 22,
+  "dayOfWeek": 5,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "rasbt",
+    "XDash",
+    "thinkingjimmy",
+    "shao__meng",
+    "Tumeng05",
+    "Valley101_Qian",
+    "Hayami_kiraa"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
