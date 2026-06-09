@@ -1,0 +1,52 @@
+{
+  "date": "2026-06-09",
+  "weekNumber": 24,
+  "dayOfWeek": 2,
+  "totalTweets": 1,
+  "activeCreators": 1,
+  "scheduledCreators": [
+    "karpathy",
+    "nishuang",
+    "AIatMeta",
+    "demishassabis",
+    "OpenAI",
+    "lxfater",
+    "SamuelQZQ"
+  ],
+  "tweets": [
+    {
+      "id": "1780963295528duvrab7i8",
+      "author": "demishassabis",
+      "username": "demishassabis",
+      "content": "Meet Gemma 4 12B! A unified, encoder-free multimodal model designed to bring high-performance intelligence directly to your laptop, and released under an Apache 2.0 license. Bridging the gap between edge efficiency and advanced reasoning. Here is what’s new with Gemma 4 12B: !👇\nThe Gemini era is here. Thrilled to launch Gemini 1.0, our most capable & general AI model. Built to be natively multimodal, it can understand many types of info. Efficient & flexible, it comes in 3 sizes each best-in-class & optimized for different uses blog.google/technology/ai/\nA year ago we open-sourced #AlphaFold Today we're freely sharing the predicted structures of all 200M+ proteins known to science - almost the entire protein universe! It's our gift to humanity, and a demonstration of the benefits AI can bring to society dpmd.ai/AF-22-LI\nOne word: relentless. just in the past two weeks, we’ve shipped: !🌐 Genie 3 - the most advanced world simulator ever !🤔 Gemini 2.5 Pro Deep Think available to Ultra subs !🎓 Gemini Pro free for uni students & $1B for US ed !🌍 AlphaEarth - a geospatial model of the entire planet\nWinning the\nis the honour of a lifetime and the realisation of a lifelong dream - it still hasn’t really sunk in yet. With AlphaFold2 we cracked the 50-year grand challenge of protein structure prediction: predicting the 3D structure of a protein purely from its\nThe Nobel Prize\n@NobelPrize",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": ""
+    }
+  ],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [
+      {
+        "id": "1780963295528duvrab7i8",
+        "author": "demishassabis",
+        "username": "demishassabis",
+        "content": "Meet Gemma 4 12B! A unified, encoder-free multimodal model designed to bring high-performance intelligence directly to your laptop, and released under an Apache 2.0 license. Bridging the gap between edge efficiency and advanced reasoning. Here is what’s new with Gemma 4 12B: !👇\nThe Gemini era is here. Thrilled to launch Gemini 1.0, our most capable & general AI model. Built to be natively multimodal, it can understand many types of info. Efficient & flexible, it comes in 3 sizes each best-in-class & optimized for different uses blog.google/technology/ai/\nA year ago we open-sourced #AlphaFold Today we're freely sharing the predicted structures of all 200M+ proteins known to science - almost the entire protein universe! It's our gift to humanity, and a demonstration of the benefits AI can bring to society dpmd.ai/AF-22-LI\nOne word: relentless. just in the past two weeks, we’ve shipped: !🌐 Genie 3 - the most advanced world simulator ever !🤔 Gemini 2.5 Pro Deep Think available to Ultra subs !🎓 Gemini Pro free for uni students & $1B for US ed !🌍 AlphaEarth - a geospatial model of the entire planet\nWinning the\nis the honour of a lifetime and the realisation of a lifelong dream - it still hasn’t really sunk in yet. With AlphaFold2 we cracked the 50-year grand challenge of protein structure prediction: predicting the 3D structure of a protein purely from its\nThe Nobel Prize\n@NobelPrize",
+        "createdAt": "2026-06-04T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": ""
+      }
+    ],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
