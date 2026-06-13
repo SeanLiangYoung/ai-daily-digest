@@ -1,6 +1,6 @@
 {
   "weekNumber": 24,
-  "lastUpdate": "2026-06-12",
+  "lastUpdate": "2026-06-13",
   "creatorSchedule": {
     "dotey": 24,
     "Gorden_Sun": 24,
@@ -43,7 +43,14 @@
     "seclink": 24,
     "weijunext": 24,
     "CoderJeffLee": 24,
-    "goocarlos": 24
+    "goocarlos": 24,
+    "JefferyTatsuya": 24,
+    "berryxia": 24,
+    "turingou": 24,
+    "thinkingjimmy": 24,
+    "yan5xu": 24,
+    "xicilion": 24,
+    "fankaishuoai": 24
   },
   "note": "原 data/scheduling-state.json 因合并产生重复键与残缺 JSON；已重建为当前周（week 16）有效调度。若需恢复更早周次的 creator 映射，请从 Git 历史或备份中比对。"
 }
