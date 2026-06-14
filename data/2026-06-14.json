@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-14",
+  "weekNumber": 25,
+  "dayOfWeek": 0,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "WaytoAGI",
+    "AIatMeta",
+    "nishuang",
+    "dotey",
+    "Gorden_Sun",
+    "indie_maker_fox",
+    "OpenAI"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
