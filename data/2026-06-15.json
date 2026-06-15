@@ -1,0 +1,52 @@
+{
+  "date": "2026-06-15",
+  "weekNumber": 25,
+  "dayOfWeek": 1,
+  "totalTweets": 1,
+  "activeCreators": 1,
+  "scheduledCreators": [
+    "op7418",
+    "fchollet",
+    "lijigang",
+    "sama",
+    "kaifulee",
+    "lxfater",
+    "demishassabis"
+  ],
+  "tweets": [
+    {
+      "id": "2065232309310427565",
+      "author": "op7418",
+      "username": "op7418",
+      "content": "Article\n万字长文：做了些爆款 Skills 以后，我对 Skills 的看法\n如果看不完的话，可以先帮忙点个赞，收藏一下以后看，感谢。 我最近几次聊 Skills，有一个越来越明确的判断： 大家现在都在说 Agent，但大多数人其实还没有真正理解 Agent。 大众理解里的...\n](https://x.com/i/article/2065096982310567936)\n-   歸藏(guizang.ai)\n@op7418",
+      "createdAt": "2026-06-12T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/op7418/status/2065232309310427565"
+    }
+  ],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": [
+      {
+        "id": "2065232309310427565",
+        "author": "op7418",
+        "username": "op7418",
+        "content": "Article\n万字长文：做了些爆款 Skills 以后，我对 Skills 的看法\n如果看不完的话，可以先帮忙点个赞，收藏一下以后看，感谢。 我最近几次聊 Skills，有一个越来越明确的判断： 大家现在都在说 Agent，但大多数人其实还没有真正理解 Agent。 大众理解里的...\n](https://x.com/i/article/2065096982310567936)\n-   歸藏(guizang.ai)\n@op7418",
+        "createdAt": "2026-06-12T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/op7418/status/2065232309310427565"
+      }
+    ]
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
