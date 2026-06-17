@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-17",
+  "weekNumber": 25,
+  "dayOfWeek": 3,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "xicilion",
+    "oran_ge",
+    "elliotchen100",
+    "nateleex",
+    "xiaohu",
+    "haibun",
+    "shao__meng"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
