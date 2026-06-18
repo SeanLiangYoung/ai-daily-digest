@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-18",
+  "weekNumber": 25,
+  "dayOfWeek": 4,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "turingou",
+    "JefferyTatsuya",
+    "hongjun60",
+    "santiagoyoungus",
+    "nextify2024",
+    "fankaishuoai",
+    "Hayami_kiraa"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
