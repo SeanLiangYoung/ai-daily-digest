@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-19",
+  "weekNumber": 25,
+  "dayOfWeek": 5,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "tuturetom",
+    "XDash",
+    "seclink",
+    "Valley101_Qian",
+    "HongyuanCao",
+    "berryxia",
+    "Cydiar404"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
