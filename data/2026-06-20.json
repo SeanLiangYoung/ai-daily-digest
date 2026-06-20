@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-20",
+  "weekNumber": 25,
+  "dayOfWeek": 6,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "yihui_indie",
+    "rasbt",
+    "idoubicc",
+    "thinkingjimmy",
+    "goocarlos",
+    "tinyfool",
+    "CoderJeffLee"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
