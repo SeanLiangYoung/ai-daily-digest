@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-21",
+  "weekNumber": 26,
+  "dayOfWeek": 0,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "dotey",
+    "op7418",
+    "WaytoAGI",
+    "Gorden_Sun",
+    "kaifulee",
+    "indie_maker_fox",
+    "karpathy"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
