@@ -1,0 +1,407 @@
+{
+  "date": "2026-06-23",
+  "weekNumber": 26,
+  "dayOfWeek": 2,
+  "totalTweets": 17,
+  "activeCreators": 2,
+  "scheduledCreators": [
+    "OpenAI",
+    "goodfellow_ian",
+    "demishassabis",
+    "nishuang",
+    "virushuo",
+    "AnthropicAI",
+    "tuturetom"
+  ],
+  "tweets": [
+    {
+      "id": "2067625110199247353",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "Together with researchers at Boston Children’s Hospital and Harvard, we published a study in NEJM AI showing how o3 Deep Research helped clinicians revisit previously unsolved rare pediatric disease cases, and find answers for families who had waited years.\n01:49\n-   OpenAI\n@OpenAI\nWe’re expanding OpenAI Daybreak to help democratize patching vulnerable software at machine speed: - Codex Security plugin: find, validate, and fix vulnerabilities right inside Codex - The full version of GPT-5.5-Cyber model: a great model for trusted defenders - Cyber Partner Show more\nDaybreak: Tools for securing every organization in the world\n](https://t.co/hyIi6gQmkm)[\nFrom openai.com\n](https://t.co/hyIi6gQmkm)\nOpenAI\n@OpenAI\nReplying to @OpenAI\nPatch the Planet is our effort to help open source maintainers move from security findings to merged fixes. We’re working with Trail of Bits, HackerOne, Calif, researchers, and maintainers to bring Codex Security and advanced models into the remediation process, with human Show more\n01:43\nOpenAI\n@OpenAI\nWe’re also launching the OpenAI Daybreak Cyber Partner Program with leading security software and services providers. Participating partners can use GPT‑5.5 with Trusted Access for Cyber in the security products and services they provide to customers. This allows their Show more\n-   OpenAI\n@OpenAI",
+      "createdAt": "2026-06-18T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/OpenAI/status/2067625110199247353"
+    },
+    {
+      "id": "2067722688165232654",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "As AI takes on longer, higher-stakes tasks, we want models to carry beneficial and safe behavior into new domains beyond their training—and maintain it under pressure. That’s the idea behind our new research on training models to be broadly and persistently beneficial. Show more\nReinforcement learning towards broadly and persistently beneficial models\n](https://t.co/6Yw45s1RRq)[\nFrom alignment.openai.com\n](https://t.co/6Yw45s1RRq)\nOpenAI\n@OpenAI",
+      "createdAt": "2026-06-18T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/OpenAI/status/2067722688165232654"
+    },
+    {
+      "id": "2067722695270334549",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "Replying to @OpenAI\nWe also tested whether alignment persisted under pressure. The model was harder to steer toward harmful behavior with adversarial prompts, while remaining responsive to helpful instructions. We saw preliminary evidence of greater resistance to harmful fine-tuning.\nOpenAI\n@OpenAI",
+      "createdAt": "2026-06-18T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/OpenAI/status/2067722695270334549"
+    },
+    {
+      "id": "2067722696759329125",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "This is an early step toward more robustly beneficial and aligned models: training models to carry beneficial traits into new situations, so as AI becomes more capable, it also becomes more reliable, transparent, and helpful for people.\n-   OpenAI\n@OpenAI",
+      "createdAt": "2026-06-18T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/OpenAI/status/2067722696759329125"
+    },
+    {
+      "id": "2067672740539306261",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "GPT-5.5 Instant is now on par with our frontier Thinking models for health-related questions. Every week, more than 230 million people turn to ChatGPT with health and wellness questions, and GPT-5.5 Instant is better at recognizing when urgent care may be needed, asking for Show more\n02:51\nOpenAI\n@OpenAI",
+      "createdAt": "2026-06-18T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/OpenAI/status/2067672740539306261"
+    },
+    {
+      "id": "2067672742426775728",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "To improve our models, we collaborate with a global network of hundreds of physicians across 60 countries, 49 languages, and 26 specialties. Their feedback helps us identify where responses miss important context, sound overly confident, need clearer next steps, or should more Show more\nOpenAI\n@OpenAI",
+      "createdAt": "2026-06-18T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/OpenAI/status/2067672742426775728"
+    },
+    {
+      "id": "2067672744108724635",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "Improving human health will be one of the most personal, tangible impacts of AGI. As our models continue to improve, our goal is to make ChatGPT more accurate, more useful, and more impactful in those moments — and to keep bringing that progress to more people. Show more\nImproving health intelligence in ChatGPT\n](https://t.co/AINaqHEjtd)[\nFrom openai.com\n](https://t.co/AINaqHEjtd)\n-   OpenAI\n@OpenAI",
+      "createdAt": "2026-06-18T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/OpenAI/status/2067672744108724635"
+    },
+    {
+      "id": "2067625113193951611",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "Replying to @OpenAI\nRare disease diagnosis is challenging, as sequencing can surface millions of variants, and medical knowledge changes constantly. o3 Deep Research helped connect clinical features, inheritance patterns, variant evidence, and scientific literature into hypotheses for specialists Show more\nOpenAI\n@OpenAI",
+      "createdAt": "2026-06-18T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/OpenAI/status/2067625113193951611"
+    },
+    {
+      "id": "2067625115182120972",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "Many of these cases had evaded years of expert analysis. This study suggests AI could make expert-led periodic reanalysis more scalable, helping clinicians revisit old cases as medical knowledge advances, identify leads worth investigating, and potentially bring answers to more Show more\nUsing AI to help physicians diagnose rare genetic diseases affecting children\n](https://t.co/LkXTkGL5Q6)[\nFrom openai.com\n](https://t.co/LkXTkGL5Q6)\n-   OpenAI\n@OpenAI",
+      "createdAt": "2026-06-18T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/OpenAI/status/2067625115182120972"
+    },
+    {
+      "id": "2067346916929937827",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "Introducing LifeSciBench, a benchmark for measuring and improving how well AI supports real-world life science research. Developed with 173 scientists from biotechnology and pharmaceutical research, LifeSciBench includes 750 expert-authored tasks across seven biological research Show more\nOpenAI\n@OpenAI",
+      "createdAt": "2026-06-17T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/OpenAI/status/2067346916929937827"
+    },
+    {
+      "id": "2067346918746030496",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "Benchmarks often test biological knowledge or narrow skills. The tasks in LifeSciBench test whether models can reason from evidence, work with scientific artifacts, handle uncertainty, and make useful decisions under real-world constraints. GPT‑Rosalind scores above GPT‑5.5 Show more\nOpenAI\n@OpenAI",
+      "createdAt": "2026-06-17T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/OpenAI/status/2067346918746030496"
+    },
+    {
+      "id": "2067346920230838387",
+      "author": "OpenAI",
+      "username": "OpenAI",
+      "content": "LifeSciBench is a foundation for more realistic evaluation, targeted improvements, and continued partnership with the life sciences community—helping the field measure progress, identify gaps, and improve AI together for the benefit of everyone.\nDon't miss what's happening\nPeople on X are the first to know.\nLog inSign up\nOpenAI (@OpenAI) / X",
+      "createdAt": "2026-06-17T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/OpenAI/status/2067346920230838387"
+    },
+    {
+      "id": "2067651699486200091",
+      "author": "AnthropicAI",
+      "username": "AnthropicAI",
+      "content": "New Frontier Red Team blog: Phase 2 of Project Fetch, where we test how well Claude can program a robodog. Opus 4.7, on its own, was ~20x faster than last year's best human team aided by Opus 4.1. (The robodog, alas, still failed to fetch a beach ball.)\nProject Fetch: Phase two\n](https://t.co/CgbBtRf85e)[\nFrom anthropic.com\n](https://t.co/CgbBtRf85e)\nAnthropic\n@AnthropicAI",
+      "createdAt": "2026-06-18T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/AnthropicAI/status/2067651699486200091"
+    },
+    {
+      "id": "2067651700757086553",
+      "author": "AnthropicAI",
+      "username": "AnthropicAI",
+      "content": "Watch the robodogs in action in our first Project Fetch experiment:\nAnthropic\n@AnthropicAI",
+      "createdAt": "2026-06-18T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/AnthropicAI/status/2067651700757086553"
+    },
+    {
+      "id": "2066969532380721386",
+      "author": "AnthropicAI",
+      "username": "AnthropicAI",
+      "content": "Our latest economic research introduces a framework for tracking Claude Code as it scales. Who is using Claude Code, and what are they using it for? How is the value of tasks changing? And how much does domain expertise shape whether a session succeeds?\nAgentic coding and persistent returns to expertise\n](https://t.co/IjjwQvrESo)[\nFrom anthropic.com\n](https://t.co/IjjwQvrESo)\nAnthropic\n@AnthropicAI",
+      "createdAt": "2026-06-16T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/AnthropicAI/status/2066969532380721386"
+    },
+    {
+      "id": "2066969540412780644",
+      "author": "AnthropicAI",
+      "username": "AnthropicAI",
+      "content": "Replying to @AnthropicAI\nDomain experts—as judged by the questions they ask and vocabulary they use about a subject—are more likely to see success. But the gap between intermediate and expert users is quite modest, suggesting that proficiency in a domain is sufficient to code successfully within it.\nAnthropic\n@AnthropicAI",
+      "createdAt": "2026-06-16T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/AnthropicAI/status/2066969540412780644"
+    },
+    {
+      "id": "2066969542010806561",
+      "author": "AnthropicAI",
+      "username": "AnthropicAI",
+      "content": "These and other measures will allow us to track consequential shifts in the nature of work as they happen—we'll incorporate some of them into the Anthropic Economic Index going forward. Read the full report:\nAgentic coding and persistent returns to expertise\n](https://t.co/IjjwQvrESo)[\nFrom anthropic.com\n](https://t.co/IjjwQvrESo)\n-   Anthropic\n@AnthropicAI",
+      "createdAt": "2026-06-16T00:00:00.000Z",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "url": "https://x.com/AnthropicAI/status/2066969542010806561"
+    }
+  ],
+  "categories": {
+    "techBreakthrough": [
+      {
+        "id": "2067722688165232654",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "As AI takes on longer, higher-stakes tasks, we want models to carry beneficial and safe behavior into new domains beyond their training—and maintain it under pressure. That’s the idea behind our new research on training models to be broadly and persistently beneficial. Show more\nReinforcement learning towards broadly and persistently beneficial models\n](https://t.co/6Yw45s1RRq)[\nFrom alignment.openai.com\n](https://t.co/6Yw45s1RRq)\nOpenAI\n@OpenAI",
+        "createdAt": "2026-06-18T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/OpenAI/status/2067722688165232654"
+      },
+      {
+        "id": "2067625113193951611",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "Replying to @OpenAI\nRare disease diagnosis is challenging, as sequencing can surface millions of variants, and medical knowledge changes constantly. o3 Deep Research helped connect clinical features, inheritance patterns, variant evidence, and scientific literature into hypotheses for specialists Show more\nOpenAI\n@OpenAI",
+        "createdAt": "2026-06-18T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/OpenAI/status/2067625113193951611"
+      },
+      {
+        "id": "2067346916929937827",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "Introducing LifeSciBench, a benchmark for measuring and improving how well AI supports real-world life science research. Developed with 173 scientists from biotechnology and pharmaceutical research, LifeSciBench includes 750 expert-authored tasks across seven biological research Show more\nOpenAI\n@OpenAI",
+        "createdAt": "2026-06-17T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/OpenAI/status/2067346916929937827"
+      },
+      {
+        "id": "2066969532380721386",
+        "author": "AnthropicAI",
+        "username": "AnthropicAI",
+        "content": "Our latest economic research introduces a framework for tracking Claude Code as it scales. Who is using Claude Code, and what are they using it for? How is the value of tasks changing? And how much does domain expertise shape whether a session succeeds?\nAgentic coding and persistent returns to expertise\n](https://t.co/IjjwQvrESo)[\nFrom anthropic.com\n](https://t.co/IjjwQvrESo)\nAnthropic\n@AnthropicAI",
+        "createdAt": "2026-06-16T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/AnthropicAI/status/2066969532380721386"
+      }
+    ],
+    "productLaunch": [
+      {
+        "id": "2067625110199247353",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "Together with researchers at Boston Children’s Hospital and Harvard, we published a study in NEJM AI showing how o3 Deep Research helped clinicians revisit previously unsolved rare pediatric disease cases, and find answers for families who had waited years.\n01:49\n-   OpenAI\n@OpenAI\nWe’re expanding OpenAI Daybreak to help democratize patching vulnerable software at machine speed: - Codex Security plugin: find, validate, and fix vulnerabilities right inside Codex - The full version of GPT-5.5-Cyber model: a great model for trusted defenders - Cyber Partner Show more\nDaybreak: Tools for securing every organization in the world\n](https://t.co/hyIi6gQmkm)[\nFrom openai.com\n](https://t.co/hyIi6gQmkm)\nOpenAI\n@OpenAI\nReplying to @OpenAI\nPatch the Planet is our effort to help open source maintainers move from security findings to merged fixes. We’re working with Trail of Bits, HackerOne, Calif, researchers, and maintainers to bring Codex Security and advanced models into the remediation process, with human Show more\n01:43\nOpenAI\n@OpenAI\nWe’re also launching the OpenAI Daybreak Cyber Partner Program with leading security software and services providers. Participating partners can use GPT‑5.5 with Trusted Access for Cyber in the security products and services they provide to customers. This allows their Show more\n-   OpenAI\n@OpenAI",
+        "createdAt": "2026-06-18T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/OpenAI/status/2067625110199247353"
+      }
+    ],
+    "industryInsights": [
+      {
+        "id": "2067672740539306261",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "GPT-5.5 Instant is now on par with our frontier Thinking models for health-related questions. Every week, more than 230 million people turn to ChatGPT with health and wellness questions, and GPT-5.5 Instant is better at recognizing when urgent care may be needed, asking for Show more\n02:51\nOpenAI\n@OpenAI",
+        "createdAt": "2026-06-18T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/OpenAI/status/2067672740539306261"
+      }
+    ],
+    "tutorialsResources": [],
+    "interestingFinds": [
+      {
+        "id": "2067722695270334549",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "Replying to @OpenAI\nWe also tested whether alignment persisted under pressure. The model was harder to steer toward harmful behavior with adversarial prompts, while remaining responsive to helpful instructions. We saw preliminary evidence of greater resistance to harmful fine-tuning.\nOpenAI\n@OpenAI",
+        "createdAt": "2026-06-18T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/OpenAI/status/2067722695270334549"
+      },
+      {
+        "id": "2067722696759329125",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "This is an early step toward more robustly beneficial and aligned models: training models to carry beneficial traits into new situations, so as AI becomes more capable, it also becomes more reliable, transparent, and helpful for people.\n-   OpenAI\n@OpenAI",
+        "createdAt": "2026-06-18T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/OpenAI/status/2067722696759329125"
+      },
+      {
+        "id": "2067672742426775728",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "To improve our models, we collaborate with a global network of hundreds of physicians across 60 countries, 49 languages, and 26 specialties. Their feedback helps us identify where responses miss important context, sound overly confident, need clearer next steps, or should more Show more\nOpenAI\n@OpenAI",
+        "createdAt": "2026-06-18T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/OpenAI/status/2067672742426775728"
+      },
+      {
+        "id": "2067672744108724635",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "Improving human health will be one of the most personal, tangible impacts of AGI. As our models continue to improve, our goal is to make ChatGPT more accurate, more useful, and more impactful in those moments — and to keep bringing that progress to more people. Show more\nImproving health intelligence in ChatGPT\n](https://t.co/AINaqHEjtd)[\nFrom openai.com\n](https://t.co/AINaqHEjtd)\n-   OpenAI\n@OpenAI",
+        "createdAt": "2026-06-18T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/OpenAI/status/2067672744108724635"
+      },
+      {
+        "id": "2067625115182120972",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "Many of these cases had evaded years of expert analysis. This study suggests AI could make expert-led periodic reanalysis more scalable, helping clinicians revisit old cases as medical knowledge advances, identify leads worth investigating, and potentially bring answers to more Show more\nUsing AI to help physicians diagnose rare genetic diseases affecting children\n](https://t.co/LkXTkGL5Q6)[\nFrom openai.com\n](https://t.co/LkXTkGL5Q6)\n-   OpenAI\n@OpenAI",
+        "createdAt": "2026-06-18T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/OpenAI/status/2067625115182120972"
+      },
+      {
+        "id": "2067346918746030496",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "Benchmarks often test biological knowledge or narrow skills. The tasks in LifeSciBench test whether models can reason from evidence, work with scientific artifacts, handle uncertainty, and make useful decisions under real-world constraints. GPT‑Rosalind scores above GPT‑5.5 Show more\nOpenAI\n@OpenAI",
+        "createdAt": "2026-06-17T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/OpenAI/status/2067346918746030496"
+      },
+      {
+        "id": "2067346920230838387",
+        "author": "OpenAI",
+        "username": "OpenAI",
+        "content": "LifeSciBench is a foundation for more realistic evaluation, targeted improvements, and continued partnership with the life sciences community—helping the field measure progress, identify gaps, and improve AI together for the benefit of everyone.\nDon't miss what's happening\nPeople on X are the first to know.\nLog inSign up\nOpenAI (@OpenAI) / X",
+        "createdAt": "2026-06-17T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/OpenAI/status/2067346920230838387"
+      },
+      {
+        "id": "2067651699486200091",
+        "author": "AnthropicAI",
+        "username": "AnthropicAI",
+        "content": "New Frontier Red Team blog: Phase 2 of Project Fetch, where we test how well Claude can program a robodog. Opus 4.7, on its own, was ~20x faster than last year's best human team aided by Opus 4.1. (The robodog, alas, still failed to fetch a beach ball.)\nProject Fetch: Phase two\n](https://t.co/CgbBtRf85e)[\nFrom anthropic.com\n](https://t.co/CgbBtRf85e)\nAnthropic\n@AnthropicAI",
+        "createdAt": "2026-06-18T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/AnthropicAI/status/2067651699486200091"
+      },
+      {
+        "id": "2067651700757086553",
+        "author": "AnthropicAI",
+        "username": "AnthropicAI",
+        "content": "Watch the robodogs in action in our first Project Fetch experiment:\nAnthropic\n@AnthropicAI",
+        "createdAt": "2026-06-18T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/AnthropicAI/status/2067651700757086553"
+      },
+      {
+        "id": "2066969540412780644",
+        "author": "AnthropicAI",
+        "username": "AnthropicAI",
+        "content": "Replying to @AnthropicAI\nDomain experts—as judged by the questions they ask and vocabulary they use about a subject—are more likely to see success. But the gap between intermediate and expert users is quite modest, suggesting that proficiency in a domain is sufficient to code successfully within it.\nAnthropic\n@AnthropicAI",
+        "createdAt": "2026-06-16T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/AnthropicAI/status/2066969540412780644"
+      },
+      {
+        "id": "2066969542010806561",
+        "author": "AnthropicAI",
+        "username": "AnthropicAI",
+        "content": "These and other measures will allow us to track consequential shifts in the nature of work as they happen—we'll incorporate some of them into the Anthropic Economic Index going forward. Read the full report:\nAgentic coding and persistent returns to expertise\n](https://t.co/IjjwQvrESo)[\nFrom anthropic.com\n](https://t.co/IjjwQvrESo)\n-   Anthropic\n@AnthropicAI",
+        "createdAt": "2026-06-16T00:00:00.000Z",
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "url": "https://x.com/AnthropicAI/status/2066969542010806561"
+      }
+    ]
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
