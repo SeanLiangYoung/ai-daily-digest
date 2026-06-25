@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-25",
+  "weekNumber": 26,
+  "dayOfWeek": 4,
+  "totalTweets": 0,
+  "activeCreators": 0,
+  "scheduledCreators": [
+    "vista8",
+    "fankaishuoai",
+    "hongjun60",
+    "AxtonLiu",
+    "xicilion",
+    "seclink",
+    "haibun"
+  ],
+  "tweets": [],
+  "categories": {
+    "techBreakthrough": [],
+    "productLaunch": [],
+    "industryInsights": [],
+    "tutorialsResources": [],
+    "interestingFinds": []
+  },
+  "statistics": {
+    "totalEngagement": 0,
+    "topTweet": null
+  }
+}
